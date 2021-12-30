@@ -39,15 +39,12 @@
     "animate_buttons": true,
     "animate_underlines": true,
     "quick_shop_text": "Quick view",
-    "product_color_swatches": true,
-    "collection_color_swatches": true,
     "cart_type": "drawer",
-    "social_facebook_link": "https:\\/\\/www.facebook.com\\/montreetsportswear\\/",
-    "social_instagram_link": "https:\\/\\/www.instagram.com\\/montreet_\\/",
+    "social_facebook_link": "https:\\\/\\\/www.facebook.com\\\/montreetsportswear\\\/",
+    "social_instagram_link": "https:\\\/\\\/www.instagram.com\\\/montreet_\\\/",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "predictive_search_show_price": false,
     "show_breadcrumbs": false,
     "checkout_header_image": "",
     "checkout_logo_image": "",
@@ -63,6 +60,9 @@
     "checkout_accent_color": "#111111",
     "checkout_button_color": "#111111",
     "checkout_error_color": "#ff6d6d",
+    "product_color_swatches": true,
+    "collection_color_swatches": true,
+    "predictive_search_show_price": false,
     "type_chaney_line_height": 1,
     "color_image_bg": "#000000",
     "breadcrumb": true,
@@ -77,13 +77,15 @@
           "60329b0e-a453-4d43-90b1-3afa4f10f181": {
             "type": "logo",
             "settings": {
-              "logo": "shopify://shop_images/montreet_logo.png",
+              "logo": "shopify:\/\/shop_images\/montreet_logo.png",
               "desktop_logo_width": 200,
               "mobile_logo_width": 140
             }
           }
         },
-        "block_order": ["60329b0e-a453-4d43-90b1-3afa4f10f181"],
+        "block_order": [
+          "60329b0e-a453-4d43-90b1-3afa4f10f181"
+        ],
         "settings": {
           "main_menu_link_list": "main-menu",
           "main_menu_alignment": "left-center",
@@ -127,7 +129,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "Sign up and save",
-              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
               "container_width": 33
             }
           }
@@ -148,32 +150,6 @@
           "copyright_text": ""
         }
       },
-      "collection-template": {
-        "type": "collection-template",
-        "settings": {
-          "collection_image_enable": true,
-          "collection_image_height": 550,
-          "parallax": false,
-          "description_position": "top",
-          "collection_subnav_style": "inline",
-          "collection_tags_style": "dropdown",
-          "collection_sort_enable": false,
-          "per_row": 4,
-          "mobile_flush_grid": false
-        }
-      },
-      "product-template": {
-        "type": "product-template",
-        "settings": {
-          "description_style": "default",
-          "social_enable": true,
-          "image_size": "medium",
-          "thumbnail_position": "beside",
-          "thumbnail_arrows": false,
-          "enable_video_looping": true,
-          "product_video_style": "muted"
-        }
-      },
       "article-template": {
         "type": "article-template",
         "settings": {
@@ -183,65 +159,6 @@
           "blog_show_comments": false,
           "blog_show_author": false,
           "social_sharing_blog": false
-        }
-      },
-      "1498163293234": {
-        "type": "featured-content",
-        "settings": {
-          "title": "",
-          "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.</p>",
-          "align_text": "center",
-          "narrow_column": true,
-          "enlarge_text": true,
-          "divider": false
-        }
-      },
-      "1498501481980": {
-        "type": "fading-images",
-        "disabled": true,
-        "blocks": {
-          "1498501481980-0": {
-            "type": "image",
-            "settings": {
-              "focal_point": "center center",
-              "slide_title1": "Beautifully animated",
-              "slide_title2": "titles and images"
-            }
-          },
-          "1498501481980-1": {
-            "type": "image",
-            "settings": {
-              "focal_point": "center center",
-              "slide_title1": "Use this section",
-              "slide_title2": "to impress"
-            }
-          },
-          "1498501481980-2": {
-            "type": "image",
-            "settings": {
-              "focal_point": "center center",
-              "slide_title1": "And highlight",
-              "slide_title2": "important details"
-            }
-          }
-        },
-        "block_order": [
-          "1498501481980-0",
-          "1498501481980-1",
-          "1498501481980-2"
-        ],
-        "settings": {
-          "title_lines": "2",
-          "title_font": "body",
-          "title_size": 45,
-          "title_color": "#ffffff",
-          "title_bg_color": "rgba(0,0,0,0)",
-          "text_align": "vertical-center horizontal-center",
-          "slide_speed": 5,
-          "color_overlay": "#000000",
-          "color_overlay_opacity": 30,
-          "desktop_height": "650px",
-          "mobile_height": "auto"
         }
       },
       "blog-template": {
@@ -255,199 +172,6 @@
           "blog_show_author": false
         }
       },
-      "1566999869051": {
-        "type": "featured-collection-switcher",
-        "disabled": true,
-        "settings": {
-          "title": "Most popular",
-          "collection1": "",
-          "collection2": "",
-          "per_row": 4,
-          "view_all": true,
-          "divider": false
-        }
-      },
-      "1499789718857": {
-        "type": "featured-collections",
-        "disabled": true,
-        "blocks": {
-          "1499789718857-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "focal_point": "center center",
-              "size": "wide"
-            }
-          },
-          "1499789718857-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "focal_point": "center center",
-              "size": "square-small"
-            }
-          },
-          "1499789718857-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "focal_point": "center center",
-              "size": "square-small"
-            }
-          },
-          "1499789718857-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "focal_point": "center center",
-              "size": "square-small"
-            }
-          },
-          "1499789718857-4": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "focal_point": "center center",
-              "size": "square-small"
-            }
-          },
-          "1499789718857-5": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "focal_point": "center center",
-              "size": "wide"
-            }
-          }
-        },
-        "block_order": [
-          "1499789718857-0",
-          "1499789718857-1",
-          "1499789718857-2",
-          "1499789718857-3",
-          "1499789718857-4",
-          "1499789718857-5"
-        ],
-        "settings": {
-          "title": "",
-          "divider": false,
-          "enable_gutter": false
-        }
-      },
-      "1499790529450": {
-        "type": "hero-video",
-        "settings": {
-          "title": "Bring your\nbrand to life.",
-          "title_size": 80,
-          "subheading": "",
-          "link_text": "Watch",
-          "link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-          "text_align": "vertical-center horizontal-center",
-          "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-          "section_height": "650px",
-          "mobile_height": "auto"
-        }
-      },
-      "1499790633921": {
-        "type": "background-image-text",
-        "settings": {
-          "subtitle": "Impressive",
-          "title": "Unsere Leggings",
-          "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
-          "button_label": "",
-          "image": "shopify://shop_images/200506_Leggins_Action_Shoot-7791-Bearbeitet4000px.png",
-          "focal_point": "center",
-          "layout": "left",
-          "height": 650,
-          "parallax": true
-        }
-      },
-      "1499790731541": {
-        "type": "collection-callout",
-        "settings": {
-          "collection": "featured",
-          "subtitle": "Brand new",
-          "title": "Collection callout",
-          "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
-          "cta_text1": "Shop Jackets",
-          "cta_text2": "Shop All",
-          "layout": "right",
-          "divider": false
-        }
-      },
-      "product-sections-template": {
-        "type": "product-sections-template",
-        "blocks": {
-          "product-image-row": {
-            "type": "image-row",
-            "settings": {}
-          },
-          "product-text-and-image": {
-            "type": "text-and-image",
-            "settings": {}
-          },
-          "product-background-image-text": {
-            "type": "background-image-text",
-            "settings": {
-              "layout": "right"
-            }
-          },
-          "product-text-columns": {
-            "type": "text-columns",
-            "settings": {}
-          },
-          "product-hero-video": {
-            "type": "hero-video",
-            "settings": {}
-          }
-        },
-        "block_order": [
-          "product-image-row",
-          "product-text-and-image",
-          "product-background-image-text",
-          "product-text-columns",
-          "product-hero-video"
-        ],
-        "settings": {}
-      },
-      "page-sections-template": {
-        "type": "page-sections-template",
-        "blocks": {
-          "page-fading-images": {
-            "type": "fading-images",
-            "settings": {}
-          },
-          "page-rich-text": {
-            "type": "rich-text",
-            "settings": {
-              "title": "",
-              "enlarge_text": true
-            }
-          },
-          "page-text-columns": {
-            "type": "text-columns",
-            "settings": {}
-          },
-          "page-background-image-text": {
-            "type": "background-image-text",
-            "settings": {
-              "layout": "right"
-            }
-          },
-          "page-featured-collection": {
-            "type": "featured-collection",
-            "settings": {}
-          }
-        },
-        "block_order": [
-          "page-fading-images",
-          "page-rich-text",
-          "page-text-columns",
-          "page-background-image-text",
-          "page-featured-collection"
-        ],
-        "settings": {}
-      },
       "footer-promotions": {
         "type": "footer-promotions",
         "blocks": {
@@ -455,36 +179,36 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify://shop_images/slow_mood_-1.png",
+              "image": "shopify:\/\/shop_images\/slow_mood_-1.png",
               "image_width": 650,
               "title": "Our Story",
-              "text": "<p>MONTREET steht für: Nachhaltigkeit, Einzigartigkeit und Kreislaufwirtschaft.<\\/p>",
+              "text": "<p>MONTREET steht für: Nachhaltigkeit, Einzigartigkeit und Kreislaufwirtschaft.<\\\/p>",
               "button_label": "Erfahre mehr über uns",
-              "button_link": "shopify://pages/our-story"
+              "button_link": "shopify:\/\/pages\/our-story"
             }
           },
           "footer-promotions-1": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify://shop_images/Screenshot_2021-01-13_at_16.28.09.png",
+              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-13_at_16.28.09.png",
               "image_width": 650,
               "title": "Rental Services",
-              "text": "<p>Wusstest du schon, dass du unsere Produkte auch ausleihen kannst?<\\/p>",
+              "text": "<p>Wusstest du schon, dass du unsere Produkte auch ausleihen kannst?<\\\/p>",
               "button_label": "Zum MONTREET Rental Service",
-              "button_link": "shopify://pages/rental-services"
+              "button_link": "shopify:\/\/pages\/rental-services"
             }
           },
           "footer-promotions-2": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify://shop_images/Screenshot_2021-01-13_at_16.29.54.png",
+              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-13_at_16.29.54.png",
               "image_width": 650,
               "title": "Sustainable Development Goals",
-              "text": "<p>So setzen wir die Ziele für nachhaltige Entwicklung um.<\\/p>",
+              "text": "<p>So setzen wir die Ziele für nachhaltige Entwicklung um.<\\\/p>",
               "button_label": "Über die SDGs",
-              "button_link": "shopify://pages/sustainable-development-goals"
+              "button_link": "shopify:\/\/pages\/sustainable-development-goals"
             }
           }
         },
@@ -506,7 +230,7 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\\/p>",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\\\/p>",
           "close_text": "No thanks",
           "enable_newsletter": true,
           "button_label": "Optional button",
@@ -521,12 +245,6 @@
           "related_count": 5
         }
       },
-      "product-collection-links": {
-        "type": "product-collection-links",
-        "settings": {
-          "collection_links_enable": true
-        }
-      },
       "1611151914a7945186": {
         "type": "slideshow",
         "blocks": {
@@ -538,7 +256,7 @@
               "subheading": "Für deine Liebsten",
               "link_text": "Jetzt ansehen",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify://shop_images/Screenshot_2021-01-20_at_15.48.08.png",
+              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-20_at_15.48.08.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -551,7 +269,7 @@
               "subheading": "Zu unseren neuen Produkten",
               "link_text": "Shop",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify://shop_images/Screenshot_2021-01-20_at_15.48.00.png",
+              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-20_at_15.48.00.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -564,7 +282,7 @@
               "subheading": "Zu unseren Winterprodukten",
               "link_text": "Shop",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify://shop_images/Screenshot_2021-01-20_at_15.47.51.png",
+              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-20_at_15.47.51.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -592,7 +310,7 @@
           "title": "Unsere ARTIST Kollektionen",
           "text": "Erfahre mehr über unsere Artist Kollektionen in Zusammenarbeit  mit KünstlerInnen aus Österreich!",
           "cta_text1": "Zur Artist-Kollektion",
-          "cta_link1": "shopify://collections/featured",
+          "cta_link1": "shopify:\/\/collections\/featured",
           "cta_text2": "",
           "layout": "right",
           "divider": false
@@ -601,23 +319,8 @@
       "16111552653f53a7e8": {
         "type": "newsletter",
         "settings": {
-          "icon_enable": false,
-          "title": "Newsletter",
-          "text": "<p>Du möchtest künftig als Erste\\/r von unseren Neuigkeiten erfahren? Abonniere jetzt unseren Newsletter und erhalte 10% Rabatt auf deine erste Bestellung!<\\/p>",
           "color_background": "rgba(0,0,0,0)",
           "color_text": "#0c0d49"
-        }
-      },
-      "161115527970a0bd6f": {
-        "type": "featured-content",
-        "disabled": true,
-        "settings": {
-          "title": "Unsere Mission",
-          "text": "<p><em>Das Ziel unseres dynamischen Start-up-Unternehmens ist es, umweltfreundliche, recycelbare\\/ recycelte und funktionelle Sportbekleidung herzustellen, die das ganze Jahr über in der Stadt oder im Freien getragen werden kann. Das ist unser Beitrag zur Kreislaufwirtschaft und zum nachhaltigen Umgang mit Kleidung.<\\/em><\\/p>",
-          "align_text": "center",
-          "narrow_column": true,
-          "enlarge_text": true,
-          "divider": false
         }
       },
       "list-collections-template": {
@@ -632,13 +335,13 @@
       "1611155835d88d6982": {
         "type": "text-and-image",
         "settings": {
-          "image": "shopify://shop_images/200610_Montreet_Boulderbar_schwarzeHose_008-scaled.jpg",
+          "image": "shopify:\/\/shop_images\/200610_Montreet_Boulderbar_schwarzeHose_008-scaled.jpg",
           "image_width": 500,
           "subtitle": "",
           "title": "Kurze Hose",
-          "text": "<p>Unsere nachhaltige Sporthose ist als Allrounder einsetzbar und hält all deinen Abenteuern, Klimmzügen, Megamärschen und Schanzenläufen stand. Hört sich schon ziemlich gut an oder? Aber das Beste kommt bekanntlich zum Schluss: Die Faser, die wir für die nachhaltige Sporthose verwenden, wird aus alten Fischernetzen gewonnen und ist ein reines Recyclingprodukt.<\\/p><p>Entworfen und designt wurde die Sporthose in Kooperation mit der <a href=\"https:\\/\\/boulderbar.net\\/\" target=\"_blank\">Boulderbar Vienna<\\/a>, produziert wurde sie in der Ukraine, die Fischernetzstoffe bekommen wir aus Italien.<\\/p>",
+          "text": "<p>Unsere nachhaltige Sporthose ist als Allrounder einsetzbar und hält all deinen Abenteuern, Klimmzügen, Megamärschen und Schanzenläufen stand. Hört sich schon ziemlich gut an oder? Aber das Beste kommt bekanntlich zum Schluss: Die Faser, die wir für die nachhaltige Sporthose verwenden, wird aus alten Fischernetzen gewonnen und ist ein reines Recyclingprodukt.<\\\/p><p>Entworfen und designt wurde die Sporthose in Kooperation mit der <a href=\"https:\\\/\\\/boulderbar.net\\\/\" target=\"_blank\">Boulderbar Vienna<\\\/a>, produziert wurde sie in der Ukraine, die Fischernetzstoffe bekommen wir aus Italien.<\\\/p>",
           "button_label": "Mehr dazu",
-          "button_link": "shopify://products/sporthose-herren-kurz",
+          "button_link": "shopify:\/\/products\/sporthose-herren-kurz",
           "layout": "right",
           "divider": false
         }
@@ -659,9 +362,9 @@
         "settings": {
           "subtitle": "Don't Change who you are",
           "title": "Just Start wearing Green",
-          "text": "<p>Montreet Montreet Montreet<\\/p>",
+          "text": "<p>Montreet Montreet Montreet<\\\/p>",
           "button_label": "",
-          "video_url": "https:\\/\\/vimeo.com\\/462927940",
+          "video_url": "https:\\\/\\\/vimeo.com\\\/462927940",
           "color_border": "#0c0d49",
           "layout": "left",
           "height": 550
@@ -683,7 +386,6 @@
       "1611151914a7945186",
       "1611158275582144b2",
       "16111552653f53a7e8",
-      "161115527970a0bd6f",
       "1611155835d88d6982",
       "1611152784a643eebd",
       "16122019795e656ba9"
@@ -803,21 +505,6 @@
             "show_payment_icons": false
           }
         },
-        "collection-template": {
-          "type": "collection-template",
-          "settings": {
-            "collection_image_enable": true,
-            "collection_sort_enable": false,
-            "per_row": 4
-          }
-        },
-        "product-template": {
-          "type": "product-template",
-          "settings": {
-            "social_enable": true,
-            "image_size": "medium"
-          }
-        },
         "article-template": {
           "type": "article-template",
           "settings": {
@@ -827,10 +514,6 @@
             "blog_show_author": false,
             "social_sharing_blog": true
           }
-        },
-        "1498163293234": {
-          "type": "featured-content",
-          "settings": {}
         },
         "1498501481980": {
           "type": "fading-images",
@@ -887,7 +570,8 @@
         },
         "1566999869051": {
           "type": "featured-collection-switcher",
-          "settings": {}
+          "settings": {
+          }
         },
         "1499789718857": {
           "type": "featured-collections",
@@ -955,8 +639,8 @@
             "title_size": 80,
             "subheading": "",
             "link_text": "Watch",
-            "link": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
-            "video_url": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
+            "link": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
             "section_height": "650px"
           }
         },
@@ -965,7 +649,7 @@
           "settings": {
             "subtitle": "Impressive",
             "title": "Large image and text",
-            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
             "button_label": "",
             "button_link": "",
             "image": "",
@@ -986,85 +670,11 @@
             "cta_link2": "",
             "divider": false
           }
-        },
-        "product-sections-template": {
-          "type": "product-sections-template",
-          "blocks": {
-            "product-image-row": {
-              "type": "image-row",
-              "settings": {}
-            },
-            "product-text-and-image": {
-              "type": "text-and-image",
-              "settings": {}
-            },
-            "product-background-image-text": {
-              "type": "background-image-text",
-              "settings": {
-                "layout": "right"
-              }
-            },
-            "product-text-columns": {
-              "type": "text-columns",
-              "settings": {}
-            },
-            "product-hero-video": {
-              "type": "hero-video",
-              "settings": {}
-            }
-          },
-          "block_order": [
-            "product-image-row",
-            "product-text-and-image",
-            "product-background-image-text",
-            "product-text-columns",
-            "product-hero-video"
-          ],
-          "settings": {}
-        },
-        "page-sections-template": {
-          "type": "page-sections-template",
-          "blocks": {
-            "page-fading-images": {
-              "type": "fading-images",
-              "settings": {}
-            },
-            "page-rich-text": {
-              "type": "rich-text",
-              "settings": {
-                "title": "",
-                "enlarge_text": true
-              }
-            },
-            "page-text-columns": {
-              "type": "text-columns",
-              "settings": {}
-            },
-            "page-background-image-text": {
-              "type": "background-image-text",
-              "settings": {
-                "layout": "right"
-              }
-            },
-            "page-featured-collection": {
-              "type": "featured-collection",
-              "settings": {}
-            }
-          },
-          "block_order": [
-            "page-fading-images",
-            "page-rich-text",
-            "page-text-columns",
-            "page-background-image-text",
-            "page-featured-collection"
-          ],
-          "settings": {}
         }
       },
       "content_for_index": [
         "1499790529450",
         "1566999869051",
-        "1498163293234",
         "1499789718857",
         "1498501481980",
         "1499790731541",
@@ -1183,21 +793,6 @@
             "show_payment_icons": false
           }
         },
-        "collection-template": {
-          "type": "collection-template",
-          "settings": {
-            "collection_image_enable": true,
-            "collection_sort_enable": false,
-            "per_row": 4
-          }
-        },
-        "product-template": {
-          "type": "product-template",
-          "settings": {
-            "social_enable": true,
-            "image_size": "medium"
-          }
-        },
         "article-template": {
           "type": "article-template",
           "settings": {
@@ -1207,10 +802,6 @@
             "blog_show_author": false,
             "social_sharing_blog": true
           }
-        },
-        "1498163293234": {
-          "type": "featured-content",
-          "settings": {}
         },
         "1498501481980": {
           "type": "fading-images",
@@ -1267,7 +858,8 @@
         },
         "1566999869051": {
           "type": "featured-collection-switcher",
-          "settings": {}
+          "settings": {
+          }
         },
         "1499789718857": {
           "type": "featured-collections",
@@ -1335,8 +927,8 @@
             "title_size": 80,
             "subheading": "",
             "link_text": "Watch",
-            "link": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
-            "video_url": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
+            "link": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
             "section_height": "650px"
           }
         },
@@ -1345,7 +937,7 @@
           "settings": {
             "subtitle": "Impressive",
             "title": "Large image and text",
-            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\\/p>",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\\\/p>",
             "button_label": "",
             "button_link": "",
             "image": "",
@@ -1371,7 +963,6 @@
       "content_for_index": [
         "1499790529450",
         "1566999869051",
-        "1498163293234",
         "1499789718857",
         "1498501481980",
         "1499790731541",
@@ -1492,21 +1083,6 @@
             "show_payment_icons": false
           }
         },
-        "collection-template": {
-          "type": "collection-template",
-          "settings": {
-            "collection_image_enable": true,
-            "collection_sort_enable": false,
-            "per_row": 4
-          }
-        },
-        "product-template": {
-          "type": "product-template",
-          "settings": {
-            "social_enable": true,
-            "image_size": "medium"
-          }
-        },
         "article-template": {
           "type": "article-template",
           "settings": {
@@ -1516,10 +1092,6 @@
             "blog_show_author": false,
             "social_sharing_blog": true
           }
-        },
-        "1498163293234": {
-          "type": "featured-content",
-          "settings": {}
         },
         "1498501481980": {
           "type": "fading-images",
@@ -1576,7 +1148,8 @@
         },
         "1566999869051": {
           "type": "featured-collection-switcher",
-          "settings": {}
+          "settings": {
+          }
         },
         "1499789718857": {
           "type": "featured-collections",
@@ -1644,8 +1217,8 @@
             "title_size": 80,
             "subheading": "",
             "link_text": "Watch",
-            "link": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
-            "video_url": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
+            "link": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
             "section_height": "650px"
           }
         },
@@ -1654,7 +1227,7 @@
           "settings": {
             "subtitle": "Impressive",
             "title": "Large image and text",
-            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\\/p>",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\\\/p>",
             "button_label": "",
             "button_link": "",
             "image": "",
@@ -1680,7 +1253,6 @@
       "content_for_index": [
         "1499790529450",
         "1566999869051",
-        "1498163293234",
         "1499789718857",
         "1498501481980",
         "1499790731541",
