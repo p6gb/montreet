@@ -1,0 +1,29 @@
+.article {
+	&__featured-image {
+		position: relative;
+	}
+
+	&__title {
+		margin-top: 0;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	// vertically center image on mobile
+	@include breakpoint(title-image-max) {
+		// https://stackoverflow.com/questions/7273338/how-to-vertically-align-an-image-inside-a-div
+		&__image,
+		&__image-wrap {
+			vertical-align: middle;
+			display: inline-block;
+			height: 100%;
+		}
+	}
+}
+
+// increase specicitify
+#shopify-section-page-press-template a.article__grid-image {
+	border-bottom: 0;
+}

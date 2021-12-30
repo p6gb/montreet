@@ -1,0 +1,44 @@
+.team {
+	display: flex;
+	flex-flow: row wrap;
+
+	&__container {
+		@include breakpoint(sm-max) {
+			width: 100%;
+			padding-left: 0;
+		}
+	}
+
+	&__image-wrap {
+		@include margin-h(auto);
+	}
+
+	&__image {
+		border-radius: 50%;
+		padding: 2em;
+	}
+
+	&__name,
+	&__role {
+		display: inline-block;
+		margin-bottom: 0.7em;
+	}
+
+	&__name {
+		font-weight: $font-bold;
+	}
+
+	&__role {
+		text-transform: uppercase;
+		opacity: 0.7;
+	}
+
+	&__motto {
+		font-style: italic;
+		margin-bottom: 1em;
+	}
+
+	&__description p {
+		margin-bottom: 1.5em;
+	}
+}

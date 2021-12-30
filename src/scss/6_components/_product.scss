@@ -1,0 +1,31 @@
+.product {
+  &__donation-notice {
+    padding: 1em 3em;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+
+  &__icon-container {
+    background-color: $background-blue;
+    padding: 2em 1.5em 1.5em;
+    margin-bottom: 2.5em;
+  }
+
+  &__icon {
+    width: 1.8em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1ch;
+  }
+
+  &__icon-message {
+    display: inline-block;
+  }
+
+  &__icon-row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 0.6em;
+  }
+}

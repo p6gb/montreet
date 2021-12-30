@@ -1,0 +1,8 @@
+.text-box {
+	@include padding-v(2em);
+
+	@include breakpoint(sm) {
+		padding-top: 3em;
+		padding-bottom: 5em;
+	}
+}

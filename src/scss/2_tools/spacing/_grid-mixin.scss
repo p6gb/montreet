@@ -1,0 +1,17 @@
+@mixin grid($n_columns, $padding, $appendix: '') {
+  // appendix: add e.g. '-sm' to the class in order to add different grids for mobile layout
+  
+  @for $i from 1 to ($n_columns + 1) {
+    .col-#{$i}#{$appendix} {
+        -ms-flex: 0 0 percentage($i / $n_columns);
+        flex: 0 0 percentage($i / $n_columns);
+        max-width: percentage($i / $n_columns);
+    }
+  }
+
+  @for $i from 0 to $n_columns {
+    .offset-#{$i}#{$appendix} {
+        margin-left: percentage($i / $n_columns);
+    }
+  }
+}

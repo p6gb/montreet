@@ -1,0 +1,19 @@
+<div class="grid__item grid-search {{ grid_item_width}}">
+  <div class="grid-search__page">
+    <a href="{{ item.url }}" class="grid-search__page-link">
+      <span class="grid-search__page-content">
+        <span class="h4">{{ item.title }}</span>
+        {%- if item.object_type == 'article' and item.image -%}
+          {%- assign img_url = item.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          <img class="grid-product__image lazyload"
+              data-src="{{ img_url }}"
+              data-widths="[180, 360, 540]"
+              data-aspectratio="{{ item.image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ item.title | escape }}">
+        {%- endif -%}
+        {{ item.content | strip_html | truncatewords: 60 }}
+      </span>
+    </a>
+  </div>
+</div>

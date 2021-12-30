@@ -1,0 +1,20 @@
+.shopify-email-marketing-confirmation {
+	&__container {
+		@include breakpoint(title-image) {
+			padding-top: 25vh;
+		}
+
+		& h1 {
+			@include font-chaney;
+
+			margin-bottom: 1rem;
+		}
+
+		& a {
+			margin-top: 1.5rem;
+			font-size: 0.75em;
+			text-decoration: underline;
+			display: block;
+		}
+	}
+}

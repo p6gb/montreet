@@ -1,0 +1,12 @@
+assets
+node_modules
+
+# Shopify #
+# config.yml
+# config/settings_data.json
+
+# OS generated files #
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db

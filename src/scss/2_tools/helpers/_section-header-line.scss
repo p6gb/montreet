@@ -1,0 +1,18 @@
+@mixin section-header-line {
+  &:before {
+    background-color: $dark-blue;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    width: $headline-hr-length-mobile;
+    right: 0.5em;
+    top: -0.3em;
+    margin-left: -$headline-hr-length-mobile;
+
+    @include breakpoint(md) {
+      width: $headline-hr-length;
+      margin-left: -$headline-hr-length;
+    }
+  }
+}

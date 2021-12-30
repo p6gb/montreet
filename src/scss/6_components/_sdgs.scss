@@ -1,0 +1,59 @@
+.sdgs {
+	&__item {
+		@include padding-h(1em);
+
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: column nowrap;
+		width: 100%;
+		cursor: pointer;
+
+		@include breakpoint(sm) {
+			width: 50%;
+		}
+
+		@include breakpoint(md) {
+			width: 25%;
+		}
+	}
+
+	&__image {
+		cursor: cell;
+	}
+
+	&__container {
+		@include margin-h(-1em);
+
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: row wrap;
+	}
+
+	&__text-container {
+		@include padding-h(2em);
+
+		display: none;
+		width: 100%;
+		height: auto;
+		margin-bottom: 2.5em;
+
+		@include breakpoint(sm) {
+			@include padding-h(12.5%);
+		}
+	}
+
+	// prepend class to increase specicifity
+	.sdgs__text-container &__title {
+		margin-bottom: 0.5em;
+	}
+
+	&__image-container {
+		margin-bottom: 2em;
+	}
+
+	&__intro-text {
+		position: relative;
+		text-align: center;
+		margin-bottom: 3em;
+	}
+}

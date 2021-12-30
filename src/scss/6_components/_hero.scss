@@ -1,0 +1,14 @@
+// increase specicitify
+h2.hero {
+	.hero__text-content &__title {
+		@include breakpoint(title-image-max) {
+			font-size: 2rem;
+		}
+	}
+}
+
+@include breakpoint(title-image-max) {
+	[data-dots="true"] .hero__text-content {
+		padding-right: 0;
+	}
+}

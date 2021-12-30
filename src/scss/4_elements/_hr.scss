@@ -1,0 +1,34 @@
+.hr {
+	@include margin-h(auto);
+
+	width: 50%;
+	margin-bottom: 2em;
+	background-color: $dark-blue;
+	height: 2px;
+	border: none; // override theme style
+
+	@include breakpoint(sm) {
+		width: 7em;
+		margin-bottom: 2rem;
+	}
+
+	&--white {
+		background-color: $white;
+	}
+
+	&--margin-top {
+		margin-top: 2em;
+
+		@include breakpoint(sm) {
+			margin-top: 3em;
+		}
+	}
+
+	&--margin-bottom-big {
+		margin-bottom: 2em;
+
+		@include breakpoint(sm) {
+			margin-bottom: 3em;
+		}
+	}
+}

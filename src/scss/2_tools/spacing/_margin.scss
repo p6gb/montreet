@@ -1,0 +1,14 @@
+// Elemente mit dem gleichen Margin auf der vertikalen (margin-v) oder horizontalen (margin-h) Achse versehen.
+//
+// .example {
+//   @include margin-h(auto);
+// }
+@mixin margin-v($value) {
+  margin-top: $value;
+  margin-bottom: $value;
+}
+
+@mixin margin-h($value) {
+  margin-right: $value;
+  margin-left: $value;
+}

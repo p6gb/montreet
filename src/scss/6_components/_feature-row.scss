@@ -1,0 +1,12 @@
+.feature-row {
+	@include breakpoint(md-max) {
+		// bei 768px spring das Layout von Column zu Row
+		&__image {
+			margin-bottom: 1em;
+		}
+
+		&__text {
+			text-align: center;
+		}
+	}
+}

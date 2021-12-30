@@ -1,0 +1,33 @@
+.newsletter {
+  &__form {
+    margin-top: 6px;
+
+    @media (min-width: 768px) {
+      margin-top: 20px;
+    }
+  }
+
+  &__input {
+    border-color: $dark-blue;
+    padding: 11px;
+    text-align: center;
+
+    &::placeholder {
+      color: $grey;
+    }
+  }
+
+  &__input-group {
+    @media (min-width: 768px) {
+      flex-direction: column;
+
+      .input-group-btn {
+        margin-top: 10px;
+      }
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+}

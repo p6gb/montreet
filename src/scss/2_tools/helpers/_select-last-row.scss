@@ -1,0 +1,23 @@
+// Selektiert die Elemente der letzten Reihe eines Grids. Dabei muss es sich nicht um Bootstrap Grids handeln.
+//
+// .example.row .col-3 {
+//   @include select-last-row(4) {
+//     ...
+//   }
+// }
+//
+// .width-50 {
+//   @include select-last-row(2) {
+//     ...
+//   }
+// }
+@mixin select-last-row($number-of-cols, $element: "#{&}") {
+  @while (str-index($element, " ")) {
+    $element: str-slice($element, str-index($element, " ") + 1);
+  }
+
+  &:nth-child(#{$number-of-cols}n+1):nth-last-child(-n+#{$number-of-cols}),
+  &:nth-child(#{$number-of-cols}n+1):nth-last-child(-n+#{$number-of-cols}) ~ #{$element} {
+    @content;
+  }
+}

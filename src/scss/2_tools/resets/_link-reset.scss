@@ -1,0 +1,9 @@
+// Link Element zurücksetzen.
+//
+// a.example {
+//   @include link-reset;
+// }
+@mixin link-reset {
+  text-decoration: none;
+  color: inherit;
+}

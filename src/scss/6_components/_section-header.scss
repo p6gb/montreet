@@ -1,0 +1,31 @@
+.section-header {
+  margin-bottom: 2em;
+
+  &__title {
+    @include font-chaney;
+
+    &--left-aligned {
+      @include section-header-line;
+
+      text-align: left;
+      margin-left: $headline-hr-length;
+      text-indent: -10px;
+
+      @include breakpoint(md) {
+        padding-left: 25px;
+        text-indent: -35px;
+      }
+    }
+
+    &--centered {
+      text-align: center;
+    }
+  }
+
+  &--hero-overlay {
+    position: absolute;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%);
+  }
+}

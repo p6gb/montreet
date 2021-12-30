@@ -1,0 +1,22 @@
+.color-swatch,
+.color-swatch--small {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+
+	@include breakpoint(sm) {
+		width: 25px;
+		height: 25px;
+	}
+
+	&::before {
+		display: none;
+		border-radius: 50%;
+	}
+}
+
+// increase specicifity
+label.color-swatch,
+label.color-swatch--small {
+	padding: 0;
+}

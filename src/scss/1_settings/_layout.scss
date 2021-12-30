@@ -1,0 +1,10 @@
+// Breakpoints übernommen von Bootstrap 4, können bei Bedarf erweitert werden
+// Werte verstehen sich als Minimum (inklusive)
+// Layout Title Image ändert sich bei 590px
+$breakpoints: (xs: 0, sm: 576px, title-image: 590px, md: 768px, lg: 992px, xl: 1280px, xxl: 250px);
+
+// bei 768px Layout-Verschiebung
+
+// fonts
+$headline-hr-length-mobile: 25px;
+$headline-hr-length: 50px;

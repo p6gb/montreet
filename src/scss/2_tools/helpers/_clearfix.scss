@@ -1,0 +1,17 @@
+// Element zum Clearfix machen.
+//
+// .example {
+//   @include clearfix;
+// }
+@mixin clearfix {
+  &::before {
+    display: table;
+    content: "";
+  }
+
+  &::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+}

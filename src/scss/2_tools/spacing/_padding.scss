@@ -1,0 +1,14 @@
+// Elemente mit dem gleichen Padding auf der vertikalen (padding-v) oder horizontalen (padding-h) Achse versehen.
+//
+// .example {
+//   @include padding-v(10px);
+// }
+@mixin padding-v($value) {
+  padding-top: $value;
+  padding-bottom: $value;
+}
+
+@mixin padding-h($value) {
+  padding-right: $value;
+  padding-left: $value;
+}

@@ -1,0 +1,18 @@
+.social-links {
+	& a {
+		@include link-reset;
+
+		border-bottom: none !important;
+
+		&::after {
+			// animated underline
+			display: none;
+		}
+	}
+
+	& li {
+		@include margin-h(0.3em);
+
+		display: inline-block;
+	}
+}

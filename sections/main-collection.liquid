@@ -1,0 +1,257 @@
+<div
+  id="CollectionSection"
+  data-section-id="{{ section.id }}"
+  data-section-type="collection-template"
+  {% if section.settings.parallax %}data-parallax="true"{% endif %}>
+
+  {%- if section.settings.collection_image_enable and collection.image -%}
+
+    {%- style -%}
+    .collection-hero {
+      height: {{ section.settings.collection_image_height }}px;
+    }
+    @media screen and (max-width: 768px) {
+      .collection-hero {
+        height: {{ section.settings.collection_image_height | times: 0.6 }}px;
+      }
+    }
+    {%- endstyle -%}
+
+    <div class="collection-hero">
+
+      {%- if section.settings.parallax -%}
+        <div class="parallax-container">
+          <div class="parallax-image">
+      {%- endif -%}
+
+        {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        <img class="collection-hero__image image-fit lazyload"
+          src=""
+          data-src="{{ img_url }}"
+          data-aspectratio="{{ collection.image.aspect_ratio }}"
+          data-widths="[720, 900, 1080, 1800, 2400]"
+          data-sizes="auto"
+          alt="{{ collection.image.alt | escape }}">
+
+      {%- if section.settings.parallax -%}
+          </div>
+        </div>
+      {%- endif -%}
+
+      <div class="collection-hero__content">
+        <div class="page-width">
+          <header class="section-header section-header--hero">
+            <h1 class="section-header__title section-header__title--medium">
+              <div class="animation-cropper">
+                <div class="animation-contents collection-title">
+                  {{ collection.title }}
+                </div>
+              </div>
+            </h1>
+          </header>
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="page-width page-content">
+    {%- render 'breadcrumbs' -%}
+    {%- render 'collection-sidebar', section: section -%}
+
+    {%- unless section.settings.collection_image_enable and collection.image -%}
+      <header class="section-header">
+        <h1 class="section-header__title collection-title">
+          {{ collection.title }}
+        </h1>
+      </header>
+    {%- endunless -%}
+
+    {% render 'collection-filters',
+      collection: collection,
+      enable_sort: section.settings.enable_sort,
+      collection_tags_style: section.settings.collection_tags_style
+    %}
+
+    {%- for block in section.blocks -%}
+      {%- assign block_index = forloop.index -%}
+
+      {%- case block.type -%}
+      {%- when 'collection_description' -%}
+        {%- if collection.description != blank -%}
+          {%- unless forloop.first -%}
+            <hr class="hr--clear hr--medium">
+          {%- endunless -%}
+
+          <div class="collection-description rte" {{ block.shopify_attributes }}>
+            <div class="enlarge-text">
+              {{ collection.description }}
+            </div>
+          </div>
+
+          {%- unless forloop.last -%}
+            <hr class="hr--clear hr--small">
+          {%- endunless -%}
+        {%- endif -%}
+      {%- when 'product_grid' -%}
+        {%- liquid
+          assign per_row = block.settings.per_row
+          assign paginate_by = per_row | times: 5
+          if block.settings.collection_subnav_style == 'inline'
+            assign paginate_by = paginate_by | minus: 1
+          endif
+        -%}
+
+        {%- paginate collection.products by paginate_by -%}
+
+        <div id="CollectionAjaxResult" {{ block.shopify_attributes }}>
+          <div id="CollectionAjaxContent">
+
+            {% render 'collection-grid',
+              collection: collection,
+              items: collection.products,
+              collection_subnav_style: block.settings.collection_subnav_style,
+              mobile_flush_grid: block.settings.mobile_flush_grid,
+              quick_shop_enable: settings.quick_shop_enable,
+              per_row: block.settings.per_row
+            %}
+
+            {%- if paginate.pages > 1 -%}
+              {%- render 'pagination', paginate: paginate -%}
+            {%- endif -%}
+
+          </div>
+        </div>
+
+        {%- endpaginate -%}
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "CollectionPage",
+    {% if collection.description != blank %}
+      "description": {{ collection.description | strip_html | json }},
+    {% endif %}
+    {% if page_image %}
+      {% assign image_size = page_image.width | append: 'x' %}
+      "image": {
+        "@type": "ImageObject",
+        "height": {{ page_image.height | json }},
+        "url": {{ page_image | img_url: image_size | prepend: "https:" | json }},
+        "width": {{ page_image.width | json }}
+      },
+    {% endif %}
+    "name": {{ collection.title | json }}
+  }
+</script>
+
+{% schema %}
+  {
+    "name": "Collection page",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Image"
+      },
+      {
+        "type": "checkbox",
+        "id": "collection_image_enable",
+        "label": "Show collection image",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "collection_image_height",
+        "label": "Image height",
+        "default": 550,
+        "min": 350,
+        "max": 750,
+        "step": 100,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "parallax",
+        "label": "Parallax image",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Filtering and sorting"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sidebar",
+        "label": "Enable filter",
+        "default": true,
+        "info": "Allow your customers to filter collections and search results by product availability, price, color, and more. [Customize filters](/admin/menus)"
+      },
+      {
+        "type": "checkbox",
+        "id": "collapsed",
+        "label": "Collapse filters",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_color_swatches",
+        "label": "Enable color swatches",
+        "info": "[View setup instructions](https://archetypethemes.co/blogs/impulse/how-do-i-set-up-color-swatches)"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sort",
+        "label": "Show sort options",
+        "default": false
+      }
+    ],
+    "blocks": [
+      {
+        "type": "collection_description",
+        "name": "Collection description",
+        "limit": 1
+      },
+      {
+        "type": "product_grid",
+        "name": "Products",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "select",
+            "id": "collection_subnav_style",
+            "label": "Subnavigation style",
+            "default": "inline",
+            "options": [
+              {
+                "value": "none",
+                "label": "None"
+              },
+              {
+                "value": "inline",
+                "label": "Inline"
+              }
+            ]
+          },
+          {
+            "type": "range",
+            "id": "per_row",
+            "label": "Products per row",
+            "default": 4,
+            "min": 1,
+            "max": 5,
+            "step": 1
+          },
+          {
+            "type": "checkbox",
+            "id": "mobile_flush_grid",
+            "label": "Flush grid on mobile",
+            "default": false
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

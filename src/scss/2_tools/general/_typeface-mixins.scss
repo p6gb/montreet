@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Chaney";
+  src: url('{{ "chaney-wide-webfont.woff2" | asset_url }}') format("woff2"),
+       url('{{ "chaney-wide-webfont.woff" | asset_url }}') format("woff");
+}
+
+@mixin font-family-serif {
+  font-family: 'Baskerville', 'Times New Roman', Times, serif;
+}
+
+@mixin font-family-sans {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+@mixin font-family-chaney {
+  font-family: 'Chaney', 'Montserrat', Helvetica, Arial, sans-serif;
+}
+

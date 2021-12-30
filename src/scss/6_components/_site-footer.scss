@@ -1,0 +1,12 @@
+.site-footer {
+	@include breakpoint(md-max) {
+		&__linklist {
+			text-align: center;
+		}
+
+		& .grid__item::after {
+			content: none;
+			border-bottom: none;
+		}
+	}
+}

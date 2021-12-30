@@ -1,0 +1,12 @@
+// Element mit spezifischen Seitenverhältnis versehen.
+//
+// .example {
+//   @include aspect-ratio(16, 9);
+// }
+@mixin aspect-ratio($width, $height) {
+  &::after {
+    content: "";
+    display: block;
+    padding-top: ($height / $width) * 100%;
+  }
+}

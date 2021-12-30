@@ -1,0 +1,34 @@
+@mixin font-size($map) {
+	font-size: map-get($map, responsive);
+
+	@if map_has_key($map, line-height) {
+		/* stylelint-disable-line order/order */
+		line-height: map-get($map, line-height);
+	}
+
+	@if map_has_key($map, margin-bottom) {
+		/* stylelint-disable-line order/order */
+		margin-bottom: map-get($map, margin-bottom);
+	}
+
+	@include breakpoint(md) {
+		font-size: map-get($map, normal);
+	}
+}
+
+@mixin font($font-family, $font-file, $font-weight, $font-style) {
+	@font-face {
+		font-family: $font-family;
+		src: url($font-file) format('woff2');
+		font-weight: $font-weight;
+		font-style: $font-style;
+	}
+}
+
+@mixin font-chaney {
+	font-family: var(--typeChaneyPrimary), var(--typeChaneyFallback);
+	font-size: var(--typeChaneySize);
+	font-weight: var(--typeChaneyWeight);
+	line-height: var(--typeChaneyLineHeight);
+	letter-spacing: var(--typeChaneySpacing);
+}

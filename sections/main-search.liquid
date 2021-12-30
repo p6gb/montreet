@@ -1,0 +1,104 @@
+<div data-section-id="{{ section.id }}" data-section-type="collection-template">
+{%- paginate search.results by 12 -%}
+
+  <div class="page-width page-content">
+
+    {%- render 'breadcrumbs' -%}
+    {%- render 'collection-sidebar', section: section, collection: search -%}
+
+    <header class="section-header">
+      <h1 class="section-header__title">
+        {{ 'general.search.title' | t }}
+      </h1>
+    </header>
+
+    {%- render 'search-bar', search_btn_style: 'btn', search_bar_location: 'search-bar--page' -%}
+
+    {%- if search.performed -%}
+
+      <hr class="hr--medium">
+
+      <div id="CollectionAjaxContent" data-section-id="{{ section.id }}" data-section-type="collection-template">
+        <h2>
+          {{ 'general.search.result_count' | t: count: search.results_count }}
+        </h2>
+        {%- if search.results_count == 0 -%}
+          {{ 'general.search.no_results_html' | t: terms: search.terms | replace: '*', '' }}
+        {%- else -%}
+          {% render 'collection-filters',
+            collection: search,
+            enable_sort: section.settings.enable_sort,
+            collection_tags_style: section.settings.collection_tags_style
+          %}
+
+          {% render 'collection-grid',
+            collection: search,
+            items: search.results,
+            mobile_flush_grid: section.settings.mobile_flush_grid,
+            quick_shop_enable: settings.quick_shop_enable,
+            per_row: section.settings.per_row
+          %}
+        {%- endif -%}
+      </div>
+
+      {%- if paginate.pages > 1 -%}
+        {%- render 'pagination', paginate: paginate -%}
+      {%- endif -%}
+
+    {%- endif -%}
+  </div>
+
+{%- endpaginate -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Search page",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Filtering and sorting"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sidebar",
+        "label": "Enable filter",
+        "default": true,
+        "info": "Allow your customers to filter collections and search results by product availability, price, color, and more. [Customize filters](/admin/menus)"
+      },
+      {
+        "type": "checkbox",
+        "id": "collapsed",
+        "label": "Collapse filters",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_color_swatches",
+        "label": "Enable color swatches",
+        "info": "[View setup instructions](https://archetypethemes.co/blogs/impulse/how-do-i-set-up-color-swatches)"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sort",
+        "label": "Show sort options",
+        "default": false
+      },
+      {
+        "type": "range",
+        "id": "per_row",
+        "label": "Products per row",
+        "default": 4,
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "type": "checkbox",
+        "id": "mobile_flush_grid",
+        "label": "Flush grid on mobile",
+        "default": false
+      }
+    ]
+  }
+{% endschema %}

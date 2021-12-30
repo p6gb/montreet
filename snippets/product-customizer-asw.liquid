@@ -1,0 +1,277 @@
+{% comment %}
+  Push to Store
+{% endcomment %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<style>
+  #asw-core-loading{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #006e52;
+    background-color: #006e52;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+  .asw-core-hidden{
+    display: none !important;
+  }
+</style>
+<div id="asw-core-loading" class="animate__animated animate__pulse animate__infinite asw-core-hidden">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt" viewBox="0 0 65.000000 75.000000" preserveAspectRatio="xMidYMid meet">
+    <g transform="translate(0.000000,75.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
+       <path d="M408 645 c-8 -19 -8 -31 0 -51 10 -21 18 -25 44 -22 17 2 33 9 36 16
+          3 9 -5 12 -24 10 -21 -2 -29 2 -32 16 -6 28 12 40 39 25 13 -6 27 -17 31 -23
+          5 -7 8 -6 8 4 -1 51 -81 71 -102 25z"></path>
+       <path d="M320 645 c-30 -7 -71 -16 -90 -20 -19 -4 -56 -14 -82 -22 -45 -14
+          -48 -17 -48 -48 0 -55 19 -58 166 -28 71 14 130 27 132 28 2 2 -4 15 -13 29
+          -11 16 -15 35 -11 51 4 14 5 25 4 24 -2 0 -28 -6 -58 -14z"></path>
+       <path d="M508 544 c-4 -23 -13 -46 -20 -51 -7 -6 -47 -15 -88 -22 -84 -14
+          -100 -23 -83 -49 9 -16 18 -100 14 -140 0 -8 -10 -12 -23 -10 -21 3 -23 10
+          -26 62 -2 32 0 66 4 75 4 9 8 24 9 34 3 26 19 34 87 41 81 10 108 21 108 46 0
+          16 -5 20 -17 16 -10 -2 -91 -20 -181 -38 l-162 -32 2 -155 c2 -108 7 -156 15
+          -158 8 -3 13 11 15 38 3 49 27 71 52 50 12 -10 16 -32 16 -88 0 -66 2 -74 18
+          -71 13 2 18 17 22 68 5 61 6 65 30 65 22 0 26 -5 30 -39 5 -39 26 -60 34 -34
+          3 7 7 34 11 60 4 34 12 51 26 59 29 15 59 -14 59 -58 0 -28 3 -33 25 -33 34 0
+          36 15 33 225 -2 117 -6 166 -10 139z"></path>
+    </g>
+ </svg>
+ <div id="asw-core-loading-text">
+ </div>
+</div>
+{% if request.page_type == "product" %}
+  {% capture prodcustomizer_data %}
+    <div class="product-customizer-options aswm-mode" data-product-id="4538964967560" data-product-price="7800" data-version="2.0.0">
+      <div class="product-customizer-option option-type-select " data-option-id="447585" data-product-option-id="9231794" data-option-name="dropdown">
+        <label for="4538964967560_option_1">Dropdown</label><div><span class="product-customizer-select-wrap">
+          <select id="4538964967560_option_1" name="properties[Dropdown]">
+            <option value="">Select an option</option>
+            <option value="First Choice" data-index="0">First Choice</option>
+            <option value="Second Choice" data-index="1">Second Choice</option>
+            <option value="Third Choice" data-index="2">Third Choice</option></select></span></div></div>
+      <div class="product-customizer-option option-type-text " data-option-id="447586" data-product-option-id="9231795" data-option-name="single-line-text">
+        <label for="4538964967560_option_2">Single Line Text</label>
+        <div><input type="text" id="4538964967560_option_2" name="properties[Single Line Text]" maxlength="" placeholder="Enter something..."></div></div>
+        <div class="product-customizer-option option-type-multiline " data-option-id="447588" data-product-option-id="9231866" data-option-name="paragraph-text">
+          <label for="4538964967560_option_3">Paragraph Text</label><div>
+            <textarea id="4538964967560_option_3" name="properties[Paragraph Text]" maxlength="" placeholder=""></textarea></div></div>
+        <div class="product-customizer-option option-type-checkbox " data-option-id="447590" data-product-option-id="9231868" data-option-name="single-checkbox">
+          <input type="checkbox" id="4538964967560_option_4" value="true" name="properties[Single Checkbox]">
+          <div><label for="4538964967560_option_4">Single Checkbox</label></div></div>
+      <div class="product-customizer-option option-type-checkbox_group " data-option-id="447591" data-product-option-id="9231869" data-option-name="checkbox-group">
+        <label for="4538964967560_option_5">Checkbox Group</label><div>
+          <ul><li><input type="checkbox" id="4538964967560_option_5_0" value="First Choice"><label for="4538964967560_option_5_0">First Choice</label></li>
+            <li><input type="checkbox" id="4538964967560_option_5_1" value="Second Choice"><label for="4538964967560_option_5_1">Second Choice</label></li><li><input type="checkbox" id="4538964967560_option_5_2" value="Third Choice">
+      <label for="4538964967560_option_5_2">Third Choice</label></li></ul><input type="hidden" id="4538964967560_option_5" name="properties[Checkbox Group]" value=""></div></div>
+      <div class="product-customizer-option option-type-radio " data-option-id="447592" data-product-option-id="9231870" data-option-name="radio-buttons">
+        <label for="4538964967560_option_6">Radio Buttons</label> <div><ul id="4538964967560_option_6"><li><input type="radio" id="4538964967560_option_6_0" name="properties[Radio Buttons]" value="First Choice"><label for="4538964967560_option_6_0">First Choice</label>              </li><li>                <input type="radio" id="4538964967560_option_6_1" name="properties[Radio Buttons]" value="Second Choice"><label for="4538964967560_option_6_1">Second Choice</label></li>
+        <li><input type="radio" id="4538964967560_option_6_2" name="properties[Radio Buttons]" value="Third Choice">
+          <label for="4538964967560_option_6_2">Third Choice</label></li></ul></div></div>
+          <div class="product-customizer-option option-type-date " data-option-id="447593" data-product-option-id="9231871" data-option-name="date-picker">
+            <label for="4538964967560_option_7">Date Picker</label><div><input type="text" autocomplete="off" id="4538964967560_option_7" class="pc_date" name="properties[Date Picker]"></div>      </div><div class="product-customizer-option option-type-swatch " data-option-id="447594" data-product-option-id="9231872" data-option-name="swatch-picker"><label for="4538964967560_option_8">Swatch Picker</label>
+              <div><span class="product-customizer-select-wrap"><select id="4538964967560_option_8" name="properties[Swatch Picker]" style="display:none;">
+                <option value=""></option>
+                <option value="First Choice" data-index="0">First Choice</option>
+                <option value="Second Choice" data-index="1">Second Choice</option>
+                <option value="Third Choice" data-index="2">Third Choice</option></select><!--   Custom Swatch Dropdown  -->
+                <div class="product-customizer-swatch-wrapper"><div class="product-customizer-swatch-container"><div class="product-customizer-swatch__trigger">
+                  <span class="product-customizer-selected-swatch"><span>Select a color...</span></span>
+                  <div class="product-customizer-arrow"></div></div><div class="product-customizer-swatches">
+                    <span class="product-customizer-swatch" data-id="4538964967560_option_8" data-value="First Choice" data-index="0">
+                      <span style="background: #000; padding: 0 12px; margin-right: 7px; border-radius:5px;"></span>
+                      <span style="width: 150px"><span class="option-value">First Choice</span></span></span>
+                      <span class="product-customizer-swatch" data-id="4538964967560_option_8" data-value="Second Choice" data-index="1">
+                        <span style="background: #FF0000; padding: 0 12px; margin-right: 7px; border-radius:5px;"></span><span style="width: 150px">
+                          <span class="option-value">Second Choice</span></span></span><span class="product-customizer-swatch" data-id="4538964967560_option_8" data-value="Third Choice" data-index="2"><span style="background: #0000FF; padding: 0 12px; margin-right: 7px; border-radius:5px;"></span>
+                            <span style="width: 150px"><span class="option-value">Third Choice</span></span></span></div></div></div></span></div></div>
+                            <div class="product-customizer-option option-type-file " data-option-id="447605" data-product-option-id="9232125" data-option-name="file-upload">
+                              <label for="4538964967560_option_9">File Upload</label><div><input type="file" id="4538964967560_option_9" name="properties[File Upload]"></div></div></div>
+  {% endcapture %}
+
+  {%- capture prodcustomizer_options -%}
+    {% render 'product-customizer' with skip_js_init: true %}
+  {% endcapture %}
+
+  {% capture ss_script %}
+    {% render 'shopstorm-scripttags' %}
+  {% endcapture %}
+  {% assign discount_percentage = product.metafields.subscriptions.discount_percentage | round: 2 %}
+  <script>
+    function waitForPCLogicComplete(){
+      if(typeof(shopstorm.ConditionalLogic.runAll) != "undefined")
+        setTimeout(function(){ shopstorm.ConditionalLogic.runAll(); },100);
+      else setTimeout(waitForPCLogicComplete,300);
+    }
+    function run_pc_js_init(){
+      window.shopstorm = {};
+      window.shopstorm.shop = window.shopstorm.shop || {};
+      window.shopstorm.shop.moneyFormat = window.shopstorm.shop.moneyFormat || '{{ shop.money_format | replace: "'", "\\'" }}';
+      window.shopstorm.apps = window.shopstorm.apps || {};
+      window.shopstorm.apps.productCustomizer = window.shopstorm.apps.productCustomizer || {};
+      if (typeof(shopstorm.apps.productCustomizer.$) === 'undefined' && typeof($) !== 'undefined') { shopstorm.apps.productCustomizer.$ = $; }
+      window.shopstorm.apps.productCustomizer.pricingVariantId = window.shopstorm.apps.productCustomizer.pricingVariantId || '{{ shop.metafields.product_customizer.quantity_pricing_variant_id }}';
+      window.shopstorm.apps.productCustomizer.options = window.shopstorm.apps.productCustomizer.options || [];
+      window.shopstorm.ConditionalLogic = window.shopstorm.ConditionalLogic || {};
+      shopstorm.apps.productCustomizer.options.push({ id: "{{ product.id }}", title: "{{ product.title | replace: '"', '\"' }}", data: {{ product.metafields.product_customizer | json }}, discount: {{ discount_percentage }} });
+      shopstorm.ConditionalLogic.rules = (shopstorm.ConditionalLogic.rules || []).concat({{ product.metafields.product_customizer_x.conditional_logic | default: '[]' }});
+      shopstorm.jsSection = 'product-customizer:product-init';
+      shopstorm.apps.productCustomizer.swatchTriggered = true;
+      shopstorm.ConditionalLogic.$ = $;
+      waitForPCLogicComplete();
+    }
+    var aswm_pp_config_data = Object.freeze(new Array(
+      String('{{ prodcustomizer_options | strip_newlines | escape}}').replace(/\'/g,"\\'"),
+      String("{{ prodcustomizer_data | strip_newlines | escape }}")
+    ));
+    var aswm_pc_options = aswm_pp_config_data[0];
+    var aswm_pc_data = aswm_pp_config_data[1];
+  </script>
+  <script id="aswm-pc-script">
+    function aswm_inject_product_customizer_script(){
+      var ss_script = new String('{{ ss_script | strip_newlines | escape }}').replace("async","");
+      $("script[src*='productcustomizer']").remove();
+      $("body").append(new DOMParser().parseFromString(ss_script,"text/html").documentElement.textContent);
+      $("#aswm-pc-script").remove();
+    }
+  </script>
+{% endif %}
+<script>
+  var __aswcx = false;
+  var __aswcx_data = `{% render "product-customizer-aswcx" %}`;
+  window.shopstorm = window.shopstorm || {}; // Extending the SS object
+  window.shopstorm.shop = window.shopstorm.shop || {};
+  window.shopstorm.shop.moneyFormat = window.shopstorm.shop.moneyFormat || '{{ shop.money_format | replace: "'", "\\'" }}';
+  window.shopstorm.cart = {};
+  window.shopstorm.cart.true_cart_count = String(
+      `{% render 'product-customizer-helper' with 'cart-item-count' %}`)
+    .trim();
+  function aswInit(){
+    if (location.search.indexOf("aswmToken") != -1 || localStorage.getItem("_aswm_shop_token")){
+      // We're gonna grab the wizard!
+      $("#asw-core-loading-text").text("Loading Wizard...");
+      $("#asw-core-loading").removeClass("asw-core-hidden");
+      var token = localStorage.getItem("_aswm_shop_token");
+      if (!token){
+        var search = location.search.substr(1);
+        search.split("&");
+        for (var s in search){
+          if (typeof(search) == "array") var sitem = search[s].split("=");
+          else sitem = search.split("=");
+          if (sitem[0] == "aswmToken"){
+            token = sitem[1];
+            break;
+          }
+        }
+      }
+      if (token){
+        localStorage.setItem("_aswm_shop_token",token);
+        $.ajax({
+          url: "https://advanced-sw-core.herokuapp.com/wizard/?aswm_token="+token,
+          method: "GET",
+          success: function(resp){
+            setTimeout(function(resp){
+              $("#asw-core-loading").addClass("asw-core-hidden");
+              $("body").append(resp);
+            },2000,resp);
+          },
+          error: function(err){
+            return;
+          }
+        });
+      }
+      else {
+        console.log("[ASWM] Can't get wizard");
+        $("#asw-core-loading").addClass("asw-core-hidden");
+      }
+    }
+    else {
+      // We're in worker mode
+      /* ASWCX Loader */
+      try{
+        localStorage.setItem("_aswm_s_config",__aswcx_data);
+        __aswcx = true;
+        try{
+          var aswmcx = JSON.parse(localStorage.getItem("_aswm_s_config"));
+          var cart_page_config_a = aswmcx[5];
+          var cart_page_config_b = aswmcx[6];
+          if(!cart_page_config_a || !cart_page_config_b) throw "ASWMCX Error 681";
+          var cart_page_config = {
+            id: cart_page_config_a._aswm_cart_form_id,
+            index: cart_page_config_a._aswm_cart_form_index,
+            index_updated: false,
+            resolved: cart_page_config_a._aswm_resolved_cart_form_conflicts,
+            line_item_sel: cart_page_config_b._aswm_cart_line_item_layout_sel,
+            price_sel: cart_page_config_b._aswm_cart_line_item_price_selectors,
+            quantity_sel: cart_page_config_b._aswm_cart_line_item_quantity_sel,
+            subtotal_sel: cart_page_config_b._aswm_cart_subtotal_sel,
+            cart_count_sel: cart_page_config_b._aswm_cart_count_selector,
+            skip_indexes: cart_page_config_b._aswm_cart_form_skip_indexes
+          };
+          if(cart_page_config.cart_count_sel){
+            $(cart_page_config.cart_count_sel).text(shopstorm.cart.true_cart_count);
+            var cart_count_monitor_func = function(){ 
+              $(cart_page_config.cart_count_sel).off("DOMSubtreeModified");
+              $(cart_page_config.cart_count_sel).text(shopstorm.cart.true_cart_count);
+              setTimeout(function(){
+                $(cart_page_config.cart_count_sel).text(shopstorm.cart.true_cart_count);
+                $(cart_page_config.cart_count_sel).on("DOMSubtreeModified",cart_count_monitor_func);
+              },2);
+            }
+            $(cart_page_config.cart_count_sel).on("DOMSubtreeModified",cart_count_monitor_func);
+          }
+          {% if request.page_type == "cart" %}
+            var cart_page_update_func = function(i){
+              if($(this).text().indexOf("Item Customizations") != -1 || 
+              $(this).text().indexOf("Customizations For") != -1) $(this).css("display","none");
+            }
+            $($(cart_page_config.id)[cart_page_config.index])
+              .find(cart_page_config.line_item_sel).each(cart_page_update_func);
+          {% endif %}
+        }
+        catch(e){
+          console.log(e);
+          // Another one...
+        }
+      }
+      catch(e){
+        console.log(e);
+        // It failed
+      }
+      var url_endpoint = "https://advanced-sw-core.herokuapp.com/wizard/?aswm_worker=true&aswm_tsid="+Shopify.theme.theme_store_id;
+      if (location.href.indexOf("products") != -1) url_endpoint += "&aswm_product=1";
+      $.ajax({
+        url: url_endpoint,
+        method: "GET",
+        success: function(resp){
+          $("body").append(resp);
+        }, 
+        error: function(err){
+          return;
+        }
+      });
+    }
+  }
+  function waitForjQuery(){
+    if(typeof($) != "undefined") aswInit();
+    else if (typeof(jQuery) != "undefined"){
+      $ = jQuery;
+      aswInit();
+    }
+    else setTimeout(waitForjQuery,200);
+  }
+  function checkjQuery(){
+    if(typeof(jQuery) == 'undefined' && typeof($) == 'undefined'){
+      const script = document.createElement('script');
+      script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
+      document.head.appendChild(script);
+      waitForjQuery();
+    }
+    else if (typeof(jQuery)){
+      $ = jQuery;
+      aswInit();
+    }
+  }
+  window.addEventListener('DOMContentLoaded', checkjQuery);
+</script>

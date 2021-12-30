@@ -1,0 +1,12 @@
+.newsletter-section {
+	color: $dark-blue;
+	background-color: $background-yellow;
+
+	&__title {
+		margin-bottom: 2rem;
+	}
+
+	&__text {
+		margin-bottom: 1rem;
+	}
+}

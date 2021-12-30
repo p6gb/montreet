@@ -1,0 +1,40 @@
+// Macht (Pseudo-) Elemente zu Dreiecken.
+//
+// .example {
+//   @include triangle(top, 10px, 10px, $black);
+// }
+@mixin triangle($direction, $width, $height, $color) {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+
+  @if $direction == top {
+    border-width: 0 $width/2 $height $width/2;
+    border-color: transparent transparent $color transparent;
+  } @else if $direction == right-top {
+    border-width: 0 $width $height 0;
+    border-color: transparent $color transparent transparent;
+  } @else if $direction == right {
+    border-width: $height/2 0 $height/2 $width;
+    border-color: transparent transparent transparent $color;
+  } @else if $direction == right-bottom {
+    border-width: 0 0 $height $width;
+    border-color: transparent transparent $color transparent;
+  } @else if $direction == bottom {
+    border-width: $height $width/2 0 $width/2;
+    border-color: $color transparent transparent transparent;
+  } @else if $direction == left-bottom {
+    border-width: $height 0 0 $width;
+    border-color: transparent transparent transparent $color;
+  } @else if $direction == left {
+    border-width: $height/2 $width $height/2 0;
+    border-color: transparent $color transparent transparent;
+  } @else if $direction == left-top {
+    border-width: $height $width 0 0;
+    border-color: $color transparent transparent transparent;
+  } @else {
+    @error "Triangle \"#{$direction}\" is undefined.";
+  }
+}

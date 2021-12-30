@@ -1,0 +1,35 @@
+{%- if section.settings.enable_sidebar -%}
+  <div id="CollectionSidebar">
+    {%- render 'sidebar-drawer', section: section, collection: collection -%}
+  </div>
+{%- endif -%}
+
+{%- if section.settings.enable_sidebar == false or section.settings.filter_style == 'drawer' -%}
+  {% comment %}
+    Override grid styles if sidebar is disabled
+  {% endcomment %}
+  {%- style -%}
+    .collection-content .grid__item--sidebar { width: 0; }
+    .collection-content .grid__item--content { width: 100%; }
+    .grid__item--sidebar { position: static; overflow: hidden; }
+  {%- endstyle -%}
+{%- endif -%}
+
+{%- unless section.settings.enable_sidebar -%}
+  {% comment %}
+    Disable sidebar & filter features
+  {% endcomment %}
+  {%- style -%}
+    .collection-filter__item--drawer {
+      display: none;
+    }
+  {%- endstyle -%}
+{%- endunless -%}
+
+{%- unless section.settings.enable_sort -%}
+  {%- style -%}
+    .collection-filter__item--sort {
+      display: none;
+    }
+  {%- endstyle -%}
+{%- endunless -%}
