@@ -1,0 +1,3 @@
+# https://shopify.dev/themes/tools/cli#excluding-files-from-shopify-cli
+package.json
+package-lock.json
