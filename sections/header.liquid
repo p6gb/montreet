@@ -11,7 +11,7 @@
   assign sticky_header = false
   assign overlay_header = false
 
-  if section.settings.header_sticky
+  if section.settings.header_style == 'sticky'
     assign sticky_header = true
   endif
 
@@ -23,16 +23,16 @@
   endif
 -%}
 
-{%- render 'drawer-menu', section: section, main_menu: main_menu, logo_alignment: logo_alignment -%}
+{%- render 'drawer-menu', main_menu: main_menu, logo_alignment: logo_alignment -%}
 {%- render 'cart-drawer' -%}
 
 {%- style -%}
   .site-nav__link,
   .site-nav__dropdown-link {
-    font-size: {{ settings.type_navigation_size }}px;
+    font-size: {{ section.settings.type_navigation_size }}px;
   }
 
-  {%- if settings.type_navigation_size < 18 -%}
+  {%- if section.settings.type_navigation_size < 18 -%}
     .site-nav__link {
       padding-left: 8px;
       padding-right: 8px;
@@ -56,7 +56,7 @@
 
     <header
       id="SiteHeader"
-      class="site-header{% if settings.type_navigation_style %} site-header--heading-style{% endif %}"
+      class="site-header{%if section.settings.type_navigation_style %} site-header--heading-style{% endif %}"
       data-sticky="{{ sticky_header }}"
       data-overlay="{{ overlay_header }}">
       <div class="page-width">
@@ -72,7 +72,7 @@
 
           {%- if logo_alignment == 'left' and section.settings.main_menu_alignment != 'left-drawer' -%}
             <div class="header-item header-item--navigation{% if section.settings.main_menu_alignment == 'left-center' %} text-center{% endif %}">
-              {%- render 'header-desktop-nav', section: section, main_menu: main_menu -%}
+              {%- render 'header-desktop-nav', main_menu: main_menu -%}
             </div>
           {%- endif -%}
 
@@ -90,7 +90,7 @@
               {%- endif -%}
 
               {%- if section.settings.main_menu_alignment == 'center-left' -%}
-                {%- render 'header-desktop-nav', section: section, main_menu: main_menu -%}
+                {%- render 'header-desktop-nav', main_menu: main_menu -%}
               {%- endif -%}
 
               <div class="site-nav{% unless section.settings.main_menu_alignment == 'center-drawer' %} large-up--hide{% endunless %}">
@@ -122,7 +122,7 @@
 
         {%- if section.settings.main_menu_alignment == 'center' -%}
           <div class="text-center">
-            {%- render 'header-desktop-nav', section: section, main_menu: main_menu -%}
+            {%- render 'header-desktop-nav', main_menu: main_menu -%}
           </div>
         {%- endif -%}
       </div>
@@ -131,7 +131,6 @@
           <div class="page-width">
             <form action="{{ routes.search_url }}" method="get" id="HeaderSearchForm" class="site-header__search-form" role="search">
               <input type="hidden" name="type" value="{{ settings.search_type }}">
-              <input type="hidden" name="options[prefix]" value="last">
               <button type="submit" class="text-link site-header__search-btn">
                 <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
                 <span class="icon__fallback-text">{{ 'general.search.submit' | t }}</span>
@@ -147,7 +146,7 @@
         {%- if settings.predictive_search_enabled -%}
           <div id="PredictiveWrapper" class="predictive-results hide">
             <div class="page-width">
-              <div id="PredictiveResults" class="predictive-result__layout"></div>
+              <div id="PredictiveResults"></div>
               <div class="text-center predictive-results__footer">
                 <button type="button" class="btn" data-predictive-search-button>
                   <small>
@@ -182,42 +181,6 @@
     "name": "Header and menus",
     "settings": [
       {
-        "type": "header",
-        "content": "Logo"
-      },
-      {
-        "type": "image_picker",
-        "id": "logo",
-        "label": "Logo"
-      },
-      {
-        "type": "image_picker",
-        "id": "logo-inverted",
-        "label": "White logo",
-        "info": "Used when on top of an image"
-      },
-      {
-        "type": "range",
-        "id": "desktop_logo_width",
-        "label": "Desktop logo width",
-        "default": 200,
-        "min": 100,
-        "max": 400,
-        "step": 10,
-        "unit": "px"
-      },
-      {
-        "type": "range",
-        "id": "mobile_logo_width",
-        "label": "Mobile logo width",
-        "default": 140,
-        "min": 60,
-        "max": 200,
-        "step": 10,
-        "unit": "px",
-        "info": "Set as a max-width, may appear smaller"
-      },
-      {
         "type": "link_list",
         "id": "main_menu_link_list",
         "label": "Menu",
@@ -226,7 +189,7 @@
       {
         "type": "select",
         "id": "main_menu_alignment",
-        "label": "Layout",
+        "label": "Logo alignment",
         "default": "left-center",
         "options": [
           {
@@ -260,10 +223,20 @@
         ]
       },
       {
-        "type": "checkbox",
-        "id": "header_sticky",
-        "label": "Enable sticky header",
-        "default": true
+        "type": "select",
+        "id": "header_style",
+        "label": "Header style",
+        "default": "normal",
+        "options": [
+          {
+            "value": "normal",
+            "label": "Normal"
+          },
+          {
+            "value": "sticky",
+            "label": "Sticky"
+          }
+        ]
       },
       {
         "type": "checkbox",
@@ -277,6 +250,24 @@
         "label": "Overlay header over collection",
         "info": "(if collection image is enabled)",
         "default": false
+      },
+      {
+        "type": "header",
+        "content": "Typography"
+      },
+      {
+        "type": "range",
+        "id": "type_navigation_size",
+        "label": "Text size",
+        "default": 18,
+        "min": 12,
+        "max": 40,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "type_navigation_style",
+        "label": "Use heading font"
       },
       {
         "type": "header",
@@ -307,62 +298,41 @@
     ],
     "blocks": [
       {
-        "type": "megamenu",
-        "name": "Mega menu",
+        "type": "logo",
+        "name": "Logo",
+        "limit": 1,
         "settings": [
           {
-            "type": "text",
-            "id": "menu_item",
-            "label": "Menu item",
-            "info": "Enter the name of the menu item you'd like to apply a mega menu layout to. [Learn more](https://archetypethemes.co/blogs/motion/how-do-i-create-a-mega-menu)"
-          },
-          {
-            "type": "header",
-            "content": "Promotion 1"
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
           },
           {
             "type": "image_picker",
-            "id": "promo_image_1",
-            "label": "Image"
+            "id": "logo-inverted",
+            "label": "White logo",
+            "info": "Used when on top of an image"
           },
           {
-            "type": "text",
-            "id": "promo_heading_1",
-            "label": "Heading"
+            "type": "range",
+            "id": "desktop_logo_width",
+            "label": "Desktop logo width",
+            "default": 200,
+            "min": 100,
+            "max": 400,
+            "step": 10,
+            "unit": "px"
           },
           {
-            "type": "text",
-            "id": "promo_text_1",
-            "label": "Text"
-          },
-          {
-            "type": "url",
-            "id": "promo_url_1",
-            "label": "Link"
-          },
-          {
-            "type": "header",
-            "content": "Promotion 2"
-          },
-          {
-            "type": "image_picker",
-            "id": "promo_image_2",
-            "label": "Image"
-          },
-          {
-            "type": "text",
-            "id": "promo_heading_2",
-            "label": "Heading"
-          },
-          {
-            "type": "text",
-            "id": "promo_text_2",
-            "label": "Text"
-          },
-          {
-            "type": "url",
-            "id": "promo_url_2",
-            "label": "Link"
+            "type": "range",
+            "id": "mobile_logo_width",
+            "label": "Mobile logo width",
+            "default": 140,
+            "min": 60,
+            "max": 200,
+            "step": 10,
+            "unit": "px",
+            "info": "Set as a max-width, may appear smaller"
           }
         ]
       }
