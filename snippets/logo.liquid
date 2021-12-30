@@ -1,0 +1,22 @@
+<div class="logo-bar__item js-partner-logo tooltip" data-category="{{category}}" {{ block.shopify_attributes }}>
+  {% if link != blank %}
+    <a href="{{ link }}" target="_blank" class="logo-bar__link">
+  {% endif %}
+  {% if image != blank %}
+    {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+    <img class="logo-bar__image lazyload"
+        data-src="{{ img_url }}"
+        data-widths="[180, 360, 540, 720]"
+        data-aspectratio="{{ image.aspect_ratio }}"
+        data-sizes="auto"
+        alt="{{ image.alt }}">
+  {% else %}
+    {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+  {% endif %}
+  {% if link != blank %}
+    </a>
+  {% endif %}
+  {% if name != blank %}
+    <span class="tooltiptext">{{ name }}</span>
+  {% endif %}
+</div>
