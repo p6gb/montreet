@@ -282,67 +282,6 @@
         ]
       },
       {
-        "type": "select",
-        "id": "type_chaney_spacing",
-        "label": "Chaney Letter spacing",
-        "default": "25",
-        "options": [
-          {
-            "value": "-75",
-            "label": "-75"
-          },
-          {
-            "value": "-50",
-            "label": "-50"
-          },
-          {
-            "value": "-25",
-            "label": "-25"
-          },
-          {
-            "value": "0",
-            "label": "0"
-          },
-          {
-            "value": "25",
-            "label": "25"
-          },
-          {
-            "value": "50",
-            "label": "50"
-          },
-          {
-            "value": "75",
-            "label": "75"
-          },
-          {
-            "value": "100",
-            "label": "100"
-          },
-          {
-            "value": "150",
-            "label": "150"
-          },
-          {
-            "value": "200",
-            "label": "200"
-          },
-          {
-            "value": "250",
-            "label": "250"
-          }
-        ]
-      },
-      {
-        "type": "range",
-        "id": "type_chaney_base_size",
-        "label": "Chaney Base size",
-        "default": 32,
-        "min": 22,
-        "max": 60,
-        "unit": "px"
-      },
-      {
         "type": "range",
         "id": "type_header_base_size",
         "label": "Base size",
@@ -355,15 +294,6 @@
         "type": "range",
         "id": "type_header_line_height",
         "label": "Line height",
-        "default": 1.4,
-        "min": 0.8,
-        "max": 2,
-        "step": 0.1
-      },
-      {
-        "type": "range",
-        "id": "type_chaney_line_height",
-        "label": "Chaney Line height",
         "default": 1.4,
         "min": 0.8,
         "max": 2,
