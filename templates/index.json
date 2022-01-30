@@ -29,9 +29,37 @@
         "autoplay": true,
         "autoplay_speed": 5
       }
+    },
+    "16435587506275eadd": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Unsere Bestseller",
+        "home_featured_products": "alle-produkte",
+        "per_row": 5,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16435588208e0c7288": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "ABOUT US",
+        "title": "WER WIR SIND",
+        "text": "<p>Nachhaltige Lebensweise, spannende, ausgefallene Designs und made in Europe - das ist MONTREET.<\/p>",
+        "button_label": "Mehr über MONTREET",
+        "button_link": "shopify:\/\/pages\/our-story",
+        "image": "shopify:\/\/shop_images\/447817578_278666.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": true
+      }
     }
   },
   "order": [
-    "1643557152da74e53e"
+    "1643557152da74e53e",
+    "16435587506275eadd",
+    "16435588208e0c7288"
   ]
 }
