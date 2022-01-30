@@ -55,11 +55,91 @@
         "height": 550,
         "parallax": true
       }
+    },
+    "164355902397d3a8e9": {
+      "type": "rich-text",
+      "blocks": {
+        "16435590232351b4c3-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Unser Versprechen"
+          }
+        },
+        "16435590232351b4c3-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Wir verbinden ehrliche Outdoor Mode mit einzigartigem Design.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16435590232351b4c3-0",
+        "16435590232351b4c3-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1643559081348e5c83": {
+      "type": "text-columns",
+      "blocks": {
+        "164355908183382ea8-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/ARTIST_EDITION.png",
+            "image_width": 60,
+            "title": "Kreativ",
+            "text": "<p>Bei uns wird's nicht langweilig! <\/p><p>Mit ausgefallenen, spannenden Designs von österreichischen KünstlerInnen, bringen wir Farbe in dein Leben!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "164355908183382ea8-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/RECYCLETMATERIALIEN.png",
+            "image_width": 60,
+            "title": "Nachhaltig",
+            "text": "<p>Wir setzen alles daran, nachhaltig zu handeln und mit euch das System zu ändern. Ehrlichkeit und Transparenz stehen für uns an erster Stelle.<\/p><p>Let's make a change!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "164355908183382ea8-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FAIRHERGESTELLT.png",
+            "image_width": 60,
+            "title": "Funktional",
+            "text": "<p>Unsere zeitlose Outdoor Mode sieht nicht nur lässig aus, sondern unterstützt dich auch optimal bei deinen Abenteuern - egal ob im Alltag oder in der Natur!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164355908183382ea8-0",
+        "164355908183382ea8-1",
+        "164355908183382ea8-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
     "1643557152da74e53e",
     "16435587506275eadd",
-    "16435588208e0c7288"
+    "16435588208e0c7288",
+    "164355902397d3a8e9",
+    "1643559081348e5c83"
   ]
 }
