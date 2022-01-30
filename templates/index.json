@@ -148,6 +148,21 @@
         "height": 550,
         "parallax": true
       }
+    },
+    "1643559241eab48128": {
+      "type": "collection-callout",
+      "settings": {
+        "collection": "featured",
+        "subtitle": "Individuelle",
+        "title": "ARTIST Kollektionen",
+        "text": "Erfahre mehr über unsere einzigartigen Artist Kollektionen, die in Zusammenarbeit mit Künstler*Innen aus Österreich entstehen und nur in limitierter Auflage erhältlich sind!",
+        "cta_text1": "Zur Artist-Kollektion",
+        "cta_link1": "shopify:\/\/collections\/featured",
+        "cta_text2": "",
+        "cta_link2": "",
+        "layout": "right",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -156,6 +171,7 @@
     "16435588208e0c7288",
     "164355902397d3a8e9",
     "1643559081348e5c83",
-    "1643559238ee358c57"
+    "1643559238ee358c57",
+    "1643559241eab48128"
   ]
 }
