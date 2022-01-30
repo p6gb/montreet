@@ -163,6 +163,20 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "16435594846c80d8b9": {
+      "type": "background-video-text",
+      "settings": {
+        "subtitle": "Don't Change who you are",
+        "title": "Just Start wearing Green",
+        "text": "",
+        "button_label": "Mehr über uns",
+        "button_link": "shopify:\/\/pages\/unsere-werte",
+        "video_url": "https:\/\/vimeo.com\/462927940",
+        "color_border": "#0c0d49",
+        "layout": "left",
+        "height": 550
+      }
     }
   },
   "order": [
@@ -172,6 +186,7 @@
     "164355902397d3a8e9",
     "1643559081348e5c83",
     "1643559238ee358c57",
-    "1643559241eab48128"
+    "1643559241eab48128",
+    "16435594846c80d8b9"
   ]
 }
