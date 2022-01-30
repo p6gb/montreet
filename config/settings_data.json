@@ -1,26 +1,32 @@
 {
   "current": {
-    "color_borders": "#e8e8e1",
+    "color_body_text": "#0c0d49",
+    "color_borders": "#f0f1f3",
     "color_button": "#0C0D49",
     "color_button_text": "#ffffff",
-    "color_footer": "#111111",
-    "color_footer_text": "#ffffff",
+    "color_sale_price": "#a61315",
+    "color_sale_tag": "#a61315",
+    "color_cart_dot": "#a61315",
+    "color_header_text": "#0c0d49",
+    "color_announcement": "#0c0d49",
+    "color_footer": "#fdf7e7",
+    "color_footer_text": "#2c2c2c",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#000000",
-    "color_drawer_border": "#e8e8e1",
-    "color_drawer_button": "#111111",
+    "color_drawer_border": "#f0f1f3",
+    "color_drawer_button": "#0c0d49",
     "color_drawer_button_text": "#ffffff",
     "color_modal_overlays": "#aeb1b8",
     "color_image_2": "#000000",
     "color_image_2_opacity": 0,
     "color_image_1": "#000000",
-    "color_image_1_opacity": 62,
+    "color_image_1_opacity": 26,
     "color_small_image_bg": "#ffffff",
-    "color_large_image_bg": "#111111",
+    "color_large_image_bg": "#dedfe1",
     "type_header_font_family": "montserrat_n7",
-    "type_header_spacing": "0",
-    "type_header_base_size": 35,
-    "type_header_line_height": 1.2,
+    "type_header_spacing": "50",
+    "type_header_base_size": 34,
+    "type_header_line_height": 1.1,
     "type_chaney_line_height": 1,
     "type_header_accent_transform": true,
     "type_base_font_family": "montserrat_n4",
@@ -28,10 +34,11 @@
     "type_base_size": 16,
     "type_base_line_height": 1.6,
     "type_base_accent_transform": true,
+    "type_navigation_style": false,
     "icon_weight": "3px",
     "icon_linecaps": "miter",
     "animate_page_transitions": true,
-    "animate_page_transition_style": "page-slow-fade",
+    "animate_page_transition_style": "page-slide-reveal-down",
     "animate_sections": true,
     "animate_sections_background_style": "zoom-fade",
     "animate_sections_text_style": "rise-up",
@@ -40,17 +47,21 @@
     "animate_buttons": true,
     "animate_underlines": true,
     "quick_shop_text": "Quick view",
+    "enable_swatches": true,
     "cart_type": "drawer",
     "social_facebook_link": "https:\\\/\\\/www.facebook.com\\\/montreetsportswear\\\/",
-    "social_instagram_link": "https:\\\/\\\/www.instagram.com\\\/montreet_\\\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.at\/montreetsportswear\/_saved\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/montreet_\/",
+    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/montreet",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/logo_blue_0d1dfc04-cb47-4dba-8b84-e5ed7a3c5dbb.png",
     "show_breadcrumbs": false,
     "checkout_header_image": "",
-    "checkout_logo_image": "",
-    "checkout_logo_position": "left",
-    "checkout_logo_size": "medium",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_black_3c5e6814-6ce7-4d7f-bda7-e0c52c393e68.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
     "checkout_body_background_image": "",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
@@ -96,57 +107,19 @@
           "type_navigation_style": false,
           "show_announcement": true,
           "announcement_text": "Free shipping and returns",
+          "announcement_link": "",
           "announcement_closable": true
         }
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "1494292481350": {
-            "type": "logo_social",
-            "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 20
-            }
-          },
-          "1494301487049": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": true,
-              "menu": "footer"
-            }
-          },
-          "1494292485313": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": true,
-              "menu": "main-menu",
-              "container_width": 20
-            }
-          },
-          "1494292487693": {
-            "type": "newsletter",
-            "settings": {
-              "show_footer_title": true,
-              "title": "Sign up and save",
-              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
-            }
-          }
-        },
-        "block_order": [
-          "1494292481350",
-          "1494301487049",
-          "1494292485313",
-          "1494292487693"
-        ],
         "settings": {
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true,
-          "show_payment_icons": false,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
+          "show_payment_icons": true,
           "colorize_payment_icons": false,
-          "show_copyright": false,
+          "show_copyright": true,
           "copyright_text": ""
         }
       },
@@ -179,36 +152,36 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/slow_mood_-1.png",
+              "image": "shopify:\/\/shop_images\/455926697_441754.jpg",
               "image_width": 650,
-              "title": "Our Story",
-              "text": "<p>MONTREET steht für: Nachhaltigkeit, Einzigartigkeit und Kreislaufwirtschaft.<\\\/p>",
-              "button_label": "Erfahre mehr über uns",
-              "button_link": "shopify:\/\/pages\/our-story"
+              "title": "FAQs",
+              "text": "<p>Du hast offene Fragen zu MONTREET, unseren Produkten oder deiner Bestellung? In unseren FAQs beantworten wir die meistgestellten Fragen.<\/p>",
+              "button_label": "Zu den FAQs",
+              "button_link": "shopify:\/\/pages\/faqs"
             }
           },
           "footer-promotions-1": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-13_at_16.28.09.png",
+              "image": "shopify:\/\/shop_images\/DSC_0291_2.jpg",
               "image_width": 650,
-              "title": "Rental Services",
-              "text": "<p>Wusstest du schon, dass du unsere Produkte auch ausleihen kannst?<\\\/p>",
-              "button_label": "Zum MONTREET Rental Service",
-              "button_link": "shopify:\/\/pages\/rental-services"
+              "title": "Visit Us",
+              "text": "<p>Du willst unsere Produkte in einem Geschäft in deiner Stadt kaufen? Kein Problem, besuche unsere Jacken und Leggings in diesen Geschäften. <\/p>",
+              "button_label": "Besuche uns",
+              "button_link": "shopify:\/\/pages\/visit-us"
             }
           },
           "footer-promotions-2": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-13_at_16.29.54.png",
+              "image": "shopify:\/\/shop_images\/A7R03162_HD_003_a1c2b259-2a65-40ae-80cb-3624493722aa.jpg",
               "image_width": 650,
-              "title": "Sustainable Development Goals",
-              "text": "<p>So setzen wir die Ziele für nachhaltige Entwicklung um.<\\\/p>",
-              "button_label": "Über die SDGs",
-              "button_link": "shopify:\/\/pages\/sustainable-development-goals"
+              "title": "Unser Blog",
+              "text": "<p>Du willst noch mehr zu unseren Produkten, Materialien oder Werten wissen? Lies dazu in unserem Blog nach. <\/p>",
+              "button_label": "Blogbeiträge lesen",
+              "button_link": "shopify:\/\/blogs\/news"
             }
           }
         },
@@ -226,14 +199,16 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "popup_seconds": 5,
           "popup_days": 30,
-          "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\\\/p>",
+          "popup_title": "10% RABATT",
+          "popup_image": "shopify:\/\/shop_images\/210610_Montreet_PR_4000px_0011.jpg",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.&lt;\\\/p&gt;<\/p>",
           "close_text": "No thanks",
           "enable_newsletter": true,
           "button_label": "Optional button",
+          "button_link": "",
           "enable_button": false
         }
       },

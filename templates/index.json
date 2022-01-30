@@ -209,6 +209,77 @@
         "layout": "left",
         "divider": false
       }
+    },
+    "1643559842a9e4ea45": {
+      "type": "apps",
+      "blocks": {
+        "828ea1f9-dcfe-4000-8c41-8952c786ed27": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1800,
+            "show_header": true
+          }
+        }
+      },
+      "block_order": [
+        "828ea1f9-dcfe-4000-8c41-8952c786ed27"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "164356004562a7cd17": {
+      "type": "logo-list",
+      "blocks": {
+        "1643560045d338bc02-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/falterat_logo.png",
+            "link": ""
+          }
+        },
+        "1643560045d338bc02-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kleinezeitung_logo.png",
+            "link": "https:\/\/www.kleinezeitung.at\/lebensart\/sonntag\/6026269\/Levitate-und-Montreet_Mit-Recycling-und-Pflanzenfasern-setzen"
+          }
+        },
+        "1643560045d338bc02-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/textilzeitung_logo.jpg",
+            "link": "https:\/\/www.textilzeitung.at\/fashion\/news\/label-to-watch-montreet-13828"
+          }
+        },
+        "1643560045d338bc02-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/miss_Logo.png",
+            "link": "https:\/\/mio.observer.at\/webview\/d0c6cffc-13ca-4ee7-a13a-efae0a13b068\/7128698#&gid=1&pid=1"
+          }
+        },
+        "4a2dfa14-8fff-406a-b0f4-c9e7a47608b6": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KURIER_Logo.jpg",
+            "link": "https:\/\/mio.observer.at\/webview\/3c7cf60c-f2f5-45e0-8c88-02754c18d270\/6713257#&gid=1&pid=1"
+          }
+        }
+      },
+      "block_order": [
+        "1643560045d338bc02-0",
+        "1643560045d338bc02-1",
+        "1643560045d338bc02-2",
+        "1643560045d338bc02-3",
+        "4a2dfa14-8fff-406a-b0f4-c9e7a47608b6"
+      ],
+      "settings": {
+        "title": "Bekannt aus",
+        "logo_opacity": 100,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -221,6 +292,8 @@
     "1643559241eab48128",
     "16435594846c80d8b9",
     "1643559555ba63368b",
-    "1643559712b55bae47"
+    "1643559712b55bae47",
+    "1643559842a9e4ea45",
+    "164356004562a7cd17"
   ]
 }
