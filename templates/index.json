@@ -177,6 +177,22 @@
         "layout": "left",
         "height": 550
       }
+    },
+    "1643559555ba63368b": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Montreet-12_Quadrat.jpg",
+        "image_width": 500,
+        "subtitle": "- Reduce - Reuse - Repair -",
+        "title": "Wir reparieren deine Kleidung!",
+        "text": "<p>Dein MONTREET*Lieblingsteil hat ein Loch oder einen Riss? Wir reparieren dein Kleidungsstück kostenlos für dich.  Schicke uns einfach eine Mail oder fülle das Kontaktformular aus - ganz easy! Denn wir wollen natürlich, dass dich unsere Kleidungsstücke so lange wie möglich begleiten.<\/p>",
+        "button_label": "Jetzt reparieren",
+        "button_link": "shopify:\/\/pages\/reparaturservice",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -187,6 +203,7 @@
     "1643559081348e5c83",
     "1643559238ee358c57",
     "1643559241eab48128",
-    "16435594846c80d8b9"
+    "16435594846c80d8b9",
+    "1643559555ba63368b"
   ]
 }
