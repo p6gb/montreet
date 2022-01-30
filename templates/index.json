@@ -22,12 +22,12 @@
         "1643557152dd165b0b-0"
       ],
       "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "arrows",
+        "section_height": "100vh",
+        "mobile_height": "100vh",
+        "parallax": false,
+        "style": "dots",
         "autoplay": true,
-        "autoplay_speed": 5
+        "autoplay_speed": 7
       }
     },
     "16435587506275eadd": {
