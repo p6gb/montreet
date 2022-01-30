@@ -133,6 +133,21 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "1643559238ee358c57": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "Wir sind außerdem",
+        "title": "Gewinner des Vegan Fashion Award 2021",
+        "text": "<p>Mit unserer THE CLIMBER* Jacke in der Kategorie \"Bestes Outdoor Piece\".<\/p>",
+        "button_label": "Zur Jacke",
+        "button_link": "shopify:\/\/products\/the-climber-artist-edition",
+        "image": "shopify:\/\/shop_images\/Mariam_mit_schwarzem_Logo_Kopie.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "parallax": true
+      }
     }
   },
   "order": [
@@ -140,6 +155,7 @@
     "16435587506275eadd",
     "16435588208e0c7288",
     "164355902397d3a8e9",
-    "1643559081348e5c83"
+    "1643559081348e5c83",
+    "1643559238ee358c57"
   ]
 }
