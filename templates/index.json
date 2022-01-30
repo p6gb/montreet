@@ -193,6 +193,22 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "1643559712b55bae47": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_0291_3.jpg",
+        "image_width": 500,
+        "subtitle": "UNSER MIETSERVICE",
+        "title": "Miete eine Jacke",
+        "text": "<p>Du bist nicht regelmäßig klettern und laufen gehst du höchstens für einen guten Zweck? Du möchtest ein Produkt zuerst testen oder dir fehlt das nötige Kleingeld? <\/p><p>Wir haben die Lösung für dich, denn bei uns kannst du Jacken auch mieten!<\/p>",
+        "button_label": "Zum Mietservice",
+        "button_link": "shopify:\/\/pages\/rental-services",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -204,6 +220,7 @@
     "1643559238ee358c57",
     "1643559241eab48128",
     "16435594846c80d8b9",
-    "1643559555ba63368b"
+    "1643559555ba63368b",
+    "1643559712b55bae47"
   ]
 }
