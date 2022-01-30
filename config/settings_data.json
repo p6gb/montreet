@@ -96,6 +96,7 @@
           "type_navigation_style": false,
           "show_announcement": true,
           "announcement_text": "Free shipping and returns",
+          "announcement_link": "",
           "announcement_closable": true
         }
       },
@@ -113,7 +114,8 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "footer"
+              "menu": "footer",
+              "container_width": 20
             }
           },
           "1494292485313": {
@@ -179,36 +181,36 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/slow_mood_-1.png",
+              "image": "shopify:\/\/shop_images\/455926697_441754.jpg",
               "image_width": 650,
-              "title": "Our Story",
-              "text": "<p>MONTREET steht für: Nachhaltigkeit, Einzigartigkeit und Kreislaufwirtschaft.<\\\/p>",
-              "button_label": "Erfahre mehr über uns",
-              "button_link": "shopify:\/\/pages\/our-story"
+              "title": "FAQs",
+              "text": "<p>Du hast offene Fragen zu MONTREET, unseren Produkten oder deiner Bestellung? In unseren FAQs beantworten wir die meistgestellten Fragen.<\/p>",
+              "button_label": "Zu den FAQs",
+              "button_link": "shopify:\/\/pages\/faqs"
             }
           },
           "footer-promotions-1": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-13_at_16.28.09.png",
+              "image": "shopify:\/\/shop_images\/DSC_0291_2.jpg",
               "image_width": 650,
-              "title": "Rental Services",
-              "text": "<p>Wusstest du schon, dass du unsere Produkte auch ausleihen kannst?<\\\/p>",
-              "button_label": "Zum MONTREET Rental Service",
-              "button_link": "shopify:\/\/pages\/rental-services"
+              "title": "Visit Us",
+              "text": "<p>Du willst unsere Produkte in einem Geschäft in deiner Stadt kaufen? Kein Problem, besuche unsere Jacken und Leggings in diesen Geschäften. <\/p>",
+              "button_label": "Besuche uns",
+              "button_link": "shopify:\/\/pages\/visit-us"
             }
           },
           "footer-promotions-2": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-13_at_16.29.54.png",
+              "image": "shopify:\/\/shop_images\/A7R03162_HD_003_a1c2b259-2a65-40ae-80cb-3624493722aa.jpg",
               "image_width": 650,
-              "title": "Sustainable Development Goals",
-              "text": "<p>So setzen wir die Ziele für nachhaltige Entwicklung um.<\\\/p>",
-              "button_label": "Über die SDGs",
-              "button_link": "shopify:\/\/pages\/sustainable-development-goals"
+              "title": "Unser Blog",
+              "text": "<p>Du willst noch mehr zu unseren Produkten, Materialien oder Werten wissen? Lies dazu in unserem Blog nach. <\/p>",
+              "button_label": "Blogbeiträge lesen",
+              "button_link": "shopify:\/\/blogs\/news"
             }
           }
         },
@@ -234,6 +236,7 @@
           "close_text": "No thanks",
           "enable_newsletter": true,
           "button_label": "Optional button",
+          "button_link": "",
           "enable_button": false
         }
       },
