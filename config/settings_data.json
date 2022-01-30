@@ -102,53 +102,13 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "1494292481350": {
-            "type": "logo_social",
-            "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 20
-            }
-          },
-          "1494301487049": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": true,
-              "menu": "footer",
-              "container_width": 20
-            }
-          },
-          "1494292485313": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": true,
-              "menu": "main-menu",
-              "container_width": 20
-            }
-          },
-          "1494292487693": {
-            "type": "newsletter",
-            "settings": {
-              "show_footer_title": true,
-              "title": "Sign up and save",
-              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
-            }
-          }
-        },
-        "block_order": [
-          "1494292481350",
-          "1494301487049",
-          "1494292485313",
-          "1494292487693"
-        ],
         "settings": {
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true,
-          "show_payment_icons": false,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
+          "show_payment_icons": true,
           "colorize_payment_icons": false,
-          "show_copyright": false,
+          "show_copyright": true,
           "copyright_text": ""
         }
       },
