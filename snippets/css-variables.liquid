@@ -1,5 +1,18 @@
 {%- style -%}
+{% comment %} add Chaney Font Face {% endcomment %}
+  @font-face {
+    font-family: "Chaney";
+    src: url('{{ "chaney-wide-webfont.woff2" | asset_url }}') format("woff2"),
+        url('{{ "chaney-wide-webfont.woff" | asset_url }}') format("woff");
+  }
+  
   :root {
+    --typeChaneyPrimary: 'Chaney';
+    --typeChaneyFallback: {{ settings.type_header_font_family.family }}, {{ settings.type_header_font_family.fallback_families }};
+    --typeChaneySize: {{ settings.type_chaney_base_size | default: '32' | append: 'px' }};
+    --typeChaneyWeight: 400;
+    --typeChaneyLineHeight: {{ settings.type_chaney_line_height | default: 1.0 }};
+    --typeChaneySpacing: {{ settings.type_chaney_spacing | default: '25' | divided_by: 1000.00 | append: 'em' }};
     --typeHeaderPrimary: {{ settings.type_header_font_family.family }};
     --typeHeaderFallback: {{ settings.type_header_font_family.fallback_families }};
     --typeHeaderSize: {{ settings.type_header_base_size | default: '32' | append: 'px' }};
