@@ -1,4 +1,6 @@
-# https://montreet.net
+# Montreet
+
+https://montreet.net
 
 Montreet Shopify building on Motion Theme
 
