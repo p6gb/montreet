@@ -142,8 +142,8 @@
             "type": "newsletter-social",
             "settings": {
               "show_footer_title": true,
-              "title": "Unterstütze mit deinem Kauf die Umwelt.",
-              "richtext": "<p>Weil uns nachhaltiges Wirtschaften nicht genug ist, spenden wir 3 % unserer gesamten Einnahmen an Umweltbildungsworkshops von GLOBAL 2000.<\/p>",
+              "title": "Newsletter",
+              "richtext": "<p>Gib deine E-Mail Adresse ein und wir halten dich mit unserem Newsletter auf dem Laufenden.<\/p>",
               "container_width": 25
             }
           }
