@@ -113,6 +113,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "ca4f4915-977d-41be-922a-8074dab57caa": {
+            "type": "logo_social",
+            "settings": {
+              "desktop_logo_height": 50,
+              "container_width": 20
+            }
+          }
+        },
+        "block_order": [
+          "ca4f4915-977d-41be-922a-8074dab57caa"
+        ],
         "settings": {
           "show_locale_selector": false,
           "show_currency_selector": false,
