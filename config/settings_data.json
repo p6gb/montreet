@@ -100,14 +100,14 @@
         "settings": {
           "main_menu_link_list": "main-menu",
           "main_menu_alignment": "left-center",
-          "header_style": "normal",
+          "header_style": "sticky",
           "sticky_index": true,
           "sticky_collection": false,
-          "type_navigation_size": 18,
+          "type_navigation_size": 15,
           "type_navigation_style": false,
           "show_announcement": true,
-          "announcement_text": "Free shipping and returns",
-          "announcement_link": "",
+          "announcement_text": "Kostenloser Versand ab 60€ 💚",
+          "announcement_link": "shopify:\/\/collections\/all",
           "announcement_closable": true
         }
       },
@@ -118,7 +118,8 @@
             "type": "logo",
             "settings": {
               "logo": "shopify:\/\/shop_images\/logo_black_3c5e6814-6ce7-4d7f-bda7-e0c52c393e68.png",
-              "desktop_logo_height": 94
+              "desktop_logo_height": 94,
+              "container_width": 25
             }
           },
           "c08db98f-0af4-4644-800f-49cfd15477d5": {
