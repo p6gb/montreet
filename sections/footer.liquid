@@ -37,9 +37,17 @@
         {%- endif -%}
 
         {%- case block.type -%}
+        {%- when 'logo' -%}
+          <div {{ block.shopify_attributes }} class="grid__item footer__item--{{ block.id }}">
+            {%- render 'footer-logo', block: block -%}
+          </div>
         {%- when 'logo_social' -%}
           <div {{ block.shopify_attributes }} class="grid__item footer__item--{{ block.id }}">
             {%- render 'footer-logo-social', block: block -%}
+          </div>
+        {%- when 'newsletter_social' -%}
+          <div {{ block.shopify_attributes }} class="grid__item footer__item--{{ block.id }}">
+            {%- render 'footer-newsletter-social', block: block -%}
           </div>
         {%- when 'custom' -%}
           <div {{ block.shopify_attributes }} class="grid__item footer__item--{{ block.id }}">
@@ -244,6 +252,27 @@
         ]
       },
       {
+        "type": "logo",
+        "name": "Logo",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo image"
+          },
+          {
+            "type": "range",
+            "id": "desktop_logo_height",
+            "label": "Logo height",
+            "default": 50,
+            "min": 20,
+            "max": 120,
+            "unit": "px"
+          }          
+        ]
+      },
+      {
         "type": "menu",
         "name": "Menu",
         "settings": [
@@ -274,6 +303,45 @@
       {
         "type": "newsletter",
         "name": "Newsletter",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "show_footer_title",
+            "label": "Show title",
+            "default": true
+          },
+          {
+            "type": "paragraph",
+            "content": "Any customers who sign up will have an account created for them in Shopify. [View customers](/admin/customers)."
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Sign up and save"
+          },
+          {
+            "type": "richtext",
+            "id": "richtext",
+            "label": "Text",
+            "info": "Optional",
+            "default": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
+          },
+          {
+            "type": "range",
+            "id": "container_width",
+            "label": "Column width",
+            "default": 20,
+            "min": 15,
+            "max": 95,
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "type": "newsletter-social",
+        "name": "Newsletter and Social",
         "limit": 1,
         "settings": [
           {
