@@ -114,16 +114,45 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "ca4f4915-977d-41be-922a-8074dab57caa": {
-            "type": "logo_social",
+          "943c2608-f67a-4d7f-82c6-3033be1d9781": {
+            "type": "logo",
             "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 20
+              "logo": "shopify:\/\/shop_images\/logo_black_3c5e6814-6ce7-4d7f-bda7-e0c52c393e68.png",
+              "desktop_logo_height": 94
+            }
+          },
+          "c08db98f-0af4-4644-800f-49cfd15477d5": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer-menu-nachhaltigkeit",
+              "container_width": 25
+            }
+          },
+          "d4be1c1c-5832-4684-a922-776c307c3973": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Unterstütze mit deinem Kauf die Umwelt.",
+              "text": "<p>Weil uns nachhaltiges Wirtschaften nicht genug ist, spenden wir 3 % unserer gesamten Einnahmen an Umweltbildungsworkshops von GLOBAL 2000.<\/p>",
+              "container_width": 25
+            }
+          },
+          "e4f9a15c-6524-4fc8-9564-91725dd3f79e": {
+            "type": "newsletter-social",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Newsletter",
+              "richtext": "<p>Gib deine E-Mail Adresse ein und wir halten dich mit unserem Newsletter auf dem Laufenden.<\/p>",
+              "container_width": 25
             }
           }
         },
         "block_order": [
-          "ca4f4915-977d-41be-922a-8074dab57caa"
+          "943c2608-f67a-4d7f-82c6-3033be1d9781",
+          "c08db98f-0af4-4644-800f-49cfd15477d5",
+          "d4be1c1c-5832-4684-a922-776c307c3973",
+          "e4f9a15c-6524-4fc8-9564-91725dd3f79e"
         ],
         "settings": {
           "show_locale_selector": false,
