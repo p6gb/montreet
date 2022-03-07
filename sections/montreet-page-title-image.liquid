@@ -1,0 +1,103 @@
+{% comment %} 
+This section was created to get Title (Hero) Images on normal page layout.
+Select this as template on the page. The subtext under the title can only be edited in Theme editor.
+{% endcomment %}
+
+{%- for block in section.blocks -%}
+  {%- render 'page-block-title-image', 
+    title: page.title,
+    subtext: block.settings.text,
+    image: block.settings.image,
+    focal_point: block.settings.focal_point,
+    id: section.id,
+    height: block.settings.height,
+    font_color: block.settings.font_color
+  -%}
+{%- endfor -%}
+
+{% schema %}
+  {
+    "name": "Title Image",
+    "max_blocks": 1,
+    "blocks": [
+      {
+        "type": "title-image",
+        "name": "Titelbild",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "color",
+            "id": "font_color",
+            "label": "Schriftfarbe",
+            "default": "#ffffff"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Zusätzlicher Text, der unter der Überschrift platziert werden kann.</p>"
+          },
+          {
+            "type": "select",
+            "id": "focal_point",
+            "label": "Image focal point",
+            "info": "Used to keep the subject of your photo in view.",
+            "default": "center",
+            "options": [
+              {
+                "value": "20% 0",
+                "label": "Top left"
+              },
+              {
+                "value": "top",
+                "label": "Top"
+              },
+              {
+                "value": "80% 0",
+                "label": "Top right"
+              },
+              {
+                "value": "20% 50%",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Middle"
+              },
+              {
+                "value": "80% 50%",
+                "label": "Right"
+              },
+              {
+                "value": "20% 100%",
+                "label": "Bottom left"
+              },
+              {
+                "value": "bottom",
+                "label": "Bottom"
+              },
+              {
+                "value": "80% 100%",
+                "label": "Bottom right"
+              }
+            ]
+          },
+          {
+            "type": "range",
+            "id": "height",
+            "label": "Höhe",
+            "default": 550,
+            "min": 450,
+            "max": 750,
+            "step": 100,
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

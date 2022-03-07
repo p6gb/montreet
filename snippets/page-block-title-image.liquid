@@ -1,0 +1,54 @@
+<div
+  data-section-id="{{ id }}"
+  data-section-type="title-image"
+  class="background-media-text background-media-text--{{ id }} background-media-text--{{ height }} loaded"
+  data-aos="background-media-text__animation">
+
+  <div class="background-media-text__container">
+      {%- if image != blank -%}
+        {%- style -%}
+          .background-media-text__image--{{ id }} {
+            object-position: {{ focal_point }};
+            font-family: "object-fit: cover; object-position: {{ focal_point }};";
+          }
+        {%- endstyle -%}
+
+        {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+        <img
+          class="image-fit background-media-text__image background-media-text__image--{{ id }} lazyload"
+          src=""
+          data-src="{{ img_url }}"
+          data-aspectratio="{{ image.aspect_ratio }}"
+          data-sizes="auto"
+          data-parent-fit="cover"
+          alt="{{ image.alt | escape }}">
+        <noscript>
+          <img
+            class="image-fit background-media-text__image background-media-text__image--{{ id }} lazyloaded"
+            src="{{ image | img_url: '1800x' }}"
+            alt="{{ image.alt }}">
+        </noscript>
+      {%- else -%}
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+  </div>
+
+    <div class="background-media-text__inner title-image__text-container-outer">
+      {% comment %} <div class="background-media-text__aligner background-media-text--{{ section.settings.layout }}"> {% endcomment %}
+        <div class="animation-cropper">
+          <div class="animation-contents">
+            <div class="title-image__text-container-inner" style="color: {{ font_color }}">
+                <h1 class="title-image__title">{{ title | escape }}</h1>
+                <hr class="hr" style="background-color: {{ font_color }}">
+              {%- if subtext != blank -%}
+                <div class="rte background-media-text__subtext">{{ subtext }}</div>
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      {% comment %} </div> {% endcomment %}
+    </div>
+</div>
+
+<div class="background-media-text__spacer background-media-text--{{ height }}"></div>

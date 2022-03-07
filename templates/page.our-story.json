@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "title-image": {
+      "type": "montreet-page-title-image"
+    }
+  },
+  "order": ["title-image", "main"]
+}
