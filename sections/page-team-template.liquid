@@ -1,0 +1,125 @@
+{%- liquid
+  assign per_row = section.settings.per_row
+
+  case per_row
+    when 1
+      assign grid_item_width = ''
+    when 2
+      assign grid_item_width = 'medium-up--one-half'
+    when 3
+      assign grid_item_width = 'small--one-half medium-up--one-third'
+    when 4
+      assign grid_item_width = 'small--one-half medium-up--one-quarter'
+    when 5
+      assign grid_item_width = 'small--one-half medium-up--one-fifth'
+  endcase
+-%}
+
+<div class="team">
+  {%- for block in section.blocks -%}
+    {%- render 'page-block-team-member', member: block.settings, grid_item_width: grid_item_width, per_row: per_row -%}
+  {%- endfor -%}
+</div>
+
+
+{% schema %}
+  {
+   "name": "Team-Mitglieder",
+   "tag": "section",
+   "settings": [
+     {
+      "type": "range",
+      "id": "per_row",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "label": "Mitglieder per Zeile",
+      "default": 3
+    }
+   ],
+    "blocks": [
+      {
+        "type": "team-member",
+        "name": "Mitglied",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name"
+          },
+          {
+            "type": "text",
+            "id": "role",
+            "label": "Rolle"
+          },
+          {
+            "type": "text",
+            "id": "motto",
+            "label": "Motto"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Beschreibung",
+            "default": "<p>Hier steht der Text über die Person</p>"
+          },
+          {
+            "type": "url",
+            "id": "social_facebook_link",
+            "label": "Facebook"
+          },
+          {
+            "type": "url",
+            "id": "social_twitter_link",
+            "label": "Twitter"
+          },
+          {
+            "type": "url",
+            "id": "social_pinterest_link",
+            "label": "Pinterest"
+          },
+          {
+            "type": "url",
+            "id": "social_instagram_link",
+            "label": "Instagram"
+          },
+          {
+            "type": "url",
+            "id": "social_snapchat_link",
+            "label": "Snapchat"
+          },
+          {
+            "type": "url",
+            "id": "social_tiktok_link",
+            "label": "TikTok"
+          },
+          {
+            "type": "url",
+            "id": "social_tumblr_link",
+            "label": "Tumblr"
+          },
+          {
+            "type": "url",
+            "id": "social_linkedin_link",
+            "label": "LinkedIn"
+          },
+          {
+            "type": "url",
+            "id": "social_youtube_link",
+            "label": "Youtube"
+          },
+          {
+            "type": "url",
+            "id": "social_vimeo_link",
+            "label": "Vimeo"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "team": {
+      "type": "page-team-template",
+      "settings": {}
+    }
+  },
+  "order": ["main", "team"]
+}
