@@ -2,6 +2,8 @@
 
 https://montreet.net
 
+`shopify switch --store=montreet`
+
 Montreet Shopify building on Motion Theme
 
 Starting development with Github Integration on Jan 30st 2022.
