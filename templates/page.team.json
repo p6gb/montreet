@@ -67,12 +67,54 @@
             "social_youtube_link": "",
             "social_vimeo_link": ""
           }
+        },
+        "a1a32806-ec46-4b43-8b7b-36a018505b81": {
+          "type": "team-member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-02-09_at_17.05.09.png",
+            "name": "Elias",
+            "role": "Marketing Supervisor",
+            "motto": "Kein Ziel ist zu groß",
+            "text": "<p>Ich konzipiere unkonventionelle Wachstumsstrategien, kreiere die nötigen Massnahmen gleich selbst und fordere die Algorithmen mit einer cleveren Kombination aus Text, Bild und Targeting heraus.<\/p>",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_pinterest_link": "",
+            "social_instagram_link": "",
+            "social_snapchat_link": "",
+            "social_tiktok_link": "",
+            "social_tumblr_link": "",
+            "social_linkedin_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": ""
+          }
+        },
+        "46981f81-d8ab-4450-8dab-ce551d011292": {
+          "type": "team-member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-07-15_at_20.34.47_1.jpg",
+            "name": "Philipp",
+            "role": "Web-Entwickler",
+            "motto": "Jede Erfahrung lehrt dich etwas. Deine Reaktion zeigt, ob du verstanden hast.",
+            "text": "<p>Philipp lebt in Berlin und arbeitet als selbstständiger Web-Entwickler. Er ist immer auf der Suche nach Herausforderungen und stets dabei etwas Neues zu lernen. Am Schreibtisch hält es ihn da nur so lange wie nötig, viel lieber ist er draußen: Auf dem Rad, am Fels oder im Wasser, <br\/>hauptsache in Bewegung!<\/p>",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_pinterest_link": "",
+            "social_instagram_link": "",
+            "social_snapchat_link": "",
+            "social_tiktok_link": "",
+            "social_tumblr_link": "",
+            "social_linkedin_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": ""
+          }
         }
       },
       "block_order": [
         "e08fc2b3-abbb-4758-a647-e09cfbd5d30f",
         "9fd1fe43-9d7a-4d7d-afa6-f481ec4f49a3",
-        "c02f0f53-8ce4-4b79-92e5-b626495c8035"
+        "c02f0f53-8ce4-4b79-92e5-b626495c8035",
+        "a1a32806-ec46-4b43-8b7b-36a018505b81",
+        "46981f81-d8ab-4450-8dab-ce551d011292"
       ],
       "settings": {
         "per_row": 3
