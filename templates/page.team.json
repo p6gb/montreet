@@ -27,10 +27,31 @@
             "social_youtube_link": "",
             "social_vimeo_link": ""
           }
+        },
+        "9fd1fe43-9d7a-4d7d-afa6-f481ec4f49a3": {
+          "type": "team-member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oebsv-3000px-9.jpg",
+            "name": "Theresa",
+            "role": "Copywriter",
+            "motto": "Es gibt für ALLES eine Lösung!",
+            "text": "<p>Theresa arbeitet gerne im Hintergrund und setzt um, was andere nicht schaffen. Sie bewahrt den Überblick und steht allen jederzeit mit Rat und Tat zur Seite. Der geschriebene Text ist ihre Stärke, der Schmäh ihre Waffe & der Optimismus ihr Wegbegleiter. Sie hat für jeden im Team und jedes Thema ein offenes Ohr.<\/p>",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_pinterest_link": "",
+            "social_instagram_link": "",
+            "social_snapchat_link": "",
+            "social_tiktok_link": "",
+            "social_tumblr_link": "",
+            "social_linkedin_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": ""
+          }
         }
       },
       "block_order": [
-        "e08fc2b3-abbb-4758-a647-e09cfbd5d30f"
+        "e08fc2b3-abbb-4758-a647-e09cfbd5d30f",
+        "9fd1fe43-9d7a-4d7d-afa6-f481ec4f49a3"
       ],
       "settings": {
         "per_row": 3
