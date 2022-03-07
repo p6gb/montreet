@@ -7,7 +7,33 @@
     },
     "team": {
       "type": "page-team-template",
+      "blocks": {
+        "e08fc2b3-abbb-4758-a647-e09cfbd5d30f": {
+          "type": "team-member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MONTREET_Vorlage_Insta_Post-38.jpg",
+            "name": "Saborka",
+            "role": "Champ",
+            "motto": "DEEP",
+            "text": "<p>Hier steht der Text über die Person<\/p>",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_pinterest_link": "",
+            "social_instagram_link": "",
+            "social_snapchat_link": "",
+            "social_tiktok_link": "",
+            "social_tumblr_link": "",
+            "social_linkedin_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e08fc2b3-abbb-4758-a647-e09cfbd5d30f"
+      ],
       "settings": {
+        "per_row": 3
       }
     }
   },
