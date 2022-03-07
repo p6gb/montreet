@@ -4,37 +4,9 @@
       "type": "main-page",
       "settings": {
       }
-    },
-    "164665008897924f17": {
-      "type": "rich-text",
-      "blocks": {
-        "16466500884ae0a014-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text"
-          }
-        },
-        "16466500884ae0a014-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>This is the Team Section<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16466500884ae0a014-0",
-        "16466500884ae0a014-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
     }
   },
   "order": [
-    "main",
-    "164665008897924f17"
+    "main"
   ]
 }
