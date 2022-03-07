@@ -1,0 +1,34 @@
+<div class="grid__item team__container {{ grid_item_width }}" data-aos="row-of-{{ per_row }}">
+  <div class="grid-product__content">
+
+    {%- assign preview_image = member.image -%}
+    {%- assign img_url = preview_image | img_url: '500x500', crop: 'center' -%}
+
+      <div class="grid-product__image-mask">
+          <div class="image-wrap team__image-wrap"
+            style="height: 0; padding-bottom: 100%;">
+            <img class="grid-product__image team__image lazyload"
+                data-src="{{ img_url }}"
+                data-widths="[180, 360, 540, 720, 900, 1080]"
+                data-aspectratio="{{ preview_image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ preview_image.alt | escape }}">
+            <noscript>
+              <img class="grid-product__image team__image lazyloaded"
+                src="{{ preview_image | img_url: '400x400' }}"
+                alt="{{ preview_image.alt | escape }}">
+            </noscript>
+          </div>
+      </div>
+
+      <div class="grid-product__meta">
+        <div class="team__name">{{ member.name }}</div>
+        <div class="team__role">{{ member.role }}</div>
+        <div class="team__motto">Motto: "{{ member.motto }}"</div>
+        <div class="team__description">{{ member.text }}</div>
+
+        {%- render 'social-links', settings: member -%}
+      </div>
+  </div>
+</div>
+
