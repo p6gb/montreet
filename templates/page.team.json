@@ -47,11 +47,32 @@
             "social_youtube_link": "",
             "social_vimeo_link": ""
           }
+        },
+        "c02f0f53-8ce4-4b79-92e5-b626495c8035": {
+          "type": "team-member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Julia_Homepage.jpg",
+            "name": "Julia",
+            "role": "Marketing & Social Media",
+            "motto": "Be mindful, even if your mind is full.",
+            "text": "<p>Die Weltenbummlerin zog im Sommer 2020 in ihre Wahlheimat Wien. Um <br\/>Energie zu tanken genießt sie freie Stunden gerne in Cafés, an sonnigen Plätzen im Park oder an der Donau. Damit unsere Nachteule tagsüber wach bleibt, trinkt sie am liebsten Schwarztee & Cola light. Eigentlich ist sie eher der Genießer-Typ, aber hin und wieder packt sie auch mal die Abenteuerlust und dann geht’s zum Wandern in die Berge!<\/p>",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_pinterest_link": "",
+            "social_instagram_link": "",
+            "social_snapchat_link": "",
+            "social_tiktok_link": "",
+            "social_tumblr_link": "",
+            "social_linkedin_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": ""
+          }
         }
       },
       "block_order": [
         "e08fc2b3-abbb-4758-a647-e09cfbd5d30f",
-        "9fd1fe43-9d7a-4d7d-afa6-f481ec4f49a3"
+        "9fd1fe43-9d7a-4d7d-afa6-f481ec4f49a3",
+        "c02f0f53-8ce4-4b79-92e5-b626495c8035"
       ],
       "settings": {
         "per_row": 3
