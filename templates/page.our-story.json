@@ -1,12 +1,33 @@
 {
   "sections": {
+    "title-image": {
+      "type": "montreet-page-title-image",
+      "blocks": {
+        "430e1888-64b0-416c-818b-198db5841f86": {
+          "type": "title-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel-3.jpg",
+            "font_color": "#ffffff",
+            "text": "",
+            "focal_point": "center",
+            "height": 550
+          }
+        }
+      },
+      "block_order": [
+        "430e1888-64b0-416c-818b-198db5841f86"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
-      "settings": {}
-    },
-    "title-image": {
-      "type": "montreet-page-title-image"
+      "settings": {
+      }
     }
   },
-  "order": ["title-image", "main"]
+  "order": [
+    "title-image",
+    "main"
+  ]
 }
