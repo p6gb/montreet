@@ -2,12 +2,17 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+      }
     },
     "team": {
       "type": "page-team-template",
-      "settings": {}
+      "settings": {
+      }
     }
   },
-  "order": ["main", "team"]
+  "order": [
+    "main",
+    "team"
+  ]
 }
