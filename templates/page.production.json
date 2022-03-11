@@ -2,6 +2,21 @@
   "sections": {
     "title-image": {
       "type": "montreet-page-title-image",
+      "blocks": {
+        "92474313-a003-4055-934f-0ba7d4ac1e15": {
+          "type": "title-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20200204_102251.jpg",
+            "font_color": "#0c0d49",
+            "text": "",
+            "focal_point": "center",
+            "height": 450
+          }
+        }
+      },
+      "block_order": [
+        "92474313-a003-4055-934f-0ba7d4ac1e15"
+      ],
       "settings": {
       }
     },
