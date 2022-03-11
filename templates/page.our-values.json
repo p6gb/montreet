@@ -39,13 +39,22 @@
             "title": "Gender Equality",
             "text": "<p>Solange Frauen* nicht in allen Lebensbereichen gleichgestellt sind, werden wir sie in unserer Kommunikation in den Vordergrund stellen. Wir <br\/>möchten uns daher von den herkömmlichen Kategorisierungen entfernen und gestalten daher alle Produkte bewusst im unisex Design.<\/p>"
           }
+        },
+        "a11b5ea9-9ec6-4349-92e8-3089e2200b1a": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A7R03162_HD_003_a1c2b259-2a65-40ae-80cb-3624493722aa.jpg",
+            "title": "Kreativität",
+            "text": "<p>Wiens Kunstszene ist einzigartig und facettenreich. Um den einzelnen KünstlerInnen mehr Sichtbarkeit zu geben, machen wir sie tragbar. Jede Kollektion wird in Zusammenarbeit mit einer\/m neuen KünstlerIn designed und ist dann immer nur als Limited Edition erhältlich. Weil die Prints bei keiner Jacke gleich zusammengesetzt werden, ist auch jedes Produkt <br\/>ein Einzelstück.<\/p>"
+          }
         }
       },
       "block_order": [
         "1a016b6c-97e5-41de-a92c-0c43bc6cae70",
         "ac1cdf92-a5af-4521-a3fb-9383a7981085",
         "4a810a57-11dd-4113-b9bd-753d71497c16",
-        "fba8cd82-f30e-4493-a42b-abd49ad6390b"
+        "fba8cd82-f30e-4493-a42b-abd49ad6390b",
+        "a11b5ea9-9ec6-4349-92e8-3089e2200b1a"
       ],
       "settings": {
       }
