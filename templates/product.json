@@ -8,29 +8,38 @@
           "settings": {
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
+        "separator": {
+          "type": "separator",
           "settings": {
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
           }
         },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
           }
         },
         "share": {
@@ -38,29 +47,12 @@
           "settings": {
           }
         },
-        "sales_point": {
-          "type": "sales_point",
-          "settings": {
-          }
-        },
-        "tab": {
+        "d72a29a2-fd72-49f6-9f6b-d94ff0a1fbad": {
           "type": "tab",
           "settings": {
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "contact": {
-          "type": "contact",
-          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
           }
         }
       },
@@ -71,71 +63,36 @@
         "sales_point",
         "inventory_status",
         "buy_buttons",
-        "description",
-        "tab",
-        "contact",
-        "share"
+        "share",
+        "d72a29a2-fd72-49f6-9f6b-d94ff0a1fbad"
       ],
       "settings": {
+        "sku_enable": false,
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
       "settings": {
+        "max_width": true
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
       }
     },
     "collection-return": {
       "type": "collection-return",
-      "settings": {
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "parallax": false
-      }
-    },
-    "text-and-image": {
-      "type": "text-and-image",
-      "settings": {
-      }
-    },
-    "text-and-image2": {
-      "type": "text-and-image",
-      "settings": {
-        "layout": "left"
-      }
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonials-0": {
-          "type": "testimonial",
-          "settings": {
-          }
-        },
-        "testimonials-1": {
-          "type": "testimonial",
-          "settings": {
-          }
-        },
-        "testimonials-2": {
-          "type": "testimonial",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "testimonials-0",
-        "testimonials-1",
-        "testimonials-2"
-      ],
       "settings": {
       }
     }
@@ -143,10 +100,6 @@
   "order": [
     "main",
     "sub",
-    "background-image-text",
-    "text-and-image",
-    "text-and-image2",
-    "testimonials",
     "product-recommendations",
     "collection-return"
   ]
