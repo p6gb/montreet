@@ -50,17 +50,49 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
-        },
         "007456e7-0044-4e04-a764-b05accf41d30": {
           "type": "tab",
           "settings": {
             "title": "Schnitt",
             "content": "<p>{{ product.metafields.montreet.sizing | metafield_tag }}<\/p>",
             "page": ""
+          }
+        },
+        "fd9177c8-0f67-4330-adf9-70595d1a5936": {
+          "type": "tab",
+          "settings": {
+            "title": "Features",
+            "content": "<p>{{ product.metafields.montreet.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "574c8b80-ecba-4fa8-8515-d82180c9f30f": {
+          "type": "tab",
+          "settings": {
+            "title": "Material",
+            "content": "<p>{{ product.metafields.montreet.material | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9": {
+          "type": "tab",
+          "settings": {
+            "title": "Gütesiegel",
+            "content": "<p>{{ product.metafields.montreet.quality_marks | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "a77aa2c0-a137-4938-9064-31b097c42205": {
+          "type": "tab",
+          "settings": {
+            "title": "Vegan Fashion Award",
+            "content": "<p>{{ product.metafields.montreet.vegan_fashion_award | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
           }
         }
       },
@@ -72,8 +104,12 @@
         "inventory_status",
         "buy_buttons",
         "ce87057f-8c16-43c8-993b-8af496d37ead",
-        "share",
-        "007456e7-0044-4e04-a764-b05accf41d30"
+        "007456e7-0044-4e04-a764-b05accf41d30",
+        "fd9177c8-0f67-4330-adf9-70595d1a5936",
+        "574c8b80-ecba-4fa8-8515-d82180c9f30f",
+        "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9",
+        "a77aa2c0-a137-4938-9064-31b097c42205",
+        "share"
       ],
       "settings": {
         "sku_enable": false,
