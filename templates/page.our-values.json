@@ -1,9 +1,8 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
-      "settings": {
-      }
+      "type": "main-page-only-header-rutotero",
+      "settings": {}
     },
     "our-values": {
       "type": "page-our-values-template",
@@ -11,41 +10,41 @@
         "1a016b6c-97e5-41de-a92c-0c43bc6cae70": {
           "type": "text-and-image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/210219_Montreet_Relaunch_1.57.1__zugeschnitten.jpg",
+            "image": "shopify://shop_images/210219_Montreet_Relaunch_1.57.1__zugeschnitten.jpg",
             "title": "Funktionalität",
-            "text": "<p>Jedes Produkt wird zunächst erträumt, lange durchdacht, recherchiert, designed, entwickelt, getestet, gefeedbacked, redesigned, überarbeitet, wieder getestet und erst wenn wir es für spitzenklasse empfinden, wird <br\/>es in die Produktion geschickt. Unsere Bedürfnisse beim Radfahren unterscheiden sich zum Beispiel von jenen beim Klettern und genau nach diesen Bedürfnisse wird dann der jeweilige Schnitt entworfen und die Funktionen und Features angepasst.<\/p>"
+            "text": "<p>Jedes Produkt wird zunächst erträumt, lange durchdacht, recherchiert, designed, entwickelt, getestet, gefeedbacked, redesigned, überarbeitet, wieder getestet und erst wenn wir es für spitzenklasse empfinden, wird <br/>es in die Produktion geschickt. Unsere Bedürfnisse beim Radfahren unterscheiden sich zum Beispiel von jenen beim Klettern und genau nach diesen Bedürfnisse wird dann der jeweilige Schnitt entworfen und die Funktionen und Features angepasst.</p>"
           }
         },
         "ac1cdf92-a5af-4521-a3fb-9383a7981085": {
           "type": "text-and-image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slider_3.png",
+            "image": "shopify://shop_images/slider_3.png",
             "title": "Nachhaltigkeit",
-            "text": "<p>Der Schutz der Natur und die Nachhaltigkeit unserer Produkte stehen bei uns im Mittelpunkt der Entwicklung eines jeden Kleidungsstückes. Durch <br\/>unsere umweltfreundlichen Materialien und unser einzigartiges System der<br\/> Kreislaufwirtschaft schaffen wir es, Abfällen zu neuem Leben <br\/>zu verhelfen. Somit wird das Mittelmeer z.B. von herrenlosen <br\/>Fischernetzen befreit, welche mehr als die Hälfte des Mülls in unseren Ozeanen ausmachen und verantwortlich für den Tod unzähliger Meeresbewohner sind. Hat ein Kleidungsstück das Ende seines Lebenszyklus erreicht, so kann dieses dank sortenreiner Herstellung wieder zu 100% zu einem neuen Produkt weiterverwertet werden. Dadurch sparen wir <br\/>Ressourcen und schonen die  Umwelt.<\/p>"
+            "text": "<p>Der Schutz der Natur und die Nachhaltigkeit unserer Produkte stehen bei uns im Mittelpunkt der Entwicklung eines jeden Kleidungsstückes. Durch <br/>unsere umweltfreundlichen Materialien und unser einzigartiges System der<br/> Kreislaufwirtschaft schaffen wir es, Abfällen zu neuem Leben <br/>zu verhelfen. Somit wird das Mittelmeer z.B. von herrenlosen <br/>Fischernetzen befreit, welche mehr als die Hälfte des Mülls in unseren Ozeanen ausmachen und verantwortlich für den Tod unzähliger Meeresbewohner sind. Hat ein Kleidungsstück das Ende seines Lebenszyklus erreicht, so kann dieses dank sortenreiner Herstellung wieder zu 100% zu einem neuen Produkt weiterverwertet werden. Dadurch sparen wir <br/>Ressourcen und schonen die  Umwelt.</p>"
           }
         },
         "4a810a57-11dd-4113-b9bd-753d71497c16": {
           "type": "text-and-image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20200313_171034.jpg",
+            "image": "shopify://shop_images/20200313_171034.jpg",
             "title": "Langlebigkeit",
-            "text": "<p>Die Kurzlebigkeit wurde durch immer mehr Trends diverser Fast Fashion Brands lanciert. MONTREET stellt sich bewusst gegen diese <br\/>Entwicklung und produziert Outdoor Mode, die uns im besten Fall ein ganzes Leben über begleitet.<\/p><p>Sollten einzelne Kleidungsstücke beschädigt werden, so kümmern wir uns um deren <a href=\"https:\/\/montreet.net\/pages\/reparaturservice\" target=\"_blank\" title=\"Reparaturservice\">Reparatur<\/a>.<br\/> Und da wir wissen, dass ein Lieblingsteil gut getestet werden muss, hast du bei uns außerdem die Möglichkeit, Produkte für einen Ausflug oder ein Wochenende im Grünen zu <a href=\"https:\/\/montreet.net\/pages\/rental-services\" target=\"_blank\" title=\"Mietservice\">mieten<\/a>.<\/p>"
+            "text": "<p>Die Kurzlebigkeit wurde durch immer mehr Trends diverser Fast Fashion Brands lanciert. MONTREET stellt sich bewusst gegen diese <br/>Entwicklung und produziert Outdoor Mode, die uns im besten Fall ein ganzes Leben über begleitet.</p><p>Sollten einzelne Kleidungsstücke beschädigt werden, so kümmern wir uns um deren <a href=\"https://montreet.net/pages/reparaturservice\" target=\"_blank\" title=\"Reparaturservice\">Reparatur</a>.<br/> Und da wir wissen, dass ein Lieblingsteil gut getestet werden muss, hast du bei uns außerdem die Möglichkeit, Produkte für einen Ausflug oder ein Wochenende im Grünen zu <a href=\"https://montreet.net/pages/rental-services\" target=\"_blank\" title=\"Mietservice\">mieten</a>.</p>"
           }
         },
         "fba8cd82-f30e-4493-a42b-abd49ad6390b": {
           "type": "text-and-image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/200506_Leggins_Action_Shoot-8182-Bearbeitet4000px.jpg",
+            "image": "shopify://shop_images/200506_Leggins_Action_Shoot-8182-Bearbeitet4000px.jpg",
             "title": "Gender Equality",
-            "text": "<p>Solange Frauen* nicht in allen Lebensbereichen gleichgestellt sind, werden wir sie in unserer Kommunikation in den Vordergrund stellen. Wir <br\/>möchten uns daher von den herkömmlichen Kategorisierungen entfernen und gestalten daher alle Produkte bewusst im unisex Design.<\/p>"
+            "text": "<p>Solange Frauen* nicht in allen Lebensbereichen gleichgestellt sind, werden wir sie in unserer Kommunikation in den Vordergrund stellen. Wir <br/>möchten uns daher von den herkömmlichen Kategorisierungen entfernen und gestalten daher alle Produkte bewusst im unisex Design.</p>"
           }
         },
         "a11b5ea9-9ec6-4349-92e8-3089e2200b1a": {
           "type": "text-and-image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A7R03162_HD_003_a1c2b259-2a65-40ae-80cb-3624493722aa.jpg",
+            "image": "shopify://shop_images/A7R03162_HD_003_a1c2b259-2a65-40ae-80cb-3624493722aa.jpg",
             "title": "Kreativität",
-            "text": "<p>Wiens Kunstszene ist einzigartig und facettenreich. Um den einzelnen KünstlerInnen mehr Sichtbarkeit zu geben, machen wir sie tragbar. Jede Kollektion wird in Zusammenarbeit mit einer\/m neuen KünstlerIn designed und ist dann immer nur als Limited Edition erhältlich. Weil die Prints bei keiner Jacke gleich zusammengesetzt werden, ist auch jedes Produkt <br\/>ein Einzelstück.<\/p>"
+            "text": "<p>Wiens Kunstszene ist einzigartig und facettenreich. Um den einzelnen KünstlerInnen mehr Sichtbarkeit zu geben, machen wir sie tragbar. Jede Kollektion wird in Zusammenarbeit mit einer/m neuen KünstlerIn designed und ist dann immer nur als Limited Edition erhältlich. Weil die Prints bei keiner Jacke gleich zusammengesetzt werden, ist auch jedes Produkt <br/>ein Einzelstück.</p>"
           }
         }
       },
@@ -56,12 +55,8 @@
         "fba8cd82-f30e-4493-a42b-abd49ad6390b",
         "a11b5ea9-9ec6-4349-92e8-3089e2200b1a"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
-  "order": [
-    "main",
-    "our-values"
-  ]
+  "order": ["main", "our-values"]
 }
