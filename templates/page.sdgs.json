@@ -43,13 +43,23 @@
             "title": "Verantwortungsvolle Konsum- und Produktionsmuster",
             "text": "<p>Es ist unser oberstes Ziel nicht nur eine verantwortungsvolle und maximal nachhaltige Produktionsweise zu garantieren, sondern auch KonsumentInnen und die große Öffentlichkeit über dieses Thema aufzuklären und zu bilden. <\/p>"
           }
+        },
+        "33cdd3ec-f2aa-4857-a02a-c920bf6185c3": {
+          "type": "sdgs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SDG-icon-DE-13.png",
+            "number": "",
+            "title": "Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen",
+            "text": "<p>Unsere Materialien werden aus in der Natur zurückgelassenem Plastikmüll hergestellt und tragen damit direkt und akut zur Verminderung vom Sterben vieler Tierarten und Organismen im Ozean bei.<\/p>"
+          }
         }
       },
       "block_order": [
         "10df9cc0-0f96-488b-b94b-78139e04ec78",
         "1f45ee6a-028c-4bf0-9dfd-0b5865bd423e",
         "e839b5a0-8d1b-4fc9-b1fa-2c830ead0544",
-        "0bc4e142-5e67-49d0-b36f-a293671322eb"
+        "0bc4e142-5e67-49d0-b36f-a293671322eb",
+        "33cdd3ec-f2aa-4857-a02a-c920bf6185c3"
       ],
       "settings": {
         "max_width": 500
