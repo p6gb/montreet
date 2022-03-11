@@ -16,10 +16,20 @@
             "title": "Hochwertige Bildung",
             "text": "<p>Wir finanzieren mit 3% unseres Gesamtumsatzes die Schulworkshops von GLOBAL2000 zu umweltrelevanten Themen an Schulen, die die finanziellen Ressourcen dafür nicht aufbringen können. Dadurch werden Schülerinnen und Schüler nicht durch eine finanzielle Barriere von diesem für uns alle wichtigen Wissen exkludiert.<\/p>"
           }
+        },
+        "1f45ee6a-028c-4bf0-9dfd-0b5865bd423e": {
+          "type": "sdgs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SDG-icon-DE-05.png",
+            "number": "",
+            "title": "Geschlechtergleichheit",
+            "text": "<p>Wir finden, der Gender-Gap sollte endlich der Vergangenheit angehören und eine Gleichstellung der Geschlechter erreicht werden. Unsere Kleidung wird im unisex-Design erstellt, um das Konzept der Geschlechterneutralität in die Mitte der Gesellschaft zu bringen und wir stellen für unsere Führungspositionen bevorzugt Frauen* ein, um zu einer großflächigen Chancengleichheit beizutragen.<\/p>"
+          }
         }
       },
       "block_order": [
-        "10df9cc0-0f96-488b-b94b-78139e04ec78"
+        "10df9cc0-0f96-488b-b94b-78139e04ec78",
+        "1f45ee6a-028c-4bf0-9dfd-0b5865bd423e"
       ],
       "settings": {
         "max_width": 500
