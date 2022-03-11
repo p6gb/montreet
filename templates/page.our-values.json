@@ -15,10 +15,19 @@
             "title": "Funktionalität",
             "text": "<p>Jedes Produkt wird zunächst erträumt, lange durchdacht, recherchiert, designed, entwickelt, getestet, gefeedbacked, redesigned, überarbeitet, wieder getestet und erst wenn wir es für spitzenklasse empfinden, wird <br\/>es in die Produktion geschickt. Unsere Bedürfnisse beim Radfahren unterscheiden sich zum Beispiel von jenen beim Klettern und genau nach diesen Bedürfnisse wird dann der jeweilige Schnitt entworfen und die Funktionen und Features angepasst.<\/p>"
           }
+        },
+        "ac1cdf92-a5af-4521-a3fb-9383a7981085": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider_3.png",
+            "title": "Nachhaltigkeit",
+            "text": "<p>Der Schutz der Natur und die Nachhaltigkeit unserer Produkte stehen bei uns im Mittelpunkt der Entwicklung eines jeden Kleidungsstückes. Durch <br\/>unsere umweltfreundlichen Materialien und unser einzigartiges System der<br\/> Kreislaufwirtschaft schaffen wir es, Abfällen zu neuem Leben <br\/>zu verhelfen. Somit wird das Mittelmeer z.B. von herrenlosen <br\/>Fischernetzen befreit, welche mehr als die Hälfte des Mülls in unseren Ozeanen ausmachen und verantwortlich für den Tod unzähliger Meeresbewohner sind. Hat ein Kleidungsstück das Ende seines Lebenszyklus erreicht, so kann dieses dank sortenreiner Herstellung wieder zu 100% zu einem neuen Produkt weiterverwertet werden. Dadurch sparen wir <br\/>Ressourcen und schonen die  Umwelt.<\/p>"
+          }
         }
       },
       "block_order": [
-        "1a016b6c-97e5-41de-a92c-0c43bc6cae70"
+        "1a016b6c-97e5-41de-a92c-0c43bc6cae70",
+        "ac1cdf92-a5af-4521-a3fb-9383a7981085"
       ],
       "settings": {
       }
