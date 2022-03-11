@@ -52,6 +52,15 @@
             "title": "Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen",
             "text": "<p>Unsere Materialien werden aus in der Natur zurückgelassenem Plastikmüll hergestellt und tragen damit direkt und akut zur Verminderung vom Sterben vieler Tierarten und Organismen im Ozean bei.<\/p>"
           }
+        },
+        "37bcee0d-2045-4231-b40b-6aeb0d71ad1e": {
+          "type": "sdgs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SDG-icon-DE-14.png",
+            "number": "",
+            "title": "Ozeane, Meere und Meeresressourcen im Sinne nachhaltiger Entwicklung erhalten und nachhaltig nutzen",
+            "text": "<p>Laut WWF gelangen jedes Jahr 4,8 – 12,7 Millionen Tonnen Plastik in die Meere. Drei Viertel des Mülls sind Plastik und der Hauptanteil dessen sind zurückgelassene Fischernetze, aus denen wir unsere Stoffe fertigen.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -59,7 +68,8 @@
         "1f45ee6a-028c-4bf0-9dfd-0b5865bd423e",
         "e839b5a0-8d1b-4fc9-b1fa-2c830ead0544",
         "0bc4e142-5e67-49d0-b36f-a293671322eb",
-        "33cdd3ec-f2aa-4857-a02a-c920bf6185c3"
+        "33cdd3ec-f2aa-4857-a02a-c920bf6185c3",
+        "37bcee0d-2045-4231-b40b-6aeb0d71ad1e"
       ],
       "settings": {
         "max_width": 500
