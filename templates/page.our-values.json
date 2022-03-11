@@ -2,11 +2,11 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {
-      }
+      "settings": {}
+    },
+    "our-values": {
+      "type": "page-our-values-template"
     }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["main", "our-values"]
 }
