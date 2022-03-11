@@ -23,11 +23,20 @@
             "title": "Nachhaltigkeit",
             "text": "<p>Der Schutz der Natur und die Nachhaltigkeit unserer Produkte stehen bei uns im Mittelpunkt der Entwicklung eines jeden Kleidungsstückes. Durch <br\/>unsere umweltfreundlichen Materialien und unser einzigartiges System der<br\/> Kreislaufwirtschaft schaffen wir es, Abfällen zu neuem Leben <br\/>zu verhelfen. Somit wird das Mittelmeer z.B. von herrenlosen <br\/>Fischernetzen befreit, welche mehr als die Hälfte des Mülls in unseren Ozeanen ausmachen und verantwortlich für den Tod unzähliger Meeresbewohner sind. Hat ein Kleidungsstück das Ende seines Lebenszyklus erreicht, so kann dieses dank sortenreiner Herstellung wieder zu 100% zu einem neuen Produkt weiterverwertet werden. Dadurch sparen wir <br\/>Ressourcen und schonen die  Umwelt.<\/p>"
           }
+        },
+        "4a810a57-11dd-4113-b9bd-753d71497c16": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20200313_171034.jpg",
+            "title": "Langlebigkeit",
+            "text": "<p>Die Kurzlebigkeit wurde durch immer mehr Trends diverser Fast Fashion Brands lanciert. MONTREET stellt sich bewusst gegen diese <br\/>Entwicklung und produziert Outdoor Mode, die uns im besten Fall ein ganzes Leben über begleitet.<\/p><p>Sollten einzelne Kleidungsstücke beschädigt werden, so kümmern wir uns um deren <a href=\"https:\/\/montreet.net\/pages\/reparaturservice\" target=\"_blank\" title=\"Reparaturservice\">Reparatur<\/a>.<br\/> Und da wir wissen, dass ein Lieblingsteil gut getestet werden muss, hast du bei uns außerdem die Möglichkeit, Produkte für einen Ausflug oder ein Wochenende im Grünen zu <a href=\"https:\/\/montreet.net\/pages\/rental-services\" target=\"_blank\" title=\"Mietservice\">mieten<\/a>.<\/p>"
+          }
         }
       },
       "block_order": [
         "1a016b6c-97e5-41de-a92c-0c43bc6cae70",
-        "ac1cdf92-a5af-4521-a3fb-9383a7981085"
+        "ac1cdf92-a5af-4521-a3fb-9383a7981085",
+        "4a810a57-11dd-4113-b9bd-753d71497c16"
       ],
       "settings": {
       }
