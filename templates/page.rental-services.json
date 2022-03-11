@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "title-image": {
+      "type": "montreet-page-title-image",
+      "blocks": {},
+      "settings": {}
+    },
+    "main": {
+      "type": "montreet-main-page-without-header",
+      "settings": {}
+    }
+  },
+  "order": ["title-image", "main"]
+}
