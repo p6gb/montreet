@@ -70,6 +70,15 @@
             "title": "Landökosysteme schützen, wiederherstellen, ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und dem Verlust der biologischen Vielfalt ein Ende setzen.",
             "text": "<p>Durch die Verwendung alter und einheimischer Ressourcen, wie Hanf aus nachhaltigem Anbau, bei welchem - im Gegensatz zu anderen Ressourcen, wie Baumwolle - auf die Verwendung von Pestiziden verzichtet werden kann.<\/p>"
           }
+        },
+        "a5720636-441a-4a6d-ac24-5952c2408744": {
+          "type": "sdgs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SDG-icon-DE-17.png",
+            "number": "",
+            "title": "Partnerschaften zur Erreichung der Ziele",
+            "text": "<p>Wir unterstützen GLOBAL 2000 mit 3% unseres Gesamtumsatzes, um Schulworkshops zur Bildung von SchülerInnen zu Umweltthemen zu finanzieren und sind Teil von Zero Waste Austria. Denn nur zusammen können wir etwas bewegen!<\/p>"
+          }
         }
       },
       "block_order": [
@@ -79,7 +88,8 @@
         "0bc4e142-5e67-49d0-b36f-a293671322eb",
         "33cdd3ec-f2aa-4857-a02a-c920bf6185c3",
         "37bcee0d-2045-4231-b40b-6aeb0d71ad1e",
-        "204d5332-400a-422a-b34c-38b890b47b29"
+        "204d5332-400a-422a-b34c-38b890b47b29",
+        "a5720636-441a-4a6d-ac24-5952c2408744"
       ],
       "settings": {
         "max_width": 500
