@@ -1,0 +1,19 @@
+<div class="page-width page-width--narrow page-content">
+  <header class="section-header">
+    <h1 class="section-header__title">
+      {{ page.title | escape }}
+    </h1>
+  </header>
+  <hr class="hr hr--margin-bottom-big">
+
+  <div class="rte rte--nomargin medium-up--two-thirds medium-up--push-one-sixth rte--centered">
+    {{ page.content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Page",
+  "tag": "section"
+}
+{% endschema %}

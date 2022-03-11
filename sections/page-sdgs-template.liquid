@@ -61,7 +61,7 @@ document.addEventListener('page:loaded', function () {
 });
 {% endjavascript %}
 
-<div class="sdgs">
+<div class="sdgs page-width">
   <div class="sdgs__container js-sdg-container"> 
     {%- for block in section.blocks -%}
       {%- render 'page-block-sdgs', block: block, max_width: section.settings.max_width, index: forloop.index -%}
