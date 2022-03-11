@@ -2,6 +2,21 @@
   "sections": {
     "title-image": {
       "type": "montreet-page-title-image",
+      "blocks": {
+        "a7733007-c3c5-41d0-a1cb-79cfee4e4bed": {
+          "type": "title-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NASCHSPORTSWEAR_Kollektion2019__nachhalitge_Kletter_Jacke__FOTOCREDIT__3.akt.jpg",
+            "font_color": "#ffffff",
+            "text": "",
+            "focal_point": "center",
+            "height": 450
+          }
+        }
+      },
+      "block_order": [
+        "a7733007-c3c5-41d0-a1cb-79cfee4e4bed"
+      ],
       "settings": {
       }
     },
