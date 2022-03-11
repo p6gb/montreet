@@ -2,11 +2,30 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+      }
     },
     "our-values": {
-      "type": "page-our-values-template"
+      "type": "page-our-values-template",
+      "blocks": {
+        "1a016b6c-97e5-41de-a92c-0c43bc6cae70": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/210219_Montreet_Relaunch_1.57.1__zugeschnitten.jpg",
+            "title": "Funktionalität",
+            "text": "<p>Jedes Produkt wird zunächst erträumt, lange durchdacht, recherchiert, designed, entwickelt, getestet, gefeedbacked, redesigned, überarbeitet, wieder getestet und erst wenn wir es für spitzenklasse empfinden, wird <br\/>es in die Produktion geschickt. Unsere Bedürfnisse beim Radfahren unterscheiden sich zum Beispiel von jenen beim Klettern und genau nach diesen Bedürfnisse wird dann der jeweilige Schnitt entworfen und die Funktionen und Features angepasst.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1a016b6c-97e5-41de-a92c-0c43bc6cae70"
+      ],
+      "settings": {
+      }
     }
   },
-  "order": ["main", "our-values"]
+  "order": [
+    "main",
+    "our-values"
+  ]
 }
