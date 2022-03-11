@@ -536,7 +536,10 @@ label.color-swatch--small {
   .article__image, .article__image-wrap {
     vertical-align: middle;
     display: inline-block;
-    height: 100%; } }
+    height: 100%; }
+    .article__image img, .article__image-wrap img {
+      max-height: 100%;
+      height: auto; } }
 
 #shopify-section-page-press-template a.article__grid-image {
   border-bottom: 0; }
@@ -909,3 +912,6 @@ ul.tabs.vertical > li {
 .faq__question {
   font-size: 1.2em;
   margin-bottom: 0.5em; }
+
+.rte img {
+  height: auto; }
