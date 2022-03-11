@@ -25,11 +25,21 @@
             "title": "Geschlechtergleichheit",
             "text": "<p>Wir finden, der Gender-Gap sollte endlich der Vergangenheit angehören und eine Gleichstellung der Geschlechter erreicht werden. Unsere Kleidung wird im unisex-Design erstellt, um das Konzept der Geschlechterneutralität in die Mitte der Gesellschaft zu bringen und wir stellen für unsere Führungspositionen bevorzugt Frauen* ein, um zu einer großflächigen Chancengleichheit beizutragen.<\/p>"
           }
+        },
+        "e839b5a0-8d1b-4fc9-b1fa-2c830ead0544": {
+          "type": "sdgs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SDG-icon-DE-08.png",
+            "number": "",
+            "title": "",
+            "text": "<p>Hier steht der Text über das SDG<\/p>"
+          }
         }
       },
       "block_order": [
         "10df9cc0-0f96-488b-b94b-78139e04ec78",
-        "1f45ee6a-028c-4bf0-9dfd-0b5865bd423e"
+        "1f45ee6a-028c-4bf0-9dfd-0b5865bd423e",
+        "e839b5a0-8d1b-4fc9-b1fa-2c830ead0544"
       ],
       "settings": {
         "max_width": 500
