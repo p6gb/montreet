@@ -2,13 +2,32 @@
   "sections": {
     "title-image": {
       "type": "montreet-page-title-image",
-      "blocks": {},
-      "settings": {}
+      "blocks": {
+        "7a1ae292-6887-4791-a80c-d95166e12053": {
+          "type": "title-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_0291_2.jpg",
+            "font_color": "#ffffff",
+            "text": "<p>Kleidung mieten geht ganz einfach bei MONTREET!<\/p>",
+            "focal_point": "center",
+            "height": 550
+          }
+        }
+      },
+      "block_order": [
+        "7a1ae292-6887-4791-a80c-d95166e12053"
+      ],
+      "settings": {
+      }
     },
     "main": {
       "type": "montreet-main-page-without-header",
-      "settings": {}
+      "settings": {
+      }
     }
   },
-  "order": ["title-image", "main"]
+  "order": [
+    "title-image",
+    "main"
+  ]
 }

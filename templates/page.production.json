@@ -2,13 +2,17 @@
   "sections": {
     "title-image": {
       "type": "montreet-page-title-image",
-      "blocks": {},
-      "settings": {}
+      "settings": {
+      }
     },
     "main": {
       "type": "montreet-main-page-without-header",
-      "settings": {}
+      "settings": {
+      }
     }
   },
-  "order": ["title-image", "main"]
+  "order": [
+    "title-image",
+    "main"
+  ]
 }
