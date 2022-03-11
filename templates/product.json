@@ -80,6 +80,11 @@
           "type": "share",
           "settings": {
           }
+        },
+        "2599c58e-f250-4adc-8636-d24eb507eced": {
+          "type": "size_chart_montreet",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -93,7 +98,8 @@
         "574c8b80-ecba-4fa8-8515-d82180c9f30f",
         "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9",
         "a77aa2c0-a137-4938-9064-31b097c42205",
-        "share"
+        "share",
+        "2599c58e-f250-4adc-8636-d24eb507eced"
       ],
       "settings": {
         "sku_enable": false,
