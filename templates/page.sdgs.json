@@ -2,11 +2,32 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+      }
     },
     "sdgs": {
-      "type": "page-sdgs-template"
+      "type": "page-sdgs-template",
+      "blocks": {
+        "10df9cc0-0f96-488b-b94b-78139e04ec78": {
+          "type": "sdgs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SDG-icon-DE-04.png",
+            "number": "4",
+            "title": "Hochwertige Bildung",
+            "text": "<p>Wir finanzieren mit 3% unseres Gesamtumsatzes die Schulworkshops von GLOBAL2000 zu umweltrelevanten Themen an Schulen, die die finanziellen Ressourcen dafür nicht aufbringen können. Dadurch werden Schülerinnen und Schüler nicht durch eine finanzielle Barriere von diesem für uns alle wichtigen Wissen exkludiert.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "10df9cc0-0f96-488b-b94b-78139e04ec78"
+      ],
+      "settings": {
+        "max_width": 500
+      }
     }
   },
-  "order": ["main", "sdgs"]
+  "order": [
+    "main",
+    "sdgs"
+  ]
 }
