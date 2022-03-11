@@ -314,6 +314,8 @@
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.code }}
                     </div>
+                  {%- when 'size_chart_montreet' -%}
+                    <div>SIZE CHART</div>
                 {%- endcase -%}
               {%- else -%}
                 <div data-blocks-holder
