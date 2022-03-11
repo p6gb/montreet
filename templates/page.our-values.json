@@ -31,12 +31,21 @@
             "title": "Langlebigkeit",
             "text": "<p>Die Kurzlebigkeit wurde durch immer mehr Trends diverser Fast Fashion Brands lanciert. MONTREET stellt sich bewusst gegen diese <br\/>Entwicklung und produziert Outdoor Mode, die uns im besten Fall ein ganzes Leben über begleitet.<\/p><p>Sollten einzelne Kleidungsstücke beschädigt werden, so kümmern wir uns um deren <a href=\"https:\/\/montreet.net\/pages\/reparaturservice\" target=\"_blank\" title=\"Reparaturservice\">Reparatur<\/a>.<br\/> Und da wir wissen, dass ein Lieblingsteil gut getestet werden muss, hast du bei uns außerdem die Möglichkeit, Produkte für einen Ausflug oder ein Wochenende im Grünen zu <a href=\"https:\/\/montreet.net\/pages\/rental-services\" target=\"_blank\" title=\"Mietservice\">mieten<\/a>.<\/p>"
           }
+        },
+        "fba8cd82-f30e-4493-a42b-abd49ad6390b": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/200506_Leggins_Action_Shoot-8182-Bearbeitet4000px.jpg",
+            "title": "Gender Equality",
+            "text": "<p>Solange Frauen* nicht in allen Lebensbereichen gleichgestellt sind, werden wir sie in unserer Kommunikation in den Vordergrund stellen. Wir <br\/>möchten uns daher von den herkömmlichen Kategorisierungen entfernen und gestalten daher alle Produkte bewusst im unisex Design.<\/p>"
+          }
         }
       },
       "block_order": [
         "1a016b6c-97e5-41de-a92c-0c43bc6cae70",
         "ac1cdf92-a5af-4521-a3fb-9383a7981085",
-        "4a810a57-11dd-4113-b9bd-753d71497c16"
+        "4a810a57-11dd-4113-b9bd-753d71497c16",
+        "fba8cd82-f30e-4493-a42b-abd49ad6390b"
       ],
       "settings": {
       }
