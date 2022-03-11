@@ -1,0 +1,30 @@
+<article class="article article--layout" data-aos>
+  <div class="article__image-wrap{% if article.image == blank %} article__image-wrap--empty{% endif %}{% if is_even_post %} article__image-wrap--right{% endif %}">
+    {%- if article.image -%}
+      <div class="article__image image-wrap">
+        {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        <img class="image-fit lazyload"
+            data-src="{{ img_url }}"
+            data-widths="[720, 900, 1080]"
+            data-aspectratio="{{ article.image.aspect_ratio }}"
+            data-sizes="auto"
+            alt="{{ article.image.alt | escape }}">
+        <noscript>
+          <img class="image-fit lazyloaded" src="{{ article.image | img_url: '600x' }}" alt="{{ article.title | escape }}">
+        </noscript>
+      </div>
+    {%- endif -%}
+  </div>
+
+  <div class="article__content{% unless is_even_post %} article__content--right{% endunless %} ">
+    <div class="article__content-meta">
+      <h2 class="h3 article__h3">
+        {{ article.title }}
+      </h2>
+      <div class="rte rte--block">
+        {{ article.text }}
+      </div>
+    </div>
+
+  </div>
+</article>
