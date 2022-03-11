@@ -1,0 +1,31 @@
+<div class="sdgs__item js-sdg-item" data-aos data-target="{{ index }}"> 
+  <div class="sdgs__image-container">
+    <div style="margin: 0 auto; max-width: {{ max_width }}px;">
+      {% if block.settings.image != blank %}
+        <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+          {% comment %} @todo hier wäre es besser die max_width variable zu nutzen aber kp wie das mit dem filter geht.. {% endcomment %}
+          {%- assign img_url = block.settings.image | img_url: '500x'  -%}
+          <img class="feature-row__image sdg__image lazyload"
+              data-src="{{ img_url }}"
+              data-widths="[180, 360, 540, 720, 900, 1080]"
+              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ block.settings.image.alt }}">
+        </div>
+      {% else %}
+        <div class="image-wrap">
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="sdgs__text-container js-sdg-text-container" data-target="{{ index }}">
+  {%- if block.settings.title != blank -%}
+    <h2 class="h3 sdgs__title">{{ block.settings.title | escape }}</h2>
+  {% endif %}
+  {% if block.settings.text != blank %}
+    <div class="sdgs__subtext rte featured-row__subtext">{{ block.settings.text }}</div>
+  {% endif %}
+</div>

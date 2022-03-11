@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "sdgs": {
+      "type": "page-sdgs-template"
+    }
+  },
+  "order": ["main", "sdgs"]
+}

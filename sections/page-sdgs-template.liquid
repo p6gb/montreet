@@ -1,0 +1,118 @@
+{% javascript %}
+// https://stackoverflow.com/questions/56305652/how-to-have-flex-grid-of-tiles-with-full-page-width-expander-when-tile-clicked
+
+document.addEventListener('page:loaded', function () {
+    //click event to expand the expandable
+    $('.js-sdg-item').on('click', function () {
+        // close if clicked again
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+            $('.js-sdg-text-container').slideUp();
+            return;
+        }
+
+        //hide previous opened expandables
+        $('.js-sdg-item').removeClass('active');
+
+        $('.js-sdg-text-container').slideUp();
+        //get target data
+        var target = $(this).attr('data-target');
+        //toggle the container
+        var $triggered = $(this);
+        var $triggeredElement = $('.js-sdg-text-container[data-target=' + target + ']');
+        positionExpandableElement($triggered, $triggeredElement);
+        $triggered.addClass('active');
+        $triggeredElement.slideDown();
+    });
+
+    //we need to check on resize how many items are pe row, if it changes, trigger a click on a already opened item, so it positions itself at the right position
+    var containerWidth = $('.js-sdg-container').outerWidth();
+    var itemWidth = $('.js-sdg-item').outerWidth();
+    var itemsPerRow = Math.floor(containerWidth / itemWidth);
+
+    $(window).resize(function () {
+        containerWidth = $('.js-sdg-container').outerWidth();
+        itemWidth = $('.js-sdg-item').outerWidth();
+        var newItemsPerRow = Math.floor(containerWidth / itemWidth);
+        if (itemsPerRow != newItemsPerRow) {
+            itemsPerRow = newItemsPerRow;
+            $('.js-sdg-item.active').trigger('click');
+        }
+    })
+
+    function positionExpandableElement(triggered, element) {
+        /*first determine at which position your expandable element has to be, should be the first element of next row from triggered element.
+        For this we need to know how many elements currently are in a row. Then you can position it after that element*/
+
+        //get the item number where you have to insert after
+        var allFlexItems = $('.js-sdg-item');
+        var itemsData = []; //we need an array of data-targets to get the number of element from the array index
+        $.each(allFlexItems, function (key, el) {
+            itemsData.push($(el).attr('data-target'));
+        });
+        var elNumber = $.inArray($(triggered).attr('data-target'), itemsData)
+        //elNumber now tells us the position of the element that got triggered
+        //now we can calculate where we have to insert our expandable
+        var rowNumber = Math.floor(elNumber / itemsPerRow);
+        var insertAfter = (itemsPerRow * rowNumber) + itemsPerRow - 1; //we add itemsPerRow because we always need to skip the first row, -1 because array starts at 0
+        //now that we now the last items number (even in responsive), we can insert our expandable on click after that element
+        $(element).insertAfter($('.js-sdg-item')[insertAfter]);
+    }
+});
+{% endjavascript %}
+
+<div class="sdgs">
+  <div class="sdgs__container js-sdg-container"> 
+    {%- for block in section.blocks -%}
+      {%- render 'page-block-sdgs', block: block, max_width: section.settings.max_width, index: forloop.index -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+
+{% schema %}
+  {
+   "name": "SDGs",
+   "settings": [
+     {
+      "type": "range",
+      "id": "max_width",
+      "min": 250,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Maximale Bildbreite",
+      "default": 500
+    }
+   ],
+    "blocks": [
+      {
+        "type": "sdgs",
+        "name": "SDG",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "number",
+            "label": "SDG Number"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Titel"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Hier steht der Text über das SDG</p>"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
