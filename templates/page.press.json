@@ -137,6 +137,36 @@
             "title_image": "shopify:\/\/shop_images\/210615_Montreet_Leggings_4000px_092.jpg",
             "focal_point": "top"
           }
+        },
+        "ed2b8689-ec18-4146-9a5e-544a2db0a4ac": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.1000things.at\/blog\/coole-nachhaltige-modelabels-aus-oesterreich\/",
+            "date": "5.1.2021",
+            "title": "1000 Things \/\/ Coole nachhaltige Modelabels aus Österreich",
+            "title_image": "shopify:\/\/shop_images\/210615_Montreet_Leggings_4000px_017.jpg",
+            "focal_point": "top"
+          }
+        },
+        "81a5a6af-c62f-4e5d-9682-a0d59883d699": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.alpin.de\/tests-produkte\/40385\/artikel_test__montreet_jacke_the_cyclist.html#fb",
+            "date": "01.06.2020",
+            "title": "ALPIN \/\/ Test: Montreet Jacke The Cyclist",
+            "title_image": "shopify:\/\/shop_images\/190730_NASCH_Sportswear_allJackets_2000px_008.jpg",
+            "focal_point": "top"
+          }
+        },
+        "a5c5aa24-c439-4533-b55f-35a652ebc065": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/sorority.at\/heroine-des-monats-nadine-schratzberger\/",
+            "date": "31.01.2020",
+            "title": "THE SORORITY \/\/ Hero*ine des Monats",
+            "title_image": "shopify:\/\/shop_images\/Design_ohne_Titel-3.jpg",
+            "focal_point": "top"
+          }
         }
       },
       "block_order": [
@@ -152,7 +182,10 @@
         "d8617609-0a96-4a44-b0c6-c0781eb342ba",
         "174d638d-33b7-4808-bce4-cb01a6a6b72d",
         "a7314ffd-fa69-4aa8-b045-ca7846db9ddf",
-        "0f8f415f-38c1-4820-ad7d-a8f8aae6691c"
+        "0f8f415f-38c1-4820-ad7d-a8f8aae6691c",
+        "ed2b8689-ec18-4146-9a5e-544a2db0a4ac",
+        "81a5a6af-c62f-4e5d-9682-a0d59883d699",
+        "a5c5aa24-c439-4533-b55f-35a652ebc065"
       ],
       "settings": {
         "title": "Presse",
