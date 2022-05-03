@@ -146,7 +146,7 @@
         "focal_point": "center",
         "layout": "left",
         "height": 550,
-        "parallax": false
+        "parallax": true
       }
     },
     "1643559241eab48128": {
