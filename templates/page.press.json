@@ -8,16 +8,6 @@
     "press": {
       "type": "page-press-template",
       "blocks": {
-        "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932": {
-          "type": "press-article",
-          "settings": {
-            "url": "https:\/\/peppermynta.de\/fair-fashion\/montreet-nachhaltige-sportswear-faire-outdoor-mode\/",
-            "date": "29.1.2020",
-            "title": "PEPPERMYNTA \/\/ Nachhaltige Sportswear und faire Outdoor Bekleidung",
-            "title_image": "shopify:\/\/shop_images\/20190516_174344.jpg",
-            "focal_point": "center"
-          }
-        },
         "948a711d-8508-4183-aa90-b73841f72c3f": {
           "type": "press-article",
           "settings": {
@@ -167,10 +157,19 @@
             "title_image": "shopify:\/\/shop_images\/Design_ohne_Titel-3.jpg",
             "focal_point": "top"
           }
+        },
+        "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/peppermynta.de\/fair-fashion\/montreet-nachhaltige-sportswear-faire-outdoor-mode\/",
+            "date": "29.1.2020",
+            "title": "PEPPERMYNTA \/\/ Nachhaltige Sportswear und faire Outdoor Bekleidung",
+            "title_image": "shopify:\/\/shop_images\/20190516_174344.jpg",
+            "focal_point": "center"
+          }
         }
       },
       "block_order": [
-        "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932",
         "948a711d-8508-4183-aa90-b73841f72c3f",
         "21d17fe4-76ad-4ec4-8ec4-2a3d46be852e",
         "d74e612e-3e92-469e-a7d8-39c8727fdfbb",
@@ -185,7 +184,8 @@
         "0f8f415f-38c1-4820-ad7d-a8f8aae6691c",
         "ed2b8689-ec18-4146-9a5e-544a2db0a4ac",
         "81a5a6af-c62f-4e5d-9682-a0d59883d699",
-        "a5c5aa24-c439-4533-b55f-35a652ebc065"
+        "a5c5aa24-c439-4533-b55f-35a652ebc065",
+        "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932"
       ],
       "settings": {
         "title": "Presse",
