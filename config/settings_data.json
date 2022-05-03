@@ -90,7 +90,7 @@
             "settings": {
               "logo": "shopify:\/\/shop_images\/montreet_blue_aaf392cb-c535-48fd-94c1-7f19354b1992.png",
               "logo-inverted": "shopify:\/\/shop_images\/montreet_logo_white.png",
-              "desktop_logo_width": 260,
+              "desktop_logo_width": 200,
               "mobile_logo_width": 200
             }
           }
