@@ -1,4 +1,30 @@
-<div class="rte rte--nomargin">
+{% style %}
+.press__container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-gap: 30px; 
+}
+
+@media (min-width: 600px) {
+  .press__container {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 800px) {
+  .press__container {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.press__container .grid__item {
+  float: unset;
+  padding-left: 0;
+}
+
+{% endstyle %}
+
+<div class="press__container page-width">
   {%- for block in section.blocks -%}
   
   {% unless forloop.index > section.settings.max_articles %}
@@ -7,7 +33,6 @@
   
   {%- endfor -%}
 </div>
-
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
