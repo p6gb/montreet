@@ -53,7 +53,7 @@
         "focal_point": "center",
         "layout": "right",
         "height": 550,
-        "parallax": false
+        "parallax": true
       }
     },
     "164355902397d3a8e9": {
