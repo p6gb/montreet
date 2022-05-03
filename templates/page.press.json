@@ -67,6 +67,36 @@
             "title_image": "shopify:\/\/shop_images\/200506_Leggins_Action_Shoot-8182-Bearbeitet4000px.jpg",
             "focal_point": "top"
           }
+        },
+        "7d7e8fb3-c416-4097-9171-7a4f3bc49033": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/mio.observer.at\/webview\/026752e9-b2ae-4856-a3e3-8f9b7a0ceadd\/6776505#&gid=1&pid=2",
+            "date": "22.03.2021",
+            "title": "Gesund & Fit \/\/ Fitness-Begleiter fürs Leben",
+            "title_image": "shopify:\/\/shop_images\/201019_Montreet_Leggings_012.jpg",
+            "focal_point": "top"
+          }
+        },
+        "d6416070-7270-46ea-9dbc-8d836f1a1633": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/mio.observer.at\/webview\/026752e9-b2ae-4856-a3e3-8f9b7a0ceadd\/6776656#&gid=1&pid=1",
+            "date": "21.03.2021",
+            "title": "Madonna \/\/ Faire Sportmode aus Wien",
+            "title_image": "shopify:\/\/shop_images\/455935164_444136_2.jpg",
+            "focal_point": "top"
+          }
+        },
+        "7af6423e-a883-4a73-b5fd-56af939470f6": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/mio.observer.at\/webview\/3c7cf60c-f2f5-45e0-8c88-02754c18d270\/6713257#&gid=1&pid=1",
+            "date": "06.03.2021",
+            "title": "Kurier (Freizeit)  \/\/ Funktionell, nachhaltig, langlebig",
+            "title_image": "shopify:\/\/shop_images\/20190818_100656.jpg",
+            "focal_point": "top"
+          }
         }
       },
       "block_order": [
@@ -75,7 +105,10 @@
         "21d17fe4-76ad-4ec4-8ec4-2a3d46be852e",
         "d74e612e-3e92-469e-a7d8-39c8727fdfbb",
         "af341d58-d92b-4714-b929-3e864cd2b8f5",
-        "d45b6219-c81f-4dfb-a35c-9909a9cebb07"
+        "d45b6219-c81f-4dfb-a35c-9909a9cebb07",
+        "7d7e8fb3-c416-4097-9171-7a4f3bc49033",
+        "d6416070-7270-46ea-9dbc-8d836f1a1633",
+        "7af6423e-a883-4a73-b5fd-56af939470f6"
       ],
       "settings": {
         "title": "Presse",
