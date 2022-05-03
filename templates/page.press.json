@@ -127,6 +127,16 @@
             "title_image": "shopify:\/\/shop_images\/3-2.jpg",
             "focal_point": "top"
           }
+        },
+        "0f8f415f-38c1-4820-ad7d-a8f8aae6691c": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/shoppingguideaustria.at\/news\/montreet-sportswear-think-fair-act-fair",
+            "date": "10.2.2021",
+            "title": "Shopping Guide Austria \/\/ MONTREET Sportswear– think FAIR, act FAIR",
+            "title_image": "shopify:\/\/shop_images\/210615_Montreet_Leggings_4000px_092.jpg",
+            "focal_point": "top"
+          }
         }
       },
       "block_order": [
@@ -141,7 +151,8 @@
         "7af6423e-a883-4a73-b5fd-56af939470f6",
         "d8617609-0a96-4a44-b0c6-c0781eb342ba",
         "174d638d-33b7-4808-bce4-cb01a6a6b72d",
-        "a7314ffd-fa69-4aa8-b045-ca7846db9ddf"
+        "a7314ffd-fa69-4aa8-b045-ca7846db9ddf",
+        "0f8f415f-38c1-4820-ad7d-a8f8aae6691c"
       ],
       "settings": {
         "title": "Presse",
