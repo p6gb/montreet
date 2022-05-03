@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-only-header-rutotero",
+      "settings": {
+      }
+    },
+    "circulation-ability": {
+      "type": "circulation-ability"
+    }
+  },
+  "order": [
+    "main",
+    "circulation-ability"
+  ]
+}
