@@ -1,0 +1,90 @@
+{%- for block in section.blocks -%}
+  
+  {% unless forloop.index > section.settings.max_articles %}
+    {%- render 'page-block-press-article', article: block.settings -%}
+  {% endunless %}
+  
+{%- endfor -%}
+
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+  {
+   "name": "Presse-Seite",
+   "settings": [
+     {
+        "type": "text",
+        "id": "title",
+        "label": "Seiten-Überschrift",
+        "default": "Presse"
+      },
+      {
+        "type": "range",
+        "id": "max_articles",
+        "min": 12,
+        "max": 90,
+        "step": 3,
+        "label": "Maximale Anzahl Artikel",
+        "default": 90
+      }
+   ],
+    "blocks": [
+      {
+        "type": "press-article",
+        "name": "Artikel",
+        "settings": [
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL (Link) zum Artikel"
+          },
+          {
+            "type": "text",
+            "id": "date",
+            "label": "Erscheinungsdatum"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Titel des Artikels"
+          },
+          {
+            "type": "image_picker",
+            "id": "title_image",
+            "label": "Vorschaubild"
+          },
+          {
+            "type": "select",
+            "id": "focal_point",
+            "label": "Bildfokus",
+            "info": "Stelle ein, welcher Teil des Bildes im Fokus liegen soll!",
+            "default": "top",
+            "options": [
+              {
+                "value": "top",
+                "label": "Oben"
+              },
+              {
+                "value": "center",
+                "label": "Mitte"
+              },
+              {
+                "value": "bottom",
+                "label": "Unten"
+              },
+              {
+                "value": "left",
+                "label": "Links"
+              },
+              {
+                "value": "right",
+                "label": "Rechts"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

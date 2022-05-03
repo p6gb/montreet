@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-only-header-rutotero",
+      "settings": {}
+    },
+    "press": {
+      "type": "page-press-template",
+      "blocks": {},
+      "settings": {}
+    }
+  },
+  "order": ["main", "press"]
+}

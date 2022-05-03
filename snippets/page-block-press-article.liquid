@@ -1,0 +1,45 @@
+<div class="grid__item medium-up--one-third" data-aos="row-of-3">
+    <a href="{{ article.url }}" target="_blank" class="article__grid-image" aria-label="{{ article.title | escape }}">
+      <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 }}%;">
+
+        {% comment %} Make focal point adjustable. Has to be done with switch/case because liquid variable cannot be used as parameter in crop statement {% endcomment %}
+        {% case article.focal_point %}
+        {% when 'top' %}
+          {%- assign img_url = article.title_image | img_url: '400x400', crop: 'top' -%}
+        {% when 'center' %}
+          {%- assign img_url = article.title_image | img_url: '400x400', crop: 'center' -%}
+        {% when 'bottom' %}
+          {%- assign img_url = article.title_image | img_url: '400x400', crop: 'bottom' -%}
+        {% when 'left' %}
+          {%- assign img_url = article.title_image | img_url: '400x400', crop: 'left' -%}
+        {% when 'right' %}
+          {%- assign img_url = article.title_image | img_url: '400x400', crop: 'right' -%}
+        {% else %}
+          {%- assign img_url = article.title_image | img_url: '400x400', crop: 'top' -%}
+        {% endcase %}
+
+        <img class="lazyload"
+            data-src="{{ img_url }}"
+            data-widths="[180, 360, 540, 720, 900, 1080]"
+            data-aspectratio="{{ img_url.aspect_ratio }}"
+            data-sizes="auto"
+            alt="{{ article.title | escape }}">
+        <noscript>
+          <img class="lazyloaded" src="{{ article.title_image | img_url: '400x' }}" alt="{{ article.title | escape }}">
+        </noscript>
+      </div>
+    </a>
+
+  <div class="article__grid-meta press-article__text-container">
+      <div class="article__date">
+        {% comment %} added new time_tag format in locale/de.json {% endcomment %}
+        {{ article.date | time_tag: format: 'day_month_year' }}
+      </div>
+
+    <a href="{{ article.url }}" target="_blank">
+      <h3 class="article__title">
+        {{ article.title }}
+      </h3>
+    </a>
+  </div>
+</div>
