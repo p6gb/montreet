@@ -2,13 +2,56 @@
   "sections": {
     "main": {
       "type": "main-page-only-header-rutotero",
-      "settings": {}
+      "settings": {
+      }
     },
     "press": {
       "type": "page-press-template",
-      "blocks": {},
-      "settings": {}
+      "blocks": {
+        "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/peppermynta.de\/fair-fashion\/montreet-nachhaltige-sportswear-faire-outdoor-mode\/",
+            "date": "29.1.2020",
+            "title": "PEPPERMYNTA \/\/ Nachhaltige Sportswear und faire Outdoor Bekleidung",
+            "title_image": "shopify:\/\/shop_images\/20190516_174344.jpg",
+            "focal_point": "center"
+          }
+        },
+        "948a711d-8508-4183-aa90-b73841f72c3f": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/kurier.at\/wirtschaft\/karriere\/mit-diesen-produkten-koennen-sie-im-alltag-co2-einsparen\/401778399",
+            "date": "23.10.2021",
+            "title": "KURIER \/\/ Mit diesen Produkten können Sie im Alltag CO2 einsparen",
+            "title_image": "shopify:\/\/shop_images\/Foto_von_KURIER.jpg",
+            "focal_point": "top"
+          }
+        },
+        "21d17fe4-76ad-4ec4-8ec4-2a3d46be852e": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.kleinezeitung.at\/lebensart\/sonntag\/6026269\/Levitate-und-Montreet_Mit-Recycling-und-Pflanzenfasern-setzen",
+            "date": "30.08.2021",
+            "title": "Kleine Zeitung \/\/ \"Levitate\" und \"MONTREET\"",
+            "title_image": "shopify:\/\/shop_images\/Founder_MONTREET_238eefc6-0fa5-4082-93d3-91bc982099b7.png",
+            "focal_point": "top"
+          }
+        }
+      },
+      "block_order": [
+        "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932",
+        "948a711d-8508-4183-aa90-b73841f72c3f",
+        "21d17fe4-76ad-4ec4-8ec4-2a3d46be852e"
+      ],
+      "settings": {
+        "title": "Presse",
+        "max_articles": 90
+      }
     }
   },
-  "order": ["main", "press"]
+  "order": [
+    "main",
+    "press"
+  ]
 }
