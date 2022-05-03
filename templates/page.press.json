@@ -117,6 +117,16 @@
             "title_image": "shopify:\/\/shop_images\/190724_NASCH_Sportswear_Climber_BoicutEdition_Man_2000px_preview_010.jpg",
             "focal_point": "top"
           }
+        },
+        "a7314ffd-fa69-4aa8-b045-ca7846db9ddf": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.adventuremo.de\/nachhaltigkeit\/fair-fashion-eco-fashion\/montreet-nachhaltige-outdoormode-aus-wien\/",
+            "date": "28.02.2021",
+            "title": "Adventuremo (Blog) \/\/ Nachhaltige Outdoormode aus Wien",
+            "title_image": "shopify:\/\/shop_images\/3-2.jpg",
+            "focal_point": "top"
+          }
         }
       },
       "block_order": [
@@ -130,7 +140,8 @@
         "d6416070-7270-46ea-9dbc-8d836f1a1633",
         "7af6423e-a883-4a73-b5fd-56af939470f6",
         "d8617609-0a96-4a44-b0c6-c0781eb342ba",
-        "174d638d-33b7-4808-bce4-cb01a6a6b72d"
+        "174d638d-33b7-4808-bce4-cb01a6a6b72d",
+        "a7314ffd-fa69-4aa8-b045-ca7846db9ddf"
       ],
       "settings": {
         "title": "Presse",
