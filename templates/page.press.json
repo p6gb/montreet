@@ -97,6 +97,26 @@
             "title_image": "shopify:\/\/shop_images\/20190818_100656.jpg",
             "focal_point": "top"
           }
+        },
+        "d8617609-0a96-4a44-b0c6-c0781eb342ba": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.hedigrager.com\/2021\/03\/montreet-sportswear-think-fair-act-fair\/",
+            "date": "02.03.2021",
+            "title": "Hedi Grager (Blog) \/\/ MONTREET Sportswear - Think fair, act fair",
+            "title_image": "shopify:\/\/shop_images\/201019_Montreet_Leggings_008_678d0706-69f7-4da1-9502-17e781bb98e7.jpg",
+            "focal_point": "top"
+          }
+        },
+        "174d638d-33b7-4808-bce4-cb01a6a6b72d": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/mio.observer.at\/webview\/b6d1357a-07de-4684-8367-a52b098d8ec5\/6682244#&gid=1&pid=1",
+            "date": "01.03.2021",
+            "title": "Kronenzeitung \/\/ Faire Sportmode aus Wien!",
+            "title_image": "shopify:\/\/shop_images\/190724_NASCH_Sportswear_Climber_BoicutEdition_Man_2000px_preview_010.jpg",
+            "focal_point": "top"
+          }
         }
       },
       "block_order": [
@@ -108,7 +128,9 @@
         "d45b6219-c81f-4dfb-a35c-9909a9cebb07",
         "7d7e8fb3-c416-4097-9171-7a4f3bc49033",
         "d6416070-7270-46ea-9dbc-8d836f1a1633",
-        "7af6423e-a883-4a73-b5fd-56af939470f6"
+        "7af6423e-a883-4a73-b5fd-56af939470f6",
+        "d8617609-0a96-4a44-b0c6-c0781eb342ba",
+        "174d638d-33b7-4808-bce4-cb01a6a6b72d"
       ],
       "settings": {
         "title": "Presse",
