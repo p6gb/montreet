@@ -66,6 +66,17 @@
       </header>
     {%- endunless -%}
 
+    {%- if collection.description != blank -%}
+    
+    <div class="collection-description rte" {{ block.shopify_attributes }}>
+      <div class="enlarge-text">
+        {{ collection.description }}
+      </div>
+    </div>
+    
+    <hr class="hr--clear hr--medium">
+    {%- endif -%}
+
     {% render 'collection-filters',
       collection: collection,
       enable_sort: section.settings.enable_sort,
@@ -76,22 +87,6 @@
       {%- assign block_index = forloop.index -%}
 
       {%- case block.type -%}
-      {%- when 'collection_description' -%}
-        {%- if collection.description != blank -%}
-          {%- unless forloop.first -%}
-            <hr class="hr--clear hr--medium">
-          {%- endunless -%}
-
-          <div class="collection-description rte" {{ block.shopify_attributes }}>
-            <div class="enlarge-text">
-              {{ collection.description }}
-            </div>
-          </div>
-
-          {%- unless forloop.last -%}
-            <hr class="hr--clear hr--small">
-          {%- endunless -%}
-        {%- endif -%}
       {%- when 'product_grid' -%}
         {%- liquid
           assign per_row = block.settings.per_row
