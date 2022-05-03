@@ -1,10 +1,12 @@
-{%- for block in section.blocks -%}
+<div class="rte rte--nomargin">
+  {%- for block in section.blocks -%}
   
   {% unless forloop.index > section.settings.max_articles %}
-    {%- render 'page-block-press-article', article: block.settings -%}
+  {%- render 'page-block-press-article', article: block.settings -%}
   {% endunless %}
   
-{%- endfor -%}
+  {%- endfor -%}
+</div>
 
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
