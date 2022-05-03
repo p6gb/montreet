@@ -6,37 +6,18 @@
       "settings": {
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Get in touch"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-      }
-    },
     "form": {
       "type": "contact-form",
       "settings": {
+        "title": "Kontakt",
+        "text": "<p>Bei Fragen, Feedback, Wünschen oder Anregungen schreibe uns gerne eine <br\/>Mail oder fülle das Kontaktformular auf der Seite aus. Wir versuchen, <br\/>uns deinem Anliegen schnellstmöglich zu widmen.<br\/>          <\/p>",
+        "show_phone": false,
+        "narrow_column": true
       }
     }
   },
   "order": [
     "main",
-    "rich-text",
     "form"
   ]
 }
