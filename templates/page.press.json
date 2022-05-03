@@ -37,12 +37,45 @@
             "title_image": "shopify:\/\/shop_images\/Founder_MONTREET_238eefc6-0fa5-4082-93d3-91bc982099b7.png",
             "focal_point": "top"
           }
+        },
+        "d74e612e-3e92-469e-a7d8-39c8727fdfbb": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/mio.observer.at\/webview\/d0c6cffc-13ca-4ee7-a13a-efae0a13b068\/7128698#&gid=1&pid=4",
+            "date": "10.06.2021",
+            "title": "Miss Magazin \/\/ Local Heroes",
+            "title_image": "shopify:\/\/shop_images\/Miss_Magazin_Webseite_Format_2.png",
+            "focal_point": "top"
+          }
+        },
+        "af341d58-d92b-4714-b929-3e864cd2b8f5": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/mio.observer.at\/webview\/6e780c33-b6a7-4ce2-a2c6-0b8a76b1a2c9\/7112566#&gid=1&pid=2",
+            "date": "05.06.2021",
+            "title": "Madonna \/\/ EINZIG-ART-IG",
+            "title_image": "shopify:\/\/shop_images\/190724_NASCH_Sportswear_Climber_BoicutEdition_Man_2000px_preview_010.jpg",
+            "focal_point": "top"
+          }
+        },
+        "d45b6219-c81f-4dfb-a35c-9909a9cebb07": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.textilzeitung.at\/fashion\/news\/label-to-watch-montreet-13828",
+            "date": "31.03.2021",
+            "title": "Österreichische Textilzeitung \/\/ Label to watch: MONTREET",
+            "title_image": "shopify:\/\/shop_images\/200506_Leggins_Action_Shoot-8182-Bearbeitet4000px.jpg",
+            "focal_point": "top"
+          }
         }
       },
       "block_order": [
         "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932",
         "948a711d-8508-4183-aa90-b73841f72c3f",
-        "21d17fe4-76ad-4ec4-8ec4-2a3d46be852e"
+        "21d17fe4-76ad-4ec4-8ec4-2a3d46be852e",
+        "d74e612e-3e92-469e-a7d8-39c8727fdfbb",
+        "af341d58-d92b-4714-b929-3e864cd2b8f5",
+        "d45b6219-c81f-4dfb-a35c-9909a9cebb07"
       ],
       "settings": {
         "title": "Presse",
