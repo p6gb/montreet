@@ -8,7 +8,25 @@
     },
     "form": {
       "type": "page-contact-rental-service-template",
-      "settings": {}
+      "blocks": {
+        "e43a79f3-a2e7-44ec-a0bd-be7849594468": {
+          "type": "contact-form",
+          "settings": {
+            "title": "",
+            "show_phone": false,
+            "narrow_column": true
+          }
+        }
+      },
+      "block_order": [
+        "e43a79f3-a2e7-44ec-a0bd-be7849594468"
+      ],
+      "settings": {
+        "form_content": "Hallo, ich würde gerne '~PRODUKT~' in der Variante '~VARIANT~' ausleihen!",
+        "page_title_enable": true,
+        "page_content_enable": true,
+        "overlaid_header": true
+      }
     }
   },
   "order": [
