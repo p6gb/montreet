@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "form": {
+      "type": "page-contact-rental-service-template",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "form"
+  ]
+}
