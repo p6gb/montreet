@@ -84,22 +84,10 @@
     "sections": {
       "header": {
         "type": "header",
-        "blocks": {
-          "60329b0e-a453-4d43-90b1-3afa4f10f181": {
-            "type": "logo",
-            "settings": {
-              "logo": "shopify:\/\/shop_images\/montreet_blue_aaf392cb-c535-48fd-94c1-7f19354b1992.png",
-              "logo-inverted": "shopify:\/\/shop_images\/montreet_logo_white.png",
-              "desktop_logo_width": 200,
-              "mobile_logo_width": 200
-            }
-          }
-        },
-        "block_order": [
-          "60329b0e-a453-4d43-90b1-3afa4f10f181"
-        ],
         "settings": {
           "main_menu_link_list": "main-menu",
+          "logo": "shopify://shop_images/montreet_blue_aaf392cb-c535-48fd-94c1-7f19354b1992.png",
+          "logo-inverted": "shopify://shop_images/montreet_logo_white.png",
           "main_menu_alignment": "left-center",
           "header_style": "sticky",
           "sticky_index": true,
@@ -108,7 +96,7 @@
           "type_navigation_style": false,
           "show_announcement": true,
           "announcement_text": "Kostenloser Versand ab 60€ 💚",
-          "announcement_link": "shopify:\/\/collections\/all",
+          "announcement_link": "shopify://collections/all",
           "announcement_closable": true
         }
       },

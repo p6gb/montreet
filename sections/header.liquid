@@ -187,6 +187,38 @@
         "default": "main-menu"
       },
       {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo-inverted",
+        "label": "White logo",
+        "info": "Used when on top of an image"
+      },
+      {
+        "type": "range",
+        "id": "desktop_logo_width",
+        "label": "Desktop logo width",
+        "default": 200,
+        "min": 100,
+        "max": 400,
+        "step": 10,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "mobile_logo_width",
+        "label": "Mobile logo width",
+        "default": 140,
+        "min": 60,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "info": "Set as a max-width, may appear smaller."
+      },
+      {
         "type": "select",
         "id": "main_menu_alignment",
         "label": "Logo alignment",
@@ -220,24 +252,24 @@
             "value": "center-drawer",
             "label": "Logo center, menu drawer"
           }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "header_style",
-        "label": "Header style",
-        "default": "normal",
-        "options": [
-          {
-            "value": "normal",
-            "label": "Normal"
-          },
-          {
-            "value": "sticky",
-            "label": "Sticky"
-          }
-        ]
-      },
+          ]
+        },
+        {
+          "type": "select",
+          "id": "header_style",
+          "label": "Header style",
+          "default": "normal",
+          "options": [
+            {
+              "value": "normal",
+              "label": "Normal"
+            },
+            {
+              "value": "sticky",
+              "label": "Sticky"
+            }
+          ]
+        },
       {
         "type": "checkbox",
         "id": "sticky_index",
@@ -294,47 +326,6 @@
         "type": "checkbox",
         "id": "announcement_closable",
         "label": "Allow users to close announcement"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "logo",
-        "name": "Logo",
-        "limit": 1,
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "logo",
-            "label": "Logo"
-          },
-          {
-            "type": "image_picker",
-            "id": "logo-inverted",
-            "label": "White logo",
-            "info": "Used when on top of an image"
-          },
-          {
-            "type": "range",
-            "id": "desktop_logo_width",
-            "label": "Desktop logo width",
-            "default": 200,
-            "min": 100,
-            "max": 400,
-            "step": 10,
-            "unit": "px"
-          },
-          {
-            "type": "range",
-            "id": "mobile_logo_width",
-            "label": "Mobile logo width",
-            "default": 140,
-            "min": 60,
-            "max": 200,
-            "step": 10,
-            "unit": "px",
-            "info": "Set as a max-width, may appear smaller."
-          }
-        ]
       }
     ],
     "default": {
