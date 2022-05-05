@@ -1,0 +1,71 @@
+{% if show_donation_info %}
+<p class="product__donation-notice">
+    {{donation_info}}
+</p>
+{% endif %}
+
+<!-- ARTIST_EDITION, NATUERLICHEMATERIALIEN, RECYCLETEMATERIALIEN, REPARATUR, ZEROWASTE, MIETEN, UNISEX -->
+
+{% if product.tags %}
+    <div class="product__icon-container">
+        {% for tag in product.tags %}
+            {% assign tag = tag|upcase %}
+            {% case tag %}
+                {% when 'ARTISTEDITION' %}
+                    {% assign message = 'Artist Edition' %}
+                {% when 'NATUERLICHEMATERIALIEN' %}
+                    {% assign message = 'Aus natürlichen Fasern hergestellt' %}
+                {% when 'RECYCLETEMATERIALIEN' %}
+                    {% assign message = 'Aus recycelten Fasern hergestellt' %}
+                {% when 'REPARATUR' %}
+                    {% assign message = 'Kostenlose Reparatur bei Beschädigung' %}
+                {% when 'ZEROWASTE' %}
+                    {% assign message = 'Zero Waste Produkt' %}
+                {% when 'MIETEN' %}
+                    {% assign message = 'Diesen Artikel kannst du mieten' %}
+                {% when 'UNISEX' %}
+                    {% assign message = 'Dieser Artikel ist Unisex' %}
+                {% else %}
+                    {% assign message = null %}
+            {% endcase %}
+
+            {% unless message == null %}
+                {% assign icon = tag | append: ".png" %}
+                <div class="product__icon-row">
+                    <!-- <img alt="{{ tag|downcase }} icon" src="{{ "ARTISTEDITION.png" | asset_url }}" class="product__icon"> -->
+                    <img alt="{{tag|downcase }} icon" src="{{ icon | asset_url }}" class="product__icon">
+                    <p class="product__icon-message">
+                        {{ message }}
+                    </p>
+                </div>
+            {% endunless %}
+        {% endfor %}
+    </div>
+{% endif %} 
+
+{% schema %}
+{
+    "name": "Product Tags",
+    "tag": "section",
+    "class": "product-tags",
+    "limit": 1,
+    "settings": [
+        {
+            "type": "textarea",
+            "id": "donation_info",
+            "label": "Text für Spenden-Info"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_donation_info",
+            "label": "Info über Spenden anzeigen"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Product Tags & Spenden-Info"
+        }
+    ]
+}
+
+{% endschema %}
