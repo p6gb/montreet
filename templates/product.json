@@ -18,7 +18,7 @@
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
-            "color_swatches": false
+            "color_swatches": true
           }
         },
         "buy_buttons": {
