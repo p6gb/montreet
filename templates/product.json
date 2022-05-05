@@ -18,7 +18,7 @@
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
-            "color_swatches": false
+            "color_swatches": true
           }
         },
         "buy_buttons": {
@@ -84,6 +84,7 @@
         "2599c58e-f250-4adc-8636-d24eb507eced": {
           "type": "size_chart_montreet",
           "settings": {
+            "link_text": "Größentabelle"
           }
         }
       },
@@ -122,7 +123,7 @@
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "You may also like",
+        "product_recommendations_heading": "Das könnte dir auch gefallen",
         "related_count": 5
       }
     },
