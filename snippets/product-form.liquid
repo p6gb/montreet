@@ -35,6 +35,49 @@
       {{ form | payment_button }}
     {% endif %}
 
+        {% comment %}
+        Füge einen Extra-Button für alle Produkte hinzu, die gemietet werden können.
+        {% endcomment %}
+        {% if product.tags contains 'Jackets' %}
+        <a href="/pages/mietservice-anfrage?product={{product.title}}&size={{current_variant.option1}}&color={{current_variant.option2}}"
+          class="btn btn--full rent-button js-rental-link" data-product-title="{{product.title}}" target="_blank">
+          <span>
+            Miete mich
+          </span>
+        </a>
+        
+        <script>
+          // monitor all input fields for changes. if so, the URL is updated with the current variant ID
+          // this is then parsed into the href of the 'Rent' Button
+          var inputs = document.querySelectorAll('input');
+          inputs.forEach(input => {
+            // see which fields are initially checked and set the url accordingly
+            if (input.checked) {
+              if (typeof input.dataset.colorName !== 'undefined') {
+                window.color = input.dataset.colorName;
+              } else {
+                window.size = input.value;
+              }
+            }
+            input.addEventListener('change', updateRentalLink);
+          });
+          var rentalLink = document.querySelector('.js-rental-link');
+          rentalLink.href = "/pages/mietservice-anfrage?product=" + rentalLink.dataset.productTitle + "&size=" + window.size + "&color=" + window.color;
+
+          // whenever another variant is picked the link gets updated
+          function updateRentalLink(ev) {
+            if (typeof ev.target.dataset.colorName !== 'undefined') {
+              window.color = ev.target.dataset.colorName;
+            } else {
+              window.size = ev.target.value;
+            }
+            var rentalLink = document.querySelector('.js-rental-link');
+            variant = new URLSearchParams(window.location.search).get('variant');
+            rentalLink.href = "/pages/mietservice-anfrage?product=" + rentalLink.dataset.productTitle + "&size=" + window.size + "&color=" + window.color;
+          }
+        </script>
+        {% endif %}
+
   {% if enable_dynamic_buttons %}
     </div>
   {% endif %}
