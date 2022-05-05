@@ -18,8 +18,6 @@ sizeTableImg.remove(); } }); {%- endjavascript -%} {% endcomment %}
   document.addEventListener("DOMContentLoaded", function () {
     var sizeTableImg = $(".js-product-description");
 
-    console.log(sizeTableImg);
-
     if (sizeTableImg.length) {
       refreshFsLightbox();
     }
