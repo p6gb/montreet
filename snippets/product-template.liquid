@@ -131,6 +131,7 @@
                       {%- assign id = block.id | append: product.id -%}
                       {%- render 'product-description', id: id, product: product, is_tab: block.settings.is_tab -%}
                     </div>
+
                   {%- when 'price' -%}
                     <div class="product-block product-block--price" {{ block.shopify_attributes }}>
                       {%- assign hide_sale_price = true -%}
@@ -292,6 +293,7 @@
                     <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
                       {%- render 'product-inventory', product: product, current_variant: current_variant, block: block -%}
                     </div>
+
                   {%- when 'share' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {%- render 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product -%}
@@ -318,17 +320,20 @@
                       {{ block.settings.code }}
                     </div>
                   {%- when 'size_chart_montreet' -%}
-                    <div>{{block.settings.link_text}}</div>
+                    <div class="product__size-chart-link js-size-chart-link">{{block.settings.link_text}}</div>
                     <div>{{product.metafields.montreet.size_chart.image}}</div>
                     {%- render 'size-chart-lightbox', url: product.metafields.montreet.size_chart -%}
                 {%- endcase -%}
-              {%- else -%}
+
+                {%- else -%}
                 <div data-blocks-holder
-                     data-url="{{ product.url | within: collection }}"
-                     data-template="{{ product.template_suffix }}">
-                  <div class="placeholder-content" style="min-height: 86px;"></div>
-                </div>
+                data-url="{{ product.url | within: collection }}"
+                data-template="{{ product.template_suffix }}">
+                <div class="placeholder-content" style="min-height: 86px;"></div>
+              </div>
               {%- endfor -%}
+              
+              {%- render 'product-contact-form-link' -%}
             </div>
           </div>
         </div>
