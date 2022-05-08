@@ -82,6 +82,12 @@
             "page": ""
           }
         },
+        "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5": {
+          "type": "contact_link_montreet",
+          "settings": {
+            "link_text": "Kontaktiere uns"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -100,6 +106,7 @@
         "574c8b80-ecba-4fa8-8515-d82180c9f30f",
         "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9",
         "a77aa2c0-a137-4938-9064-31b097c42205",
+        "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5",
         "share"
       ],
       "settings": {
