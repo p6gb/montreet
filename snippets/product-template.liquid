@@ -323,6 +323,8 @@
                     <div class="size-chart__container">
                       {%- render 'size-chart-lightbox', url: product.metafields.montreet.size_chart -%}
                     </div>
+                  {%- when 'contact_link_montreet' -%}
+                    {%- render 'product-contact-form-link' -%}
                 {%- endcase -%}
 
                 {%- else -%}
@@ -333,7 +335,6 @@
               </div>
               {%- endfor -%}
               
-              {%- render 'product-contact-form-link' -%}
             </div>
           </div>
         </div>
