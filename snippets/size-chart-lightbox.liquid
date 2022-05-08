@@ -1,36 +1,22 @@
-{% comment %} Only size chart images should be in the description text. Those
-are loaded into a lightbox link by JS and should therefore not be displayed
-before. {%- style -%} .product-single__description img { display: none; } {%-
-endstyle -%} {% endcomment %} {% comment %} The following code snippet finds an
-image in the description text and puts it in a link that opens the image in a
-lightbox when clicked {%- javascript -%}
-document.addEventListener('DOMContentLoaded', function () { var sizeTableImg =
-$('.js-product-description'); console.log(sizeTableImg); if
-(sizeTableImg.length) { var linkElement = $("<a
-  data-fslightbox
-  class="lightboxlink"
-  >Finde deine Größe: Größentabelle</a
->"); linkElement.attr('href', sizeTableImg.attr('src'));
-linkElement.prependTo($('.js-product-description')); refreshFsLightbox();
-sizeTableImg.remove(); } }); {%- endjavascript -%} {% endcomment %}
+{% style %}
+.product__size-chart-link:hover {
+  text-decoration: underline;
+}
+{% endstyle %}
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var sizeTableImg = $(".js-product-description");
+    var sizeTableImg = $(".js-size-chart");
 
     if (sizeTableImg.length) {
       refreshFsLightbox();
     }
   });
+
 </script>
 
-<div class="js-product-description" data-url="{{ url }}"></div>
-
 {%- if url -%}
-<a data-fslightbox href="{{ url }}.jpg" class="lightboxlink"
-  >Finde deine Größe: Größentabelle</a
->
-<a data-fslightbox href="https://cdn.shopify.com/s/files/1/0517/2471/4136/products/UniProdukt_mitLogo_1800x1800.jpg?v=1638284046" class="lightboxlink"
+<a data-fslightbox href="{{ url | img_url: 'original' }}" class="lightboxlink js-size-chart product__size-chart-link"
   >Finde deine Größe: Größentabelle</a
 >
 {%- endif -%}

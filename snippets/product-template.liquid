@@ -320,9 +320,9 @@
                       {{ block.settings.code }}
                     </div>
                   {%- when 'size_chart_montreet' -%}
-                    <div class="product__size-chart-link js-size-chart-link">{{block.settings.link_text}}</div>
-                    <div>{{product.metafields.montreet.size_chart.image}}</div>
-                    {%- render 'size-chart-lightbox', url: product.metafields.montreet.size_chart -%}
+                    <div class="size-chart__container">
+                      {%- render 'size-chart-lightbox', url: product.metafields.montreet.size_chart -%}
+                    </div>
                 {%- endcase -%}
 
                 {%- else -%}
