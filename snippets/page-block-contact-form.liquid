@@ -48,7 +48,7 @@
             {%- endif -%}
 
             <label for="ContactFormMessage-{{ blockId }}">{{ 'contact.form.message' | t }}</label>
-            <textarea rows="5" id="ContactFormMessage-{{ blockId }}" class="input-full" name="contact[body]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+            <textarea rows="5" id="ContactFormMessage-{{ blockId }}" class="input-full js-contact-form-rental" name="contact[body]">{% if form.body %}{{ form.body }}{% elsif section.settings.form_content %}{{section.settings.form_content}}{% endif %}</textarea>
 
             <button type="submit" class="btn">
               {{ 'contact.form.send' | t }}

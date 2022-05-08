@@ -1,5 +1,5 @@
 <script>
-document.addEventListener('page:loaded', function() {
+window.addEventListener('load', function() {
   var params = new URLSearchParams(window.location.search);
   var product = params.get("product");
   var size = params.get("size");
@@ -20,15 +20,11 @@ document.addEventListener('page:loaded', function() {
 
         text_content = text_content.replace('~VARIANT~', variant);
 
-        var form_element = document.getElementById('ContactFormMessage-page-contact-rental-service-template-0');
+        var form_element = document.querySelector('.js-contact-form-rental');
         form_element.textContent = text_content;
   }
 });
 </script>
-{% javascript %}
-console.log('empty js');
-{% endjavascript %}
-
 
 {%- if section.settings.overlaid_header and section.settings.page_title_enable == false and section.settings.page_content_enable == false  -%}
   {%- if section.blocks.first.type == 'hero-video' or section.blocks.first.type == 'background-image-text' or section.blocks.first.type == 'image-hero' or section.blocks.first.type == 'fading-images' -%}
