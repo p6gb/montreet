@@ -28,6 +28,12 @@
             "surface_pickup_enable": true
           }
         },
+        "2599c58e-f250-4adc-8636-d24eb507eced": {
+          "type": "size_chart_montreet",
+          "settings": {
+            "link_text": "Größentabelle"
+          }
+        },
         "ce87057f-8c16-43c8-993b-8af496d37ead": {
           "type": "tab",
           "settings": {
@@ -80,11 +86,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "2599c58e-f250-4adc-8636-d24eb507eced": {
-          "type": "size_chart_montreet",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -92,14 +93,14 @@
         "separator",
         "variant_picker",
         "buy_buttons",
+        "2599c58e-f250-4adc-8636-d24eb507eced",
         "ce87057f-8c16-43c8-993b-8af496d37ead",
         "007456e7-0044-4e04-a764-b05accf41d30",
         "fd9177c8-0f67-4330-adf9-70595d1a5936",
         "574c8b80-ecba-4fa8-8515-d82180c9f30f",
         "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9",
         "a77aa2c0-a137-4938-9064-31b097c42205",
-        "share",
-        "2599c58e-f250-4adc-8636-d24eb507eced"
+        "share"
       ],
       "settings": {
         "sku_enable": false,
