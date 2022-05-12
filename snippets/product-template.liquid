@@ -113,14 +113,16 @@
                       {{ block.settings.text }}
                     </div>
                   {%- when 'tab' -%}
-                    <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
-                       {%- render 'tab', id: tab_id, title: block.settings.title, content: block.settings.content -%}
-                    </div>
+                  <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                    {% assign tab_id = block.id | append: product.id %}
+                    {%- render 'tab', id: tab_id, title: block.settings.title, content: block.settings.content -%}
+                  </div>
+                  {%- comment -%}
                   {%- when 'material_montreet' -%}
-                    <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
-                        blablabla
-                       {%- render 'tab', id: tab_id, title: block.settings.title, content: block.settings.content -%}
-                    </div>
+                  <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                    {%- render 'tab-list', id: tab_id, title: "Material II", content: product.metafields.montreet.material -%}
+                  </div>
+                  {%- endcomment -%}
                   {%- when 'features_montreet' -%}
                   blablabla
                   {%- when 'contact' -%}
