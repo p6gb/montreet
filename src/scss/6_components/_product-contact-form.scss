@@ -1,5 +1,9 @@
 .product-contact-form-link {
-	&__link {
-		text-decoration: underline;
-	}
+  &__link {
+    text-decoration: underline;
+  }
+
+  &__container {
+    margin-top: 50px;
+  }
 }
