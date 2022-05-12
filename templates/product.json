@@ -5,11 +5,13 @@
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "separator": {
           "type": "separator",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -36,7 +38,7 @@
           "type": "tab",
           "settings": {
             "title": "Beschreibung",
-            "content": "<p>{{ product.metafields.montreet.description.value }}</p>",
+            "content": "<p>{{ product.metafields.montreet.description.value }}<\/p>",
             "page": ""
           }
         },
@@ -44,7 +46,7 @@
           "type": "tab",
           "settings": {
             "title": "Schnitt",
-            "content": "<p>{{ product.metafields.montreet.sizing.value }}</p>",
+            "content": "<p>{{ product.metafields.montreet.sizing.value }}<\/p>",
             "page": ""
           }
         },
@@ -64,7 +66,7 @@
           "type": "tab",
           "settings": {
             "title": "Gütesiegel",
-            "content": "<p>{{ product.metafields.montreet.quality_marks.value }}</p>",
+            "content": "<p>{{ product.metafields.montreet.quality_marks.value }}<\/p>",
             "page": ""
           }
         },
@@ -72,7 +74,7 @@
           "type": "tab",
           "settings": {
             "title": "Pflegehinweise",
-            "content": "<p>{{ product.metafields.montreet.pflegehinweise.value }}</p>",
+            "content": "<p>{{ product.metafields.montreet.pflegehinweise.value }}<\/p>",
             "page": ""
           }
         },
@@ -80,7 +82,7 @@
           "type": "tab",
           "settings": {
             "title": "Produktinfos",
-            "content": "<p>{{ product.metafields.montreet.produktinfos.value }}</p>",
+            "content": "<p>{{ product.metafields.montreet.produktinfos.value }}<\/p>",
             "page": ""
           }
         },
@@ -88,7 +90,7 @@
           "type": "tab",
           "settings": {
             "title": "Größe",
-            "content": "<p>{{ product.metafields.montreet.groesse.value }}</p>",
+            "content": "<p>{{ product.metafields.montreet.groesse.value }}<\/p>",
             "page": ""
           }
         },
@@ -96,7 +98,7 @@
           "type": "tab",
           "settings": {
             "title": "Vegan Fashion Award",
-            "content": "<p>{{ product.metafields.montreet.vegan_fashion_award.value }}</p>",
+            "content": "<p>{{ product.metafields.montreet.vegan_fashion_award.value }}<\/p>",
             "page": ""
           }
         },
@@ -108,7 +110,8 @@
         },
         "share": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -150,13 +153,15 @@
       "type": "apps",
       "blocks": {
         "22434a67-1331-4ce9-88ee-a8543ae4b05c": {
-          "type": "shopify://apps/judge-me-product-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "a24cdb06-6891-4460-8fc6-70d6305507bb": {
-          "type": "shopify://apps/judge-me-product-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -179,7 +184,8 @@
     "collection-return": {
       "type": "collection-return",
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
