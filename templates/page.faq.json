@@ -100,7 +100,7 @@
           "type": "rich-text",
           "settings": {
             "title": "Welche Größe brauche ich?",
-            "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
+            "text": "",
             "align_text": "left"
           }
         },
