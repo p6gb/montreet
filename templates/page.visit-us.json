@@ -15,10 +15,19 @@
             "title": "NOUW Shop",
             "text": "<p>Der <a href=\"https:\/\/www.nouw.at\/de\/about\/nouw-store\/\" target=\"_blank\" title=\"https:\/\/www.nouw.at\/de\/about\/nouw-store\/\">NOUW Shop<\/a> steht für durchdachte Funktionsbekleidung, Schuhe und Accessoires, die für Arbeit, Freizeit und Reisen geeignet sind. Es ist also sowohl für SportlerInnen und als auch alle, die es noch werden wollen, etwas dabei.<\/p><p><strong>Adresse:<\/strong><\/p><p>Neubaugasse 80, 1070 Wien, Österreich <\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Mo – Fr: 11 – 19 Uhr<br\/>Sa: 11 – 17 Uhr<\/p><p>\t\t\t<\/p>"
           }
+        },
+        "ca7cfaf9-8578-4ce6-916a-98c2eeafdbbe": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fashion-mie-5.jpg",
+            "title": "fashion MIE fair concept store",
+            "text": "<p><a href=\"https:\/\/www.fashionmie.de\" target=\"_blank\" title=\"https:\/\/www.fashionmie.de\">fashionMie<\/a> ist Entspannt.Persönlich.Fair.<\/p><p>Dort findest Du in ruhiger Atmosphäre handverlesene schöne Dinge, wie tolle nachhaltige Mode für Ihn und Sie, wie auch wunderschöne Accessoires und Geschenkideen. <\/p><p><strong>Adresse:<\/strong><\/p><p>Kaiserpassage 7, 72764 Reutlingen, Deutschland <\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Di - Do: 10 - 13Uhr & 14 - 18Uhr                           <\/p><p>Sa: 12 - 16 Uhr<\/p>"
+          }
         }
       },
       "block_order": [
-        "0a7db2e7-c6d9-4b83-a4f2-b08ac99962eb"
+        "0a7db2e7-c6d9-4b83-a4f2-b08ac99962eb",
+        "ca7cfaf9-8578-4ce6-916a-98c2eeafdbbe"
       ],
       "settings": {
       }
