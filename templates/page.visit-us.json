@@ -2,14 +2,30 @@
   "sections": {
     "main": {
       "type": "main-page-only-header-rutotero",
-      "settings": {}
+      "settings": {
+      }
     },
     "stores": {
       "type": "page-visit-us-template",
-      "blocks": {},
-      "block_order": [],
-      "settings": {}
+      "blocks": {
+        "0a7db2e7-c6d9-4b83-a4f2-b08ac99962eb": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NOUW_Shop_NOUW.jpg",
+            "title": "NOUW Shop",
+            "text": "<p>Der <a href=\"https:\/\/www.nouw.at\/de\/about\/nouw-store\/\" target=\"_blank\" title=\"https:\/\/www.nouw.at\/de\/about\/nouw-store\/\">NOUW Shop<\/a> steht für durchdachte Funktionsbekleidung, Schuhe und Accessoires, die für Arbeit, Freizeit und Reisen geeignet sind. Es ist also sowohl für SportlerInnen und als auch alle, die es noch werden wollen, etwas dabei.<\/p><p><strong>Adresse:<\/strong><\/p><p>Neubaugasse 80, 1070 Wien, Österreich <\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Mo – Fr: 11 – 19 Uhr<br\/>Sa: 11 – 17 Uhr<\/p><p>\t\t\t<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0a7db2e7-c6d9-4b83-a4f2-b08ac99962eb"
+      ],
+      "settings": {
+      }
     }
   },
-  "order": ["main", "stores"]
+  "order": [
+    "main",
+    "stores"
+  ]
 }
