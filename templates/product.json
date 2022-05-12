@@ -70,25 +70,6 @@
             "page": ""
           }
         },
-        "a77aa2c0-a137-4938-9064-31b097c42205": {
-          "type": "tab",
-          "settings": {
-            "title": "Vegan Fashion Award",
-            "content": "<p>{{ product.metafields.montreet.vegan_fashion_award | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5": {
-          "type": "contact_link_montreet",
-          "settings": {
-            "link_text": "Kontaktiere uns"
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
-        },
         "5ac665eb-ae78-4fda-bbb0-4a8df1e4267e": {
           "type": "tab",
           "settings": {
@@ -112,6 +93,25 @@
             "content": "<p>{{ product.metafields.montreet.groesse | metafield_tag }}<\/p>",
             "page": ""
           }
+        },
+        "a77aa2c0-a137-4938-9064-31b097c42205": {
+          "type": "tab",
+          "settings": {
+            "title": "Vegan Fashion Award",
+            "content": "<p>{{ product.metafields.montreet.vegan_fashion_award | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5": {
+          "type": "contact_link_montreet",
+          "settings": {
+            "link_text": "Kontaktiere uns"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -125,12 +125,12 @@
         "0a90c1ee-c49b-4f44-b990-26d733a6dbb0",
         "741088df-36f1-49eb-8d3c-d47057fa480f",
         "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9",
-        "a77aa2c0-a137-4938-9064-31b097c42205",
-        "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5",
-        "share",
         "5ac665eb-ae78-4fda-bbb0-4a8df1e4267e",
         "f008f3c5-93f7-48df-ad9c-a37baf9928d0",
-        "5d99a43d-746e-4944-b839-baa9769ecccd"
+        "5d99a43d-746e-4944-b839-baa9769ecccd",
+        "a77aa2c0-a137-4938-9064-31b097c42205",
+        "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5",
+        "share"
       ],
       "settings": {
         "sku_enable": false,
