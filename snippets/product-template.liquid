@@ -114,16 +114,16 @@
                     </div>
                   {%- when 'tab' -%}
                     <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
-                      {% assign tab_id = block.id | append: product.id %}
-                      <!-- {% capture tab_content %}
-                        {{ block.settings.content }}
+                      <!-- {% assign tab_id = block.id | append: product.id %}
+                      {% capture tab_content %}
+                        {{ block.settings.content | metafield_tag }}
                         {{ block.settings.page.content }}
                       {% endcapture %} -->
-                      {% capture tab_content %}
+                      <!-- {% capture tab_content %}
                         {{ block.settings.content | replace: '<br>', '<HÖIFRW>'}}
-                      {% endcapture %}
+                      {% endcapture %} -->
 
-                      {%- render 'tab', id: tab_id, title: block.settings.title, content: tab_content -%}
+                      {%- render 'tab', id: tab_id, title: block.settings.title, content: block.settings.content -%}
                     </div>
                   {%- when 'contact' -%}
                     <div class="product-block product-block--tab" {{ block.shopify_attributes }}>

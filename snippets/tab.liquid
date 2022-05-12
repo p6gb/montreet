@@ -16,7 +16,10 @@
       class="collapsible-content collapsible-content--all{% if force_open %} is-open{% endif %}"
       {% if force_open %}style="height: auto;"{% endif %}>
       <div class="collapsible-content__inner rte">
-        {{ content }}
+        Tag
+        {{ content | metafield_tag }}
+        Text
+        {{ content | metafield_text }}
       </div>
     </div>
   </div>
