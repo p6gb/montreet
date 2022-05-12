@@ -8,8 +8,7 @@
       "type": "page-visit-us-template",
       "blocks": {},
       "block_order": [],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": ["main", "stores"]
