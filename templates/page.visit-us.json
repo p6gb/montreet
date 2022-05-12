@@ -5,9 +5,7 @@
       "settings": {}
     },
     "stores": {
-      "type": "page-visit-us-template",
-      "blocks": {},
-      "settings": {}
+      "type": "page-visit-us-template"
     }
   },
   "order": ["main", "stores"]
