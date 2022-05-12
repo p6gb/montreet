@@ -74,6 +74,14 @@
             "page": ""
           }
         },
+        "bf5efdbd-440c-40f6-81ab-a5335278bcf4": {
+          "type": "tab",
+          "settings": {
+            "title": "Material LISTE",
+            "content": "<p>{{ product.metafields.montreet.material_list | metafield_text }}<\/p>",
+            "page": ""
+          }
+        },
         "a77aa2c0-a137-4938-9064-31b097c42205": {
           "type": "tab",
           "settings": {
@@ -105,6 +113,7 @@
         "fd9177c8-0f67-4330-adf9-70595d1a5936",
         "574c8b80-ecba-4fa8-8515-d82180c9f30f",
         "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9",
+        "bf5efdbd-440c-40f6-81ab-a5335278bcf4",
         "a77aa2c0-a137-4938-9064-31b097c42205",
         "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5",
         "share"
