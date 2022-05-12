@@ -1,4 +1,11 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+  
+{%- style -%}
+.text-columns-with-images h3 {
+  margin-bottom: 1.5rem;
+}
+{%- endstyle -%}
+  
 
 <div class="page-width">
   {%- if section.settings.title != blank -%}
@@ -71,7 +78,7 @@
 {% schema %}
   {
     "name": "Text columns with images",
-    "class": "index-section",
+    "class": "text-columns-with-images index-section",
     "settings": [
       {
         "type": "text",
