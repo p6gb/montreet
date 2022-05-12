@@ -4,19 +4,9 @@
       "type": "main-page",
       "settings": {
       }
-    },
-    "16523658274686104f": {
-      "type": "contact-form",
-      "settings": {
-        "title": "",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
-      }
     }
   },
   "order": [
-    "main",
-    "16523658274686104f"
+    "main"
   ]
 }
