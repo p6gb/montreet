@@ -50,20 +50,16 @@
             "page": ""
           }
         },
-        "fd9177c8-0f67-4330-adf9-70595d1a5936": {
-          "type": "tab",
+        "0a90c1ee-c49b-4f44-b990-26d733a6dbb0": {
+          "type": "features_montreet",
           "settings": {
-            "title": "Features",
-            "content": "<p>{{ product.metafields.montreet.features | metafield_tag }}<\/p>",
-            "page": ""
+            "text": ""
           }
         },
-        "574c8b80-ecba-4fa8-8515-d82180c9f30f": {
-          "type": "tab",
+        "741088df-36f1-49eb-8d3c-d47057fa480f": {
+          "type": "material_montreet",
           "settings": {
-            "title": "Material",
-            "content": "<p>{{ product.metafields.montreet.material | metafield_tag }}<\/p>",
-            "page": ""
+            "text": ""
           }
         },
         "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9": {
@@ -110,8 +106,8 @@
         "2599c58e-f250-4adc-8636-d24eb507eced",
         "ce87057f-8c16-43c8-993b-8af496d37ead",
         "007456e7-0044-4e04-a764-b05accf41d30",
-        "fd9177c8-0f67-4330-adf9-70595d1a5936",
-        "574c8b80-ecba-4fa8-8515-d82180c9f30f",
+        "0a90c1ee-c49b-4f44-b990-26d733a6dbb0",
+        "741088df-36f1-49eb-8d3c-d47057fa480f",
         "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9",
         "bf5efdbd-440c-40f6-81ab-a5335278bcf4",
         "a77aa2c0-a137-4938-9064-31b097c42205",
