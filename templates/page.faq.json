@@ -48,9 +48,52 @@
         "faq-3": {
           "type": "rich-text",
           "settings": {
-            "title": "Returns",
+            "title": "Versand",
             "text": "",
             "align_text": "left"
+          }
+        },
+        "a54fab78-0b67-495e-85ec-17f8ab9902c9": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange braucht meine Bestellung?",
+            "text": "<p>Der <strong>durchschnittliche<\/strong> Versand beträgt aktuell <strong>3-4 Tage<\/strong>. Sobald wir das Paket losschicken, bekommst du per Mail den <strong>Trackingcode<\/strong> zugeschickt und du kannst den Versand verfolgen - bitte auch im SPAM Ordner nachsehen.<\/p><p>Hast du eines unserer <strong>Zero Waste-Accessoires<\/strong> bestellt, so kann es <strong>etwas länger<\/strong> dauern, bis deine Bestellung bei dir eintrifft, denn diese Produktreihe wird <strong>handgenäht <\/strong>in Wien. Falls das der Fall ist, melden wir uns selbstverständlich bei dir und geben dir Bescheid, wann du mit deiner Bestellung rechnen kannst.<\/p>"
+          }
+        },
+        "3cf4e143-60f8-4ada-b96d-89e90be161fb": {
+          "type": "question",
+          "settings": {
+            "title": "Wie hoch sind die Versandkosten?",
+            "text": "<p>Die Versandkosten sind je nach Lieferzonen unterschiedlich. Am Ende deines Bestellvorganges wirst du nach deiner Adresse gefragt, daraufhin werden dir deine Versandkosten berechnet.<\/p><p><strong>Nach Österreich:<\/strong> Unter 60 € Bestellwert betragen die Versandkosten 4,50 € l <strong>Versandkostenfrei<\/strong> ab einem Bestellwert von 60 €<\/p><p><br\/><strong>Nach Deutschland:<\/strong> Unter 60 € Bestellwert betragen die Versandkosten 8,50 € l <strong>Versandkostenfrei<\/strong> ab einem Bestellwert von 60 €<\/p><p><strong>Innerhalb Österreichs<\/strong> ist auch ein <strong>Express<\/strong> Versand möglich. Dieser kostet 6,99 €.<\/p><p>Wir versenden <strong>auch<\/strong> in die <strong>Schweiz<\/strong> und in <strong>andere europäische Länder<\/strong>. Nutze hierfür bitte den Versandkostenrechner am Ende des Bestellvorgangs, um die genauen Versandkosten zu errechnen.<\/p>"
+          }
+        },
+        "8564630c-54b9-40b6-a675-00d7797b7bff": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Fragen zu meiner Bestellung",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "db61eb01-35ab-4417-b683-ff5e62da6ff4": {
+          "type": "question",
+          "settings": {
+            "title": "Welche Zahlungsmöglichkeiten gibt es?",
+            "text": "<p>Wir akzeptieren Zahlungen per <strong>Kreditkarte <\/strong>(Visa oder Mastercard), <strong>PayPal<\/strong>, <strong>Klarna<\/strong>, <strong>Apple Pay<\/strong>, <strong>Google Pay<\/strong>, <strong>EPS <\/strong>oder <strong>American Express<\/strong>. <\/p><p>Die für Deinen Einkauf zur Verfügung stehenden Zahlungsarten werden dir während des Bestellprozesses angezeigt.<\/p><p><\/p><p><strong>Bitte beachte: <\/strong><\/p><p>Bei einer Auslandsüberweisung müssen  eventuell anfallende Gebühren vom Kunden getragen werden. <\/p><p>Wir können Deine Bestellung erst verschicken, wenn der volle Rechnungsbetrag bei uns eingegangen ist.<\/p>"
+          }
+        },
+        "53419bfd-58a4-40e8-96ff-8508e7b5c09b": {
+          "type": "question",
+          "settings": {
+            "title": "Was tun im Falle einer Retoure?",
+            "text": "<p>Uns ist es ein großes Anliegen, dass du mit deiner Bestellung glücklich bist. <strong>Retouren<\/strong> sind deshalb natürlich <strong>möglich<\/strong>. Du musst deine Bestellung nur <strong>innerhalb von 14 Tagen<\/strong> (natürlich  ungetragen und ungewaschen) zurück schicken und das Porto für die Rücksendung selbst übernehmen. Den Versanddienstleister für die Rücksendung kannst du dir aussuchen.<br\/><br\/><strong>Kontaktiere uns<\/strong> bitte einfach kurz <strong>per Mail<\/strong> (office@montreet.net) und <strong>informiere uns über deine Rücksendung<\/strong>, damit wir die Retoure eintragen können und wir dir dein Geld schnellstmöglich zurückerstatten können. <br\/><br\/><strong>Achtung: <\/strong>Die Ware kann nur angenommen werden, wenn du sie an folgende Adresse schickst: <br\/><br\/><strong>MONTREET<\/strong><br\/>Breitenseerstr. 30\/b<br\/>1140 Wien<br\/>Österreich<br\/><br\/>Sobald die Ware auf Unversehrtheit geprüft wurde, wird dir dein Geld gutgeschrieben (in der Regel innerhalb von 14 Werktagen).<\/p><p>Bitte beachte: Deine Bestellung kann nicht retourniert werden , wenn sie bereits getragen oder gewaschen wurde oder aufgrund deines Verschuldens beschädigt ist.<\/p>"
+          }
+        },
+        "aa3c531b-6422-4e1e-872b-0c2c89013e2e": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe Schwierigkeiten bei meiner Bestellung. Wo finde ich Hilfe?",
+            "text": "<p>Macht nichts. Du kannst uns jederzeit unter <strong>office@montreet.net<\/strong> kontaktieren und wir lösen dein Problem gemeinsam.<\/p>"
           }
         }
       },
@@ -60,7 +103,13 @@
         "faq-2",
         "faq-4",
         "8da42759-c8ff-465b-9a72-4c38cfc1e364",
-        "faq-3"
+        "faq-3",
+        "a54fab78-0b67-495e-85ec-17f8ab9902c9",
+        "3cf4e143-60f8-4ada-b96d-89e90be161fb",
+        "8564630c-54b9-40b6-a675-00d7797b7bff",
+        "db61eb01-35ab-4417-b683-ff5e62da6ff4",
+        "53419bfd-58a4-40e8-96ff-8508e7b5c09b",
+        "aa3c531b-6422-4e1e-872b-0c2c89013e2e"
       ],
       "settings": {
         "title": ""
