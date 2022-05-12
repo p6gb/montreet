@@ -3,10 +3,7 @@
     "main": {
       "type": "main-page-only-header-rutotero",
       "settings": {}
-    },
-    "stores": {
-      "type": "page-visit-us-template"
     }
   },
-  "order": ["main", "stores"]
+  "order": ["main"]
 }
