@@ -104,6 +104,14 @@
             "content": "<p>{{ product.metafields.montreet.produktinfos | metafield_tag }}<\/p>",
             "page": ""
           }
+        },
+        "5d99a43d-746e-4944-b839-baa9769ecccd": {
+          "type": "tab",
+          "settings": {
+            "title": "Größe",
+            "content": "<p>{{ product.metafields.montreet.groesse | metafield_tag }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -121,7 +129,8 @@
         "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5",
         "share",
         "5ac665eb-ae78-4fda-bbb0-4a8df1e4267e",
-        "f008f3c5-93f7-48df-ad9c-a37baf9928d0"
+        "f008f3c5-93f7-48df-ad9c-a37baf9928d0",
+        "5d99a43d-746e-4944-b839-baa9769ecccd"
       ],
       "settings": {
         "sku_enable": false,
