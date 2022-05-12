@@ -113,20 +113,26 @@
                       {{ block.settings.text }}
                     </div>
                   {%- when 'tab' -%}
-                  <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
-                    {% assign tab_id = block.id | append: product.id %}
-                    {%- render 'tab', id: tab_id, title: block.settings.title, content: block.settings.content -%}
-                  </div>
+                    {%- if block.settings.title -%}
+                    <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                      {% assign tab_id = block.id | append: product.id %}
+                      {%- render 'tab', id: tab_id, title: block.settings.title, content: block.settings.content -%}
+                    </div>
+                    {%- endif -%}
                   {%- when 'material_montreet' -%}
+                    {%- if product.metafields.montreet.material -%}
                     <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
                       {% assign tab_id = block.id | append: product.id %}
                       {%- render 'tab-list', id: tab_id, title: "Material", content: product.metafields.montreet.material -%}
                     </div>
+                    {%- endif -%}
                   {%- when 'features_montreet' -%}
+                    {%- if product.metafields.montreet.features -%}
                     <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
                       {% assign tab_id = block.id | append: product.id %}
                       {%- render 'tab-list', id: tab_id, title: "Features", content: product.metafields.montreet.features -%}
                     </div>
+                    {%- endif -%}
                   {%- when 'contact' -%}
                     <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
                       {% assign tab_id = block.id | append: product.id %}
