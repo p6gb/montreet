@@ -3,7 +3,15 @@
     "main": {
       "type": "main-page-only-header-rutotero",
       "settings": {}
+    },
+    "stores": {
+      "type": "page-visit-us-template",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "per_row": 3
+      }
     }
   },
-  "order": ["main"]
+  "order": ["main", "stores"]
 }
