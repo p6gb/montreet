@@ -88,6 +88,14 @@
           "type": "share",
           "settings": {
           }
+        },
+        "5ac665eb-ae78-4fda-bbb0-4a8df1e4267e": {
+          "type": "tab",
+          "settings": {
+            "title": "Pflegehinweise",
+            "content": "<p>{{ product.metafields.montreet.pflegehinweise | metafield_tag }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -103,7 +111,8 @@
         "caffd59a-9b8c-4e17-9af2-13c5fcbcdaf9",
         "a77aa2c0-a137-4938-9064-31b097c42205",
         "d71ad910-fba7-4eb1-a9f2-4b1cb2f171c5",
-        "share"
+        "share",
+        "5ac665eb-ae78-4fda-bbb0-4a8df1e4267e"
       ],
       "settings": {
         "sku_enable": false,
