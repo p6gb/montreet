@@ -24,7 +24,7 @@
 
       <div data-products>
         {%- for item in cart.items -%}
-          {%- render 'cart-item', product: item -%}
+          {%- include 'cart-item', product: item -%}
         {%- endfor -%}
       </div>
 
