@@ -10,8 +10,9 @@
       "blocks": {
         "24993bf6-b696-4071-bb90-df7d74e38330": {
           "type": "press-article",
+          "disabled": true,
           "settings": {
-            "url": "",
+            "url": "https:\/\/www.looklive.at\/aktuelle-ausgabe\/?issuuref=https%3a%2f%2fissuu.com%2fmagazinring%2fdocs%2flook_mai_webpdf%3fe%3d10551258%2f91218442",
             "date": "März 2022",
             "title": "Look Magazin \/\/ Support the Locals",
             "focal_point": "top"
