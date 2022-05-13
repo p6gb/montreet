@@ -14,7 +14,7 @@
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/210610_Montreet_PR_4000px_006.jpg",
             "overlay_opacity": 18,
-            "focal_point": "center center"
+            "focal_point": "top center"
           }
         },
         "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
@@ -29,7 +29,7 @@
             "image": "shopify:\/\/shop_images\/Bucket_Hat_und_Seifentasche_bearbeitet.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Bucket_Hat-7.jpg",
             "overlay_opacity": 16,
-            "focal_point": "center center"
+            "focal_point": "20% 0"
           }
         }
       },
