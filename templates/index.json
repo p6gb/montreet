@@ -235,10 +235,18 @@
             "maxwidth": 1800,
             "show_header": true
           }
+        },
+        "81491052-5d20-43ed-a5cd-7d92d1432ec7": {
+          "type": "shopify:\/\/apps\/product-customizer\/blocks\/product_options\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
+          "settings": {
+            "pc_advanced_custom_css": "",
+            "pc_advanced_custom_js": ""
+          }
         }
       },
       "block_order": [
-        "828ea1f9-dcfe-4000-8c41-8952c786ed27"
+        "828ea1f9-dcfe-4000-8c41-8952c786ed27",
+        "81491052-5d20-43ed-a5cd-7d92d1432ec7"
       ],
       "settings": {
         "full_width": false,
