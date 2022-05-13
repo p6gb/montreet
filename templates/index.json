@@ -238,6 +238,7 @@
         },
         "81491052-5d20-43ed-a5cd-7d92d1432ec7": {
           "type": "shopify:\/\/apps\/product-customizer\/blocks\/product_options\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
+          "disabled": true,
           "settings": {
             "pc_advanced_custom_css": "",
             "pc_advanced_custom_js": ""
