@@ -19,15 +19,16 @@
         },
         "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "Nachhaltige Summer Essentials",
+            "title": "Zero Waste Summer Essentials",
             "title_size": 80,
-            "subheading": "Entdecke jetzt deine nachhaltigen Summer Essentials",
+            "subheading": "Entdecke jetzt die Must-Haves für den Sommer",
             "link": "shopify:\/\/collections\/all",
             "link_text": "Jetzt entdecken",
             "text_align": "vertical-bottom horizontal-left",
-            "overlay_opacity": 0,
+            "image": "shopify:\/\/shop_images\/Bucket_Hat_und_Seifentasche_bearbeitet.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Bucket_Hat-7.jpg",
+            "overlay_opacity": 16,
             "focal_point": "center center"
           }
         }
