@@ -51,7 +51,7 @@
         "title": "Unsere Bestseller",
         "home_featured_products": "alle-produkte",
         "per_row": 5,
-        "rows": 1,
+        "rows": 2,
         "view_all": true,
         "divider": false
       }
