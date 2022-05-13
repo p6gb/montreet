@@ -8,12 +8,6 @@
           "settings": {
           }
         },
-        "6d9c0c31-9132-4719-b01b-f6a38df2968d": {
-          "type": "text",
-          "settings": {
-            "text": "Versandkostenfrei ab 60 € Bestellwert"
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -25,6 +19,13 @@
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": true
+          }
+        },
+        "6d9c0c31-9132-4719-b01b-f6a38df2968d": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Bestelle versandkostenfrei ab 60 € Bestellwert"
           }
         },
         "buy_buttons": {
@@ -122,9 +123,9 @@
       },
       "block_order": [
         "price",
-        "6d9c0c31-9132-4719-b01b-f6a38df2968d",
         "separator",
         "variant_picker",
+        "6d9c0c31-9132-4719-b01b-f6a38df2968d",
         "buy_buttons",
         "2599c58e-f250-4adc-8636-d24eb507eced",
         "ce87057f-8c16-43c8-993b-8af496d37ead",
