@@ -16,10 +16,25 @@
             "overlay_opacity": 18,
             "focal_point": "center center"
           }
+        },
+        "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Nachhaltige Summer Essentials",
+            "title_size": 80,
+            "subheading": "Entdecke jetzt deine nachhaltigen Summer Essentials",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "Jetzt entdecken",
+            "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
-        "1643557152dd165b0b-0"
+        "1643557152dd165b0b-0",
+        "87dc32e2-8577-4d8d-990f-80df6c9f52db"
       ],
       "settings": {
         "section_height": "100vh",
