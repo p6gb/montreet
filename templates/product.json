@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "6d9c0c31-9132-4719-b01b-f6a38df2968d": {
+          "type": "text",
+          "settings": {
+            "text": "Versandkostenfrei ab 60 € Bestellwert"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -116,6 +122,7 @@
       },
       "block_order": [
         "price",
+        "6d9c0c31-9132-4719-b01b-f6a38df2968d",
         "separator",
         "variant_picker",
         "buy_buttons",
