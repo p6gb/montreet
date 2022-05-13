@@ -68,8 +68,8 @@
         "16435590232351b4c3-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Wir verbinden ehrliche Outdoor Mode mit einzigartigem Design.<\/p>"
+            "enlarge_text": false,
+            "text": "<p>Wir verbinden <strong>ehrliche Outdoor Mode<\/strong> mit <strong>einzigartigem Design<\/strong>. Dabei greifen wir ausschließlich auf <strong>umweltschonende Materialien<\/strong> zurück und legen Wert auf eine <strong>faire Produktion<\/strong> in <strong>Europa<\/strong>.<\/p>"
           }
         }
       },
