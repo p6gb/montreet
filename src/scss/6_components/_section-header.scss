@@ -4,6 +4,8 @@
   &__title {
     @include font-chaney;
 
+    word-break: break-word;
+
     &--left-aligned {
       @include section-header-line;
 
