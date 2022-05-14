@@ -21,6 +21,13 @@
             "color_swatches": true
           }
         },
+        "6d9c0c31-9132-4719-b01b-f6a38df2968d": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Bestelle versandkostenfrei ab 60 € Bestellwert"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -118,6 +125,7 @@
         "price",
         "separator",
         "variant_picker",
+        "6d9c0c31-9132-4719-b01b-f6a38df2968d",
         "buy_buttons",
         "2599c58e-f250-4adc-8636-d24eb507eced",
         "ce87057f-8c16-43c8-993b-8af496d37ead",
@@ -162,11 +170,51 @@
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
+        },
+        "dd264e21-ddd6-4bdc-aaea-e687e1c19189": {
+          "type": "shopify:\/\/apps\/product-customizer\/blocks\/product_options\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
+          "disabled": true,
+          "settings": {
+            "pc_advanced_custom_css": "",
+            "pc_advanced_custom_js": ""
+          }
+        },
+        "b4a2bed4-8097-493e-9cc2-61ef1e775b97": {
+          "type": "shopify:\/\/apps\/product-customizer\/blocks\/product-page-customizer\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
+          "settings": {
+            "pc_container_size": 100,
+            "pc_show_options_total": "initial",
+            "pc_customizations_total_text": "Customizations Total:",
+            "pc_show_preloader": "hide",
+            "pc_preloader_color": "",
+            "pc_ignore_redirect_command": false,
+            "pc_basic_label_text_color": "#000000",
+            "pc_basic_label_font_size": 14,
+            "pc_basic_label_bolden": "unset",
+            "pc_basic_label_space_above": 0,
+            "pc_basic_option_background_color": "#FFFFFF",
+            "pc_basic_option_text_color": "#000000",
+            "pc_basic_option_border_color": "#000000",
+            "pc_basic_option_border_style": "solid",
+            "pc_basic_option_border_width": 1,
+            "pc_basic_option_curve_the_corners": "none",
+            "pc_basic_option_font_size": 14,
+            "pc_basic_option_bolden": "none",
+            "pc_basic_option_width": 100,
+            "pc_basic_option_space_above": 0,
+            "pc_basic_option_space_below": 0,
+            "pc_basic_option_space_inside": 10,
+            "pc_advanced_custom_css": "",
+            "pc_advanced_custom_js": "",
+            "pc_show_image_swatch_preview": false
+          }
         }
       },
       "block_order": [
         "22434a67-1331-4ce9-88ee-a8543ae4b05c",
-        "a24cdb06-6891-4460-8fc6-70d6305507bb"
+        "a24cdb06-6891-4460-8fc6-70d6305507bb",
+        "dd264e21-ddd6-4bdc-aaea-e687e1c19189",
+        "b4a2bed4-8097-493e-9cc2-61ef1e775b97"
       ],
       "settings": {
         "full_width": false,

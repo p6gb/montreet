@@ -1,0 +1,507 @@
+<!-- /snippets/repack.liquid -->
+<!--
+You can and should modify the styles (css and classes) in this snippet to make it fit your store's design.
+However, you should not modify
+1) the DOM element IDs or
+2) the onclick -functions (unless you really wan't to modify the default behaviour, in which case you should
+look at the available functions in repack.js)
+
+See the repack.js script if you're interested in knowing how this div is manipulated.
+-->
+
+<div id="repack-modal">
+  <div id="repack-modal-content-wrap">
+  <div id="repack-modal-content" style="margin-left:20px;margin-right:20px">
+<div id="repack-modal-main" style="max-width:580px;background-color:#ffffff;padding:30px;padding-left:25px;border-radius: 30px">
+  <div id="modal-img" style="float:left;width:30%;padding-top:4px"><img src="{{ 'RePack_Montreet.jpg' | asset_img_url: '500x' }}" style="width: 100%"/></div>
+  <div id="modal-text" style="float:left;max-width:70%;width:100%;position:relative">
+    <div onclick="" style="position:absolute;right:-10px;top:-10px;cursor:pointer"><img src="https://www.repack.com/tests/close.png" id="repack-modal-close" style="width: 25px"/></div>
+      <h2 id="repack-modal-title" style="margin-bottom:16px;padding: 0px 25px 0px 25px;font-size:26px;font-weight:bold;line-height:initial">Single-Use? Nein,&#xa0;Danke.</h2>
+      <div id="repack-modal-running" style="padding: 10px 0px 0 25px">
+         
+        <strong>Nutze unsere Mehrwegverpackung, einfacher für dich und die Umwelt.</strong>
+        <br/><br/>
+        Füge deiner Bestellung ein RePack für 2,80€ hinzu, und schicke das leere RePack kostenlos zurück.
+        <br/><br/>
+        <div id="buttonwrapper">
+        <a class="button repackbutton repackyesbutton" href="#" onclick="RP_montreet.addRepackProductToCartAndGoToCheckout()">Ja!</a>
+        <a class="button repackbutton repacknobutton" href="#" onclick="RP_montreet.continueToCheckout()">Nein, Danke</a>
+        </div>
+        
+	</div>
+
+
+
+	</div> <!-- modal-text -->
+
+
+<br clear="all"/>
+</div>
+    </div></div></div>
+
+<style type="text/css">
+  .no-scroll {
+   /*	margin: 0; height: 100%; overflow: hidden;*/
+  }
+
+  #buttonwrapper {
+   	text-align: left;
+    display: inline-block;
+  }
+
+  #repack-modal-content {
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #000000;
+    /*font-family: Arial;*/
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+  }
+
+  #repack-modal-title {
+   	/*font-family: var(--font-stack-header); */
+  }
+
+  .repackbutton {
+    display: block;
+    line-height: 32px;
+    height: 32px;
+    
+    
+    
+    width: 140px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 12px!important;
+    margin-top: 12px!important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    
+
+  }
+  
+  .repackyesbutton {
+   	background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .repackyesbutton:hover {
+   	 color: #ffffff!important;
+  }
+
+  .repacknobutton {
+   	background-color: #dddddd;
+    color: #000000;
+  }
+
+
+
+  #note {
+   	padding-top: 8px;
+    display: block;
+    font-size: 14px;
+    color: #999;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #buttonwrapper {
+     	width: 100%;
+    }
+
+    .button {
+      width: 100%;
+      margin-right: 0px;
+    }
+    
+    .repackbutton {
+      margin-right: 0px!important;
+    }
+
+    #repack-modal-content-wrap {
+      /*padding-top: 1.5rem; */
+    }
+
+
+  }
+
+  @media only screen and (max-width: 480px) {
+
+    #modal-img {
+    	display: none;
+    }
+
+    #modal-text {
+    	max-width: initial !important;
+    }
+
+    #repack-modal-title, #repack-modal-running {
+     	padding-left: 5px !important;
+    }
+  }
+
+  @media only screen and (max-height: 400px) {
+   /* custom css for devices where the primary input mechanism cannot hover
+   at all or cannot conveniently hover*/
+    #repack-modal-main {
+     	max-width: 100% !important;
+    }
+
+    #repack-modal-content-wrap {
+     	padding-top: 0px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    #modal-img {
+    	display: none;
+    }
+
+    #modal-text {
+    	max-width: initial !important;
+    }
+
+    #buttonwrapper {
+     	width: 100%;
+    }
+
+    .button {
+      width: 140px;
+      margin-right: 12px;
+    }
+
+    #repack-modal-title, #repack-modal-running {
+     	padding-left: 5px !important;
+    }
+  }
+}
+
+</style>
+
+<!--
+By default - on pages that include the repack snippet - the RePack script below hooks into
+1) form submits to "/cart"
+2) onclick for links that contain the "/checkout" string
+
+If you don't want RePack to hook into these events, you can modify the script below.
+If you want to determine yourself when the modal is shown, when the repack product
+is added to the cart etc. see the repack.js file for available functions
+-->
+
+<script type="text/javascript">
+  
+var RP_montreet = {}
+
+RP_montreet.repackProductHandle = 'repack-reusable-package';
+// this should probably be changed to look for the modal div instead of relying
+// on the path
+
+RP_montreet.offerRepackIfNeeded = function() {
+  var repackProductXhr = jQuery.getJSON(`/products/${RP_montreet.repackProductHandle}.js`, { date: +new Date() });
+
+  // look for RePack product in the shop
+  repackProductXhr.done(function(product) {
+    // Check if cart contains the product
+    cartXhr = jQuery.getJSON('/cart.js', function(cart) {
+      if (cart.item_count >= 1) {
+        const repackProduct = RP_montreet.getRepackProduct(cart);
+        if (repackProduct) {
+          // cart already contains the RePack product
+          RP_montreet.continueToCheckout();
+        } else {
+          // Repack product not in cart -> promt user to add it to the cart
+          RP_montreet.showRepackModal();
+        }
+      }
+    });
+  });
+}
+
+RP_montreet.addRepackProductToCartAndGoToCheckout = function() {
+  RP_montreet.addRepackProductToCart(function() {
+    RP_montreet.continueToCheckout();
+  });
+
+}
+
+RP_montreet.addRepackProductToCart = function(onComplete) {
+  // find repack product from the store
+  jQuery.getJSON(`/products/${RP_montreet.repackProductHandle}.js`, { date: +new Date() }, function(product) {
+    const variantId = product.variants[0].id
+    const data = {
+      quantity: 1,
+      id: variantId
+    }
+
+    // add repack product to the cart
+    jQuery.post('/cart/add.js', data, function(){
+      onComplete();
+    }, "json");
+  });
+}
+
+
+RP_montreet.getRepackProduct = function(cart) {
+  result = cart.items.find(function(item) {
+    return item.handle === RP_montreet.repackProductHandle
+  });
+
+  return result;
+}
+
+RP_montreet.repackModal = function() {
+  return jQuery('#repack-modal');
+}
+
+RP_montreet.continueToCheckout = function() {
+  //console.info("Clicking checkout");
+  //document.querySelector('#originalCheckoutButton').click();
+  
+  window.location = "/checkout";
+}
+
+RP_montreet.showRepackModal = function() {
+  RP_montreet.repackModal().show()
+}
+
+window.RP_montreet = RP_montreet;
+</script>
+
+
+<script type="text/javascript">
+
+  window.addEventListener("load", function() {
+    var _script = document.querySelector("script[src='https://repack-app.herokuapp.com/repack.js?shop=montreet.myshopify.com']");
+    var $drawer = jQuery('#sidebar-cart');
+    var $closeDrawer = jQuery('.drawer__close-button');
+
+    /*function closeModalRenou() {
+        jQuery('html').removeClass('no-scroll');
+        jQuery('#repack-modal').hide();
+      }
+*/
+    var $close = jQuery('#repack-modal-close');
+
+    _script.onload = function() {
+
+
+      RP_montreet.showRepackModal = function() {
+		    console.log("showing");
+
+        if(!!$drawer.length && $drawer.attr('aria-hidden') === 'false') {
+        	$closeDrawer.trigger('click');
+          jQuery('html').addClass('no-scroll');
+        }
+        $closeDrawer.trigger('click');
+        jQuery('html').addClass('no-scroll');
+        //console.log(RP_montreet.repackModal());
+        RP_montreet.repackModal().show();
+      }
+
+      console.log("PR loaded");
+      function withRepack(evt) {
+        evt.preventDefault();
+        console.log("in withRePack");
+     	checkIfurlExist('/products/repack-reusable-package.js');
+
+        /*if(urlExist('/products/repack-reusable-package.js')) {
+          evt.preventDefault();
+          console.log("before offerRepackIfNeeded REPACK EXISTS");
+          RP_montreet.offerRepackIfNeeded()
+          console.log("after offerRepackIfNeeded");
+        } else {
+
+          evt.preventDefault();
+          console.log("before offerRepackIfNeeded  REPACK DOES NOT EXIST");
+          RP_montreet.offerRepackIfNeeded()
+          console.log("after offerRepackIfNeeded");
+        }*/
+      }
+
+      var $modal = RP_montreet.repackModal();
+      var closeModal = function(e) {
+        if(e) e.preventDefault();
+        jQuery('html').removeClass('no-scroll');
+        $modal.hide();
+      }
+
+
+
+      function repackCheckout() {
+        console.log("in repackCheckout");
+        //var $form = jQuery(`form[action='${formAction}']`);
+		
+        //jQuery(document).on('submit',"form[action*='/cart']:not(form[action*='/cart/add'])",withRepack);
+
+        //jQuery(document).on('click',"input[name = 'checkout']",withRepack);  
+        //jQuery(document).on('click',"#RouteSubmitButton",withRepack);
+        
+        jQuery(document).on('click',".cart__checkout",withRepack);
+		
+        /*
+		     * this is for handling Route App (if installed) checkout button
+         */
+
+        jQuery(document).on('DOMNodeInserted', 'a#RouteSubmitButton', function () {
+     	  console.log("RouteSubmitButton created");
+          //jQuery('a#RouteSubmitButton').attr('onclick','event.preventDefault();RP_montreet.offerRepackIfNeeded()');
+
+
+		});
+
+		/*
+    	  var $checkout = jQuery("a[href*='/checkout']");
+      	  $checkout.on('click', withRepack);
+        */
+      }
+
+
+        $close.on('click', closeModal);
+        $modal.on('click', function(e) {
+      	if(e.target != this) return;
+        closeModal();
+      });
+
+
+      console.log("before repackCheckout");
+      repackCheckout();
+      console.log("after repackCheckout");
+      document.addEventListener('theme:loading:end', function(event) {setTimeout(repackCheckout, 1000)});
+
+
+    }
+  });
+
+
+	function checkIfurlExist(url) {
+      console.info("In urlExist");
+      let request = new XMLHttpRequest;
+      request.open('GET', url, true);
+      request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+      request.setRequestHeader('Accept', '*/*');
+      request.onreadystatechange = function () {
+        if (request.readyState == 4) {
+          if (request.status == 404) {
+            console.log("before offerRepackIfNeeded REPACK DOES NOT EXIST");
+            $('#originalCheckoutButton').click();
+          } else {
+            console.log("before offerRepackIfNeeded REPACK EXISTS");
+            RP_montreet.offerRepackIfNeeded();
+          }
+        }
+      };
+      
+      request.send('');
+    };
+</script>
+
+<style type="text/css">
+  #repack-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+
+     /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+
+
+  }
+
+
+/*
+  #repack-modal-close {
+  	position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  #repack-modal-close .Icon {
+  	stroke-width: 2px;
+  }
+*/
+  #repack-modal-content-wrap {
+  	width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:auto;
+  }
+
+  #repack-modal-content {
+    /*
+    background-color: white;
+    width: 40rem;
+    max-width: 80%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+            0 5px 15px 0 rgba(0,0,0,0.08);
+    position: relative;
+    font-family: "Avenir Next", Arial, sans-serif;
+    font-style: initial;
+    font-weight: normal;
+    */
+  }
+
+
+  #repack-modal-content .Heading {
+  	padding-right: 2rem;
+  }
+
+  #repack-modal-img-wrapper img {
+  	width: 100%;
+  }
+
+
+  #repack-modal-content p {
+    margin: 2rem 0;
+    line-height: 1.5rem;
+  }
+
+  #repack-modal-buttons{
+    text-align: center;
+  }
+  #add-repack-product-button {
+    margin-right: 12px;
+    background-color: #64bda4;
+  }
+
+  #close-repack-modal-button {
+   	 background-color: #cccccc !important;
+  }
+
+  #add-repack-product-button, #close-repack-modal-button {
+  	padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  #repack-title {
+   	margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #repack-modal-close {
+   	 font-size: 30px;
+     line-height: 25px;
+  }
+</style>
+
+
+
+

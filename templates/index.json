@@ -12,14 +12,30 @@
             "link": "shopify:\/\/collections\/all",
             "link_text": "Produkte entdecken",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Freiseindesign_Friederike_Franze_MONTREET-2819.jpg",
+            "image": "shopify:\/\/shop_images\/20210610-210610_Montreet_PR_4000px_006.jpg",
             "overlay_opacity": 18,
-            "focal_point": "center center"
+            "focal_point": "20% 50%"
+          }
+        },
+        "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
+          "type": "image",
+          "settings": {
+            "title": "Zero Waste Summer Essentials",
+            "title_size": 80,
+            "subheading": "Entdecke jetzt die Must-Haves für den Sommer",
+            "link": "shopify:\/\/collections\/summer-essentials",
+            "link_text": "Jetzt entdecken",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Bucket_Hat_und_Seifentasche_bearbeitet.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Bucket_Hat-7.jpg",
+            "overlay_opacity": 16,
+            "focal_point": "top center"
           }
         }
       },
       "block_order": [
-        "1643557152dd165b0b-0"
+        "1643557152dd165b0b-0",
+        "87dc32e2-8577-4d8d-990f-80df6c9f52db"
       ],
       "settings": {
         "section_height": "100vh",
@@ -27,7 +43,7 @@
         "parallax": false,
         "style": "dots",
         "autoplay": true,
-        "autoplay_speed": 7
+        "autoplay_speed": 6
       }
     },
     "16435587506275eadd": {
@@ -68,8 +84,8 @@
         "16435590232351b4c3-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Wir verbinden ehrliche Outdoor Mode mit einzigartigem Design.<\/p>"
+            "enlarge_text": false,
+            "text": "<p>Wir verbinden <strong>ehrliche Outdoor Mode<\/strong> mit <strong>einzigartigem Design<\/strong>. Dabei greifen wir ausschließlich auf <strong>umweltschonende Materialien<\/strong> zurück und legen Wert auf eine <strong>faire Produktion<\/strong> in <strong>Europa<\/strong>.<\/p>"
           }
         }
       },
@@ -219,10 +235,19 @@
             "maxwidth": 1800,
             "show_header": true
           }
+        },
+        "81491052-5d20-43ed-a5cd-7d92d1432ec7": {
+          "type": "shopify:\/\/apps\/product-customizer\/blocks\/product_options\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
+          "disabled": true,
+          "settings": {
+            "pc_advanced_custom_css": "",
+            "pc_advanced_custom_js": ""
+          }
         }
       },
       "block_order": [
-        "828ea1f9-dcfe-4000-8c41-8952c786ed27"
+        "828ea1f9-dcfe-4000-8c41-8952c786ed27",
+        "81491052-5d20-43ed-a5cd-7d92d1432ec7"
       ],
       "settings": {
         "full_width": false,
@@ -280,6 +305,24 @@
         "logo_opacity": 100,
         "divider": false
       }
+    },
+    "1652437963127d181d": {
+      "type": "apps",
+      "blocks": {
+        "0aa69aa3-990d-4a49-993d-ba4256751619": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-Yn6FFM\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "0aa69aa3-990d-4a49-993d-ba4256751619"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
     }
   },
   "order": [
@@ -294,6 +337,7 @@
     "1643559555ba63368b",
     "1643559712b55bae47",
     "1643559842a9e4ea45",
-    "164356004562a7cd17"
+    "164356004562a7cd17",
+    "1652437963127d181d"
   ]
 }
