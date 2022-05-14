@@ -1,61 +1,66 @@
 .title-image {
-	&__text-container-outer {
-		display: flex;
-		z-index: 1;
-		width: 100%;
-		height: 100%;
-		justify-content: center;
+  &__text-container-outer {
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 
-		& .animation-cropper {
-			align-self: center;
-		}
+    & .animation-cropper {
+      align-self: center;
+    }
 
-		// Layout Title Image ändert sich bei 590px
-		@include breakpoint(title-image) {
-			position: absolute;
-		}
-	}
+    // Layout Title Image ändert sich bei 590px
+    @include breakpoint(title-image) {
+      position: absolute;
+    }
+  }
 
-	&__text-container-inner {
-		text-align: center;
-		padding: 1em;
-		width: auto;
-		background-color: none;
-		color: $dark-blue;
+  &__text-container-inner {
+    text-align: center;
+    padding: 1em;
+    width: auto;
+    background-color: none;
+    color: $dark-blue;
 
-		// Layout Title Image ändert sich bei 590px
-		@include breakpoint(title-image) {
-			color: $white;
-		}
+    // Layout Title Image ändert sich bei 590px
+    @include breakpoint(title-image) {
+      color: $white;
+    }
 
-		@include breakpoint(md) {
-			padding: 2.5em;
-		}
-	}
+    @include breakpoint(md) {
+      padding: 2.5em;
+    }
+  }
 
-	&__title {
-		@include font-chaney;
+  &__title {
+    @include font-chaney;
 
-		word-wrap: break-word;
+    word-wrap: break-word;
 
-		@include breakpoint(title-image) {
-			margin-bottom: 1em;
-		}
-	}
+    @include breakpoint(title-image) {
+      margin-bottom: 1em;
+    }
+  }
 
-	@include breakpoint(title-image-max) {
-		&__title {
-			color: $dark-blue;
-			font-size: 1.7rem;
-			margin-top: 0.5em;
-		}
+  @include breakpoint(title-image-max) {
+    &__title {
+      font-size: 1.7rem;
+      margin-top: 0.5em;
+      margin-bottom: 0.8rem;
+    }
 
-		& .background-media-text {
-			background: none;
-		}
+    & .background-media-text {
+      background: none;
+    }
 
-		& .hr {
-			display: none;
-		}
-	}
+    & .hr {
+      display: none;
+    }
+
+    &__text-container-outer {
+      position: absolute;
+      top: 0;
+    }
+  }
 }
