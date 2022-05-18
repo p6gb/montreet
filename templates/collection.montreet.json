@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "collection_subnav_style": "inline",
+            "per_row": 5,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "product_grid"
+      ],
+      "settings": {
+        "collection_image_enable": false,
+        "collection_image_height": 550,
+        "parallax": false,
+        "enable_sidebar": false,
+        "collapsed": true,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "main-collection"
+  ]
+}

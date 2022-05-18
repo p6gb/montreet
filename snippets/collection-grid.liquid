@@ -40,8 +40,10 @@
     assign tag_count = 0
     assign tag_limit = 7
     assign have_extra_tags = false
+    assign collection_subnav_style = 'inline'
   -%}
 
+  <h1>COLLCTION GRID{{collection_subnav_style}}</h1>
   {%- if collection_subnav_style == 'inline' -%}
     {%- liquid
       if linklists.main-menu.levels > 0
