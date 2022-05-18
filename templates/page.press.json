@@ -8,6 +8,16 @@
     "press": {
       "type": "page-press-template",
       "blocks": {
+        "0442bcdd-3383-484e-823a-77385d2bdfd5": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/shop.brigitte.de\/de_AT\/einzelhefte\/einzelausgaben\/brigitte-epaper-06-2022\/2067826.html",
+            "date": "März 2022",
+            "title": "Brigitte Schweiz \/\/ MIX \/ TROUVAILLEN",
+            "title_image": "shopify:\/\/shop_images\/Freiseindesign_Friederike_Franze_MONTREET-2885.jpg",
+            "focal_point": "top"
+          }
+        },
         "24993bf6-b696-4071-bb90-df7d74e38330": {
           "type": "press-article",
           "settings": {
@@ -180,6 +190,7 @@
         }
       },
       "block_order": [
+        "0442bcdd-3383-484e-823a-77385d2bdfd5",
         "24993bf6-b696-4071-bb90-df7d74e38330",
         "948a711d-8508-4183-aa90-b73841f72c3f",
         "21d17fe4-76ad-4ec4-8ec4-2a3d46be852e",
