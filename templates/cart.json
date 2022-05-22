@@ -1,19 +1,13 @@
 {
   "sections": {
-    "main": {
-      "type": "main-cart",
+    "1653240534a2d60c84": {
+      "type": "cart-additional-info",
       "settings": {
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "main": {
+      "type": "main-cart",
       "settings": {
-        "title": "Popular picks",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
       }
     },
     "16524535875c095d01": {
@@ -38,8 +32,8 @@
     }
   },
   "order": [
+    "1653240534a2d60c84",
     "main",
-    "featured-collection",
     "16524535875c095d01"
   ]
 }
