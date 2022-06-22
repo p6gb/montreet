@@ -22,7 +22,7 @@
         "e43a79f3-a2e7-44ec-a0bd-be7849594468"
       ],
       "settings": {
-        "form_content": "Hallo, ich würde gerne: \n\n- Mein Shirt reparieren lassen\n- Mein Shirt upcyceln lassen \n- Mein Shirt retournieren \n\n(nicht zutreffendes bitte löschen)",
+        "form_content": "Hallo, Ich würde gerne ~PRODUKT~ in Größe __ ausleihen",
         "page_title_enable": true,
         "page_content_enable": true,
         "overlaid_header": true
