@@ -11,6 +11,15 @@
       "blocks": {
         "e43a79f3-a2e7-44ec-a0bd-be7849594468": {
           "type": "contact-form",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "show_phone": false,
+            "narrow_column": true
+          }
+        },
+        "fc264b7f-58c9-4b68-aaeb-0a435776ac6d": {
+          "type": "contact-form",
           "settings": {
             "title": "",
             "show_phone": false,
@@ -19,7 +28,8 @@
         }
       },
       "block_order": [
-        "e43a79f3-a2e7-44ec-a0bd-be7849594468"
+        "e43a79f3-a2e7-44ec-a0bd-be7849594468",
+        "fc264b7f-58c9-4b68-aaeb-0a435776ac6d"
       ],
       "settings": {
         "form_content": "Hallo, Ich würde gerne ~PRODUKT~ in Größe __ ausleihen",
