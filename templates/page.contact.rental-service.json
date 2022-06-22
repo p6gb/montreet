@@ -8,6 +8,7 @@
     },
     "form": {
       "type": "page-contact-rental-service-template",
+      "disabled": true,
       "blocks": {
         "e43a79f3-a2e7-44ec-a0bd-be7849594468": {
           "type": "contact-form",
