@@ -8,6 +8,16 @@
     "press": {
       "type": "page-press-template",
       "blocks": {
+        "df0b9fb1-e720-4829-b0fd-73a1e2ebfd6e": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.1st-blue.com\/trends\/nachhaltig-bunt-multifunktional\/#.YrrYV-xByYU",
+            "date": "25 JUNI 2022",
+            "title": "NACHHALTIG, BUNT, MULTIFUNKTIONAL",
+            "title_image": "shopify:\/\/shop_images\/Saborka_x_MONTREET_Blogpost_Anzeigenbild.jpg",
+            "focal_point": "top"
+          }
+        },
         "0442bcdd-3383-484e-823a-77385d2bdfd5": {
           "type": "press-article",
           "settings": {
@@ -190,6 +200,7 @@
         }
       },
       "block_order": [
+        "df0b9fb1-e720-4829-b0fd-73a1e2ebfd6e",
         "0442bcdd-3383-484e-823a-77385d2bdfd5",
         "24993bf6-b696-4071-bb90-df7d74e38330",
         "948a711d-8508-4183-aa90-b73841f72c3f",
