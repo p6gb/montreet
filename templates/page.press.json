@@ -18,6 +18,16 @@
             "focal_point": "top"
           }
         },
+        "724cef97-e5a9-4fcd-af49-686ed265ef7a": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.fr.de\/frankfurt\/frankfurt-fashion-week-faire-mode-kann-auch-cool-sein-91630401.html",
+            "date": "24 JUNI 2022",
+            "title": "Frankfurt Fashion Week: Faire Mode kann auch cool sein",
+            "title_image": "shopify:\/\/shop_images\/29223892-nadine-schratzbergers-label-montreet-ist-aus-recyclebaren-materialien-monika-mueller-2HofQn2IquMH.jpg",
+            "focal_point": "top"
+          }
+        },
         "0442bcdd-3383-484e-823a-77385d2bdfd5": {
           "type": "press-article",
           "settings": {
@@ -201,6 +211,7 @@
       },
       "block_order": [
         "df0b9fb1-e720-4829-b0fd-73a1e2ebfd6e",
+        "724cef97-e5a9-4fcd-af49-686ed265ef7a",
         "0442bcdd-3383-484e-823a-77385d2bdfd5",
         "24993bf6-b696-4071-bb90-df7d74e38330",
         "948a711d-8508-4183-aa90-b73841f72c3f",
