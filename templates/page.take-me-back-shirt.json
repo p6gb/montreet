@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "165590490424749442": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "MONTREET*Take ME BACK",
+        "text": "<p>Hier kannst du eine Anfrage zur Reparatur, Rücknahme oder Wiederverwertung deines MONTREET*T-shirts stellen. Mehr Infos zur Lieferkette deines T-shirts findest du <a href=\"https:\/\/montreet.myshopify.com\/pages\/rental-services\" target=\"_blank\" title=\"MONTREET Mietservice Anfrage\">hier<\/a><a href=\"https:\/\/montreet.myshopify.com\/pages\/rental-services\" target=\"_blank\" title=\"hier\">.<\/a><\/p>",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "165590487726fc7ad3": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165590490424749442",
+    "165590487726fc7ad3"
+  ]
+}
