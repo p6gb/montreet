@@ -50,6 +50,7 @@
         },
         "c02f0f53-8ce4-4b79-92e5-b626495c8035": {
           "type": "team-member",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Julia_Homepage.jpg",
             "name": "Julia",
@@ -70,6 +71,7 @@
         },
         "a1a32806-ec46-4b43-8b7b-36a018505b81": {
           "type": "team-member",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2021-02-09_at_17.05.09.png",
             "name": "Elias",
