@@ -35,6 +35,7 @@
         },
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "NEW IN\nDein neues Lieblingsshirt",
             "title_size": 80,
