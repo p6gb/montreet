@@ -32,11 +32,26 @@
             "overlay_opacity": 16,
             "focal_point": "top center"
           }
+        },
+        "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
+          "type": "image",
+          "settings": {
+            "title": "NEW IN\nDein neues Lieblingsshirt",
+            "title_size": 80,
+            "subheading": "Erhältlich in 3 Varianten",
+            "link": "",
+            "link_text": "jetzt ausprobieren",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/P7251128.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "1643557152dd165b0b-0",
-        "87dc32e2-8577-4d8d-990f-80df6c9f52db"
+        "87dc32e2-8577-4d8d-990f-80df6c9f52db",
+        "1d29ac7f-91ff-45bd-911c-777b57f964eb"
       ],
       "settings": {
         "section_height": "100vh",
@@ -233,22 +248,12 @@
         "828ea1f9-dcfe-4000-8c41-8952c786ed27": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "maxwidth": 1800,
-            "show_header": true
-          }
-        },
-        "81491052-5d20-43ed-a5cd-7d92d1432ec7": {
-          "type": "shopify:\/\/apps\/product-customizer\/blocks\/product_options\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
-          "disabled": true,
-          "settings": {
-            "pc_advanced_custom_css": "",
-            "pc_advanced_custom_js": ""
+            "maxwidth": 1800
           }
         }
       },
       "block_order": [
-        "828ea1f9-dcfe-4000-8c41-8952c786ed27",
-        "81491052-5d20-43ed-a5cd-7d92d1432ec7"
+        "828ea1f9-dcfe-4000-8c41-8952c786ed27"
       ],
       "settings": {
         "full_width": false,
