@@ -3,18 +3,17 @@
     "1643557152da74e53e": {
       "type": "slideshow",
       "blocks": {
-        "1643557152dd165b0b-0": {
+        "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
           "settings": {
-            "title": "Einzigartige Mode für dein Outdoorherz.",
-            "title_size": 70,
-            "subheading": "Für mehr Individualität & Naturverbundenheit im Sport",
-            "link": "shopify:\/\/collections\/all",
-            "link_text": "Produkte entdecken",
+            "title": "NEW IN\nDein neues Lieblingsshirt",
+            "title_size": 80,
+            "subheading": "Erhältlich in 3 Varianten",
+            "link": "shopify:\/\/products\/t-shirt-joalina",
+            "link_text": "jetzt ausprobieren",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/20210610-210610_Montreet_PR_4000px_006.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/20210610-210610_Montreet_PR_4000px_006.jpg",
-            "overlay_opacity": 18,
+            "image": "shopify:\/\/shop_images\/P7251128.jpg",
+            "overlay_opacity": 0,
             "focal_point": "center center"
           }
         },
@@ -33,26 +32,26 @@
             "focal_point": "top center"
           }
         },
-        "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
+        "1643557152dd165b0b-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "NEW IN\nDein neues Lieblingsshirt",
-            "title_size": 80,
-            "subheading": "Erhältlich in 3 Varianten",
-            "link": "shopify:\/\/products\/t-shirt-joalina",
-            "link_text": "jetzt ausprobieren",
+            "title": "Einzigartige Mode für dein Outdoorherz.",
+            "title_size": 70,
+            "subheading": "Für mehr Individualität & Naturverbundenheit im Sport",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "Produkte entdecken",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/P7251128.jpg",
-            "overlay_opacity": 0,
+            "image": "shopify:\/\/shop_images\/20210610-210610_Montreet_PR_4000px_006.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/20210610-210610_Montreet_PR_4000px_006.jpg",
+            "overlay_opacity": 18,
             "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "1643557152dd165b0b-0",
+        "1d29ac7f-91ff-45bd-911c-777b57f964eb",
         "87dc32e2-8577-4d8d-990f-80df6c9f52db",
-        "1d29ac7f-91ff-45bd-911c-777b57f964eb"
+        "1643557152dd165b0b-0"
       ],
       "settings": {
         "section_height": "100vh",
