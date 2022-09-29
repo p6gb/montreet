@@ -21,13 +21,14 @@
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
           "settings": {
-            "title": "NEW IN\nDein neues Lieblingsshirt",
+            "title": "Dein neuer Lieblingspulli",
             "title_size": 80,
-            "subheading": "Erhältlich in 3 Varianten",
-            "link": "shopify:\/\/products\/t-shirt-joalina",
+            "subheading": "Das Must Have für jeden Streetwear-Fan",
+            "link": "shopify:\/\/products\/hoodie",
             "link_text": "jetzt ausprobieren",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/P7251128.jpg",
+            "image": "shopify:\/\/shop_images\/Montreet_Hoodie_Webaufloesung-2_-_Kopie.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Montreet_Hoodie_Webaufloesung-2_-_Kopie.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
