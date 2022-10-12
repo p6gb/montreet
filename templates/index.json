@@ -37,14 +37,14 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "title": "Zero Waste Summer Essentials",
+            "title": "Unsere Herbstlieblinge",
             "title_size": 80,
-            "subheading": "Entdecke jetzt die Must-Haves für den Sommer",
-            "link": "shopify:\/\/collections\/summer-essentials",
-            "link_text": "Jetzt entdecken",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Bucket_Hat_und_Seifentasche_bearbeitet.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Bucket_Hat-7.jpg",
+            "subheading": "Entdecke jetzt die Must-Haves für den Herbst",
+            "link": "shopify:\/\/collections\/unsere-herbstlieblinge-🍂",
+            "link_text": "Jetzt shoppen",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/IMG_2155_-_Kopie.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/IMG_2155_-_Kopie.jpg",
             "overlay_opacity": 16,
             "focal_point": "top center"
           }
