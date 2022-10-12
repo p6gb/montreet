@@ -36,12 +36,12 @@
         "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
           "type": "image",
           "settings": {
-            "title": "Unsere Lieblingsteile für den Herbst",
+            "title": "Unsere Herbstlieblinge",
             "title_size": 80,
-            "subheading": "Entdecke jetzt unsere Herbstlieblinge",
+            "subheading": "Entdecke jetzt unsere Must-Haves für den Hebst",
             "link": "shopify:\/\/collections\/unsere-herbstlieblinge-🍂",
             "link_text": "Jetzt shoppen",
-            "text_align": "vertical-center horizontal-left",
+            "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/IMG_2155_-_Kopie_9f219e4b-88fb-4843-aec9-17994feaa34b.jpg",
             "image_mobile": "shopify:\/\/shop_images\/IMG_2155_-_Kopie_9f219e4b-88fb-4843-aec9-17994feaa34b.jpg",
             "overlay_opacity": 16,
