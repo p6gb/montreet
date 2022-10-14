@@ -25,20 +25,20 @@
       }
       var div = document.createElement('div');
       div.innerHTML =
-      '      <!-- Trusted Shops v2.0 -->      <div id="trustedShopsCheckout" style="display:none;">        <!-- <div id="tsCheckoutOrderNr">'+ cdata.order_id + '</div> -->        <div id="tsCheckoutOrderNr">'+ reqdata.orderName + '</div>        <div id="tsCheckoutBuyerId">'+ cdata.customer_id + '</div>        <div id="tsCheckoutBuyerEmail">'+ cdata.email + '</div>        <div id="tsCheckoutOrderAmount">'+ cdata.total_price +'</div>        <div id="tsCheckoutOrderPaymentType">'+ reqdata.paymentGateway +'</div>        <div id="tsCheckoutOrderCurrency">'+ cdata.currency +'</div>        <!-- for each product in the basket full set of data is required -->        '+ items + '        <!-- product reviews end -->      </div>      <!-- Trusted Shops v2.0 - END -->      ';
+      '      <!-- Trusted Shops v3.4 -->      <div id="trustedShopsCheckout" style="display:none;">        <!-- <div id="tsCheckoutOrderNr">'+ cdata.order_id + '</div> -->        <div id="tsCheckoutOrderNr">'+ reqdata.orderName + '</div>        <div id="tsCheckoutBuyerId">'+ cdata.customer_id + '</div>        <div id="tsCheckoutBuyerEmail">'+ cdata.email + '</div>        <div id="tsCheckoutOrderAmount">'+ cdata.total_price +'</div>        <div id="tsCheckoutOrderPaymentType">'+ reqdata.paymentGateway +'</div>        <div id="tsCheckoutOrderCurrency">'+ cdata.currency +'</div>        <!-- for each product in the basket full set of data is required -->        '+ items + '        <!-- product reviews end -->      </div>      <!-- Trusted Shops v3.4 - END -->      ';
       // Append Element
       document.body.appendChild(div);
     }
 
     if ( Shopify && Shopify.Checkout && Shopify.Checkout.OrderStatus) {
-      // console.log('checkoutScript', 'we are on the checkout page ...');
       // check if we are on the thankyou page to display the code only once Shopify.Checkout.page != "thank_you"!!!
-      if (!Shopify.checkout || Shopify && Shopify.Checkout && Shopify.Checkout.page != "thank_you") {
-        // console.log('No object Shopify.checkout found');
-      } else {
+      
+      if (Shopify && Shopify.checkout && Shopify.Checkout && (Shopify.Checkout.page == "thank_you" || Shopify.Checkout.step == "thank_you")) {
+      // if (true) {
         var c = Shopify.checkout;
-        var url = 'https://trustedshops.vilango.com/orderstatus/'+ Shopify.Checkout.apiHost +'/'+ c.order_id +'/'+ c.created_at+'?oldSnippetPresent='+oldSnippetPresent;
-        // console.log('checkoutScript', url);
+        console.log('checkoutScript 3.4 | first load - show trustbadge ...');
+        // var url = 'https://trustedshops.vilango.com/orderstatus/'+ Shopify.Checkout.apiHost +'/'+ c.order_id +'/'+ c.created_at+'?oldSnippetPresent='+oldSnippetPresent;
+        var url = 'https://trustedshops.vilango.com/orderstatus/'+ Shopify.shop +'/'+ c.order_id +'/'+ c.created_at+'?oldSnippetPresent='+oldSnippetPresent;
         var xhr = new XMLHttpRequest();
         xhr.open('GET', url);
         xhr.onreadystatechange = function() {
@@ -51,11 +51,15 @@
               callback(null);
             } else {
               callback(xhr.status);
+              console.log("checkoutScript 3.4 | error happened", JSON.stringify(Shopify));
               throw Error('Could not get order status: '+ xhr.status +'|'+ xhr.response);
             }
           }
         };
         xhr.send();
+      } else {
+        console.log("checkoutScript 3.4 | consecutive load - don't show trustbadge");
+        // console.log('No object Shopify.checkout found');
       }
     } else {
       callback();
