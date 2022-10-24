@@ -23,11 +23,20 @@
             "title": "VELLO BIKE | Showroom",
             "text": "<p><a href=\"https:\/\/vello.bike\" title=\"https:\/\/vello.bike\">VELLO BIKE<\/a> – transparent, nachhaltig und zukunftsorientiert.<\/p><p>Im Showroom von Vello Bike findest du neben, dem berühmten Klapprad auch Freitag Taschen, Fahrrradschlösser, Helme und unsere Jacken. Also alles was du für einen Radausflug brauchst.  <\/p><p><strong>Adresse:<\/strong><\/p><p>Reinprechtsdorfer Str. 58, 1050 Wien, Österreich <\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Di - Fr: 10:30 - 18:30 Uhr<\/p>"
           }
+        },
+        "a2907167-56a7-49e6-9ef3-0fb03066cebd": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Haltern-Unverpackt.png",
+            "title": "",
+            "text": "<p>Hier steht der Text über die Location<\/p>"
+          }
         }
       },
       "block_order": [
         "0a7db2e7-c6d9-4b83-a4f2-b08ac99962eb",
-        "ca7cfaf9-8578-4ce6-916a-98c2eeafdbbe"
+        "ca7cfaf9-8578-4ce6-916a-98c2eeafdbbe",
+        "a2907167-56a7-49e6-9ef3-0fb03066cebd"
       ],
       "settings": {
       }
