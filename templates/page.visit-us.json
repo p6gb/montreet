@@ -28,8 +28,8 @@
           "type": "text-and-image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Haltern-Unverpackt.png",
-            "title": "",
-            "text": "<p>Hier steht der Text über die Location<\/p>"
+            "title": "Haltern Unverpackt",
+            "text": "<p>Der erste <a href=\"http:\/\/haltern-unverpackt.com\/\" target=\"_blank\" title=\"http:\/\/haltern-unverpackt.com\/\">Unverpackt Laden<\/a> in Haltern am See, hat nun auch MONTRETT*Produkte. Dort könnt ihr biologische und\/ oder nachhaltig produzierte Waren des täglichen Bedarfs einkaufen plastikfrei, ohne lästige und umweltschädliche Verpackungen. <\/p><p><strong>Adresse:<\/strong><\/p><p>Gantepoth 7 in Haltern am See, Deutschland<\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Mo, Mi & Do: 10 – 18 Uhr<br\/>Di & Fr : 09 – 18 Uhr                          Sa: 10 - 14 Uhr<\/p><p><\/p>"
           }
         }
       },
