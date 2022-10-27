@@ -136,7 +136,7 @@
               "show_footer_title": true,
               "title": "Unterstütze mit deinem Kauf die Umwelt.",
               "text": "<p>Weil uns nachhaltiges Wirtschaften nicht genug ist, spenden wir 3 % unserer gesamten Einnahmen an Umweltbildungsworkshops von GLOBAL 2000.<\/p>",
-              "container_width": 25
+              "container_width": 20
             }
           },
           "e4f9a15c-6524-4fc8-9564-91725dd3f79e": {
@@ -145,7 +145,7 @@
               "show_footer_title": true,
               "title": "Newsletter",
               "richtext": "<p>Gib deine E-Mail Adresse ein und wir halten dich mit unserem Newsletter auf dem Laufenden.<\/p>",
-              "container_width": 25
+              "container_width": 20
             }
           }
         },
