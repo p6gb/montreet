@@ -117,7 +117,7 @@
             "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "title": "Spare 10% auf einen nächsten Einkauf",
+              "title": "Spare 10% auf deinen nächsten Einkauf",
               "richtext": "<p>Melde dich jetzt zu unserem Newsletter an<\/p>",
               "container_width": 20
             }
