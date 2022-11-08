@@ -19,7 +19,7 @@
       "type": "contact-form",
       "settings": {
         "title": "Contact us",
-        "text": "",
+        "text": "<p>&lt;div class=\"klaviyo-form-Yn6FFM\"&gt;&lt;\/div&gt;<\/p>",
         "show_phone": false,
         "narrow_column": true
       }
