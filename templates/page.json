@@ -5,29 +5,27 @@
       "settings": {
       }
     },
-    "165590490424749442": {
-      "type": "contact-form",
-      "disabled": true,
+    "166792047165515ab8": {
+      "type": "apps",
+      "blocks": {
+        "1a238f2a-edb6-4eb4-95b9-d638590218f2": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-Yn6FFM\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1a238f2a-edb6-4eb4-95b9-d638590218f2"
+      ],
       "settings": {
-        "title": "MONTREET*Take ME BACK",
-        "text": "<p>Hier kannst du eine Anfrage zur Reparatur, Rücknahme oder Wiederverwertung deines MONTREET*T-shirts stellen. Mehr Infos zur Lieferkette deines T-shirts findest du <a href=\"https:\/\/montreet.myshopify.com\/pages\/rental-services\" target=\"_blank\" title=\"MONTREET Mietservice Anfrage\">hier<\/a><a href=\"https:\/\/montreet.myshopify.com\/pages\/rental-services\" target=\"_blank\" title=\"hier\">.<\/a><\/p>",
-        "show_phone": false,
-        "narrow_column": true
-      }
-    },
-    "165590487726fc7ad3": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Contact us",
-        "text": "<p>&lt;div class=\"klaviyo-form-Yn6FFM\"&gt;&lt;\/div&gt;<\/p>",
-        "show_phone": false,
-        "narrow_column": true
+        "full_width": false,
+        "space_around": true
       }
     }
   },
   "order": [
     "main",
-    "165590490424749442",
-    "165590487726fc7ad3"
+    "166792047165515ab8"
   ]
 }
