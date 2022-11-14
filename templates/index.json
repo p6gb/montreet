@@ -5,7 +5,6 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "title": "Einzigartige Mode für\ndein Outdoorherz.",
             "title_size": 70,
@@ -37,6 +36,7 @@
         },
         "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Unsere Herbstlieblinge",
             "title_size": 80,
