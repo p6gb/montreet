@@ -2,12 +2,12 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
       }
     },
     "166792047165515ab8": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "1a238f2a-edb6-4eb4-95b9-d638590218f2": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
