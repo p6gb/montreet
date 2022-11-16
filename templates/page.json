@@ -5,14 +5,24 @@
       "settings": {
       }
     },
+    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
     "166792047165515ab8": {
       "type": "apps",
       "disabled": true,
       "blocks": {
         "1a238f2a-edb6-4eb4-95b9-d638590218f2": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
           "settings": {
-            "formId": "<div class=\"klaviyo-form-XxqWxc\"><\/div>"
+            "formId": ""
           }
         }
       },
@@ -27,6 +37,7 @@
   },
   "order": [
     "main",
+    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace",
     "166792047165515ab8"
   ]
 }
