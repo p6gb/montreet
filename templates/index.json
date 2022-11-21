@@ -52,12 +52,11 @@
         },
         "4ae5d9be-d56a-4521-867e-d344d33a53a2": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "Gemeinsam Gutes tun!",
+            "title": "Black Friday? Nicht mit uns!",
             "title_size": 62,
-            "subheading": "Wir unterstützen vom 21.11 bis 28.11 den Verein Weltweitwandern Wirkt",
-            "link": "",
+            "subheading": "Alle Bestellungen die wir bis 28.11 erhalten spenden wir 3% an den Verein \"Weltweitwandern wirkt\"!Sei dabei und tun wir gemeinsam etwas gutes!",
+            "link": "shopify:\/\/collections\/alle-produkte",
             "link_text": "Jetzt spenden",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/211122_MONTREET_StrongerTogetherWeek_2000x600_397234a3-35be-40fa-b210-0717882fb3ff.jpg",
