@@ -49,12 +49,29 @@
             "overlay_opacity": 16,
             "focal_point": "top center"
           }
+        },
+        "4ae5d9be-d56a-4521-867e-d344d33a53a2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Gemeinsam Gutes tun!",
+            "title_size": 62,
+            "subheading": "Wir unterstützen vom 21.11 bis 28.11 den Verein Weltweitwandern Wirkt",
+            "link": "",
+            "link_text": "Jetzt spenden",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/211122_MONTREET_StrongerTogetherWeek_2000x600_397234a3-35be-40fa-b210-0717882fb3ff.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/211122_MONTREET_StrongerTogetherWeek_InstagramStories_1080x1920_clean.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "1643557152dd165b0b-0",
         "1d29ac7f-91ff-45bd-911c-777b57f964eb",
-        "87dc32e2-8577-4d8d-990f-80df6c9f52db"
+        "87dc32e2-8577-4d8d-990f-80df6c9f52db",
+        "4ae5d9be-d56a-4521-867e-d344d33a53a2"
       ],
       "settings": {
         "section_height": "100vh",
