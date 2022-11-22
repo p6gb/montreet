@@ -5,6 +5,7 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Einzigartige Mode für\ndein Outdoorherz.",
             "title_size": 70,
@@ -55,7 +56,7 @@
           "settings": {
             "title": "Black Friday? Nicht mit uns!",
             "title_size": 62,
-            "subheading": "Alle Bestellungen die wir bis 28.11 erhalten spenden wir 3% an den Verein \"Weltweitwandern wirkt\"!Sei dabei und tun wir gemeinsam etwas gutes!",
+            "subheading": "Wir spenden 3 % an Weltweitwandern wirkt. Nur bis 28.11.2022!",
             "link": "shopify:\/\/collections\/alle-produkte",
             "link_text": "Jetzt spenden",
             "text_align": "vertical-bottom horizontal-left",
