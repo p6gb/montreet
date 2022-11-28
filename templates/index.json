@@ -65,13 +65,30 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Das perfekte Weihnachtsgeschenk",
+            "title_size": 68,
+            "subheading": "Nachhaltig schenken mit MONTREET",
+            "link": "",
+            "link_text": "Jetzt shoppen",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/MONTREET_Blogposts_NL_Banner.png",
+            "image_mobile": "shopify:\/\/shop_images\/MONTREET_Vorlage_Insta_Story_2.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "1643557152dd165b0b-0",
         "1d29ac7f-91ff-45bd-911c-777b57f964eb",
         "87dc32e2-8577-4d8d-990f-80df6c9f52db",
-        "4ae5d9be-d56a-4521-867e-d344d33a53a2"
+        "4ae5d9be-d56a-4521-867e-d344d33a53a2",
+        "fd5e3aee-d763-462e-b2ad-aedb24ee6893"
       ],
       "settings": {
         "section_height": "100vh",
