@@ -52,7 +52,6 @@
           "type": "team-member",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Julia_Homepage.jpg",
             "name": "Julia",
             "role": "Marketing & Social Media",
             "motto": "Be mindful, even if your mind is full.",
@@ -109,6 +108,26 @@
             "social_youtube_link": "",
             "social_vimeo_link": ""
           }
+        },
+        "a9d58502-3123-4167-ac6a-154a4e3ed1e2": {
+          "type": "team-member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Helena.jpg",
+            "name": "Helena",
+            "role": "Marketing & Sales Assistant",
+            "motto": "Do what makes you happy",
+            "text": "",
+            "social_facebook_link": "",
+            "social_twitter_link": "",
+            "social_pinterest_link": "",
+            "social_instagram_link": "",
+            "social_snapchat_link": "",
+            "social_tiktok_link": "",
+            "social_tumblr_link": "",
+            "social_linkedin_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": ""
+          }
         }
       },
       "block_order": [
@@ -116,7 +135,8 @@
         "9fd1fe43-9d7a-4d7d-afa6-f481ec4f49a3",
         "c02f0f53-8ce4-4b79-92e5-b626495c8035",
         "a1a32806-ec46-4b43-8b7b-36a018505b81",
-        "46981f81-d8ab-4450-8dab-ce551d011292"
+        "46981f81-d8ab-4450-8dab-ce551d011292",
+        "a9d58502-3123-4167-ac6a-154a4e3ed1e2"
       ],
       "settings": {
         "per_row": 3
