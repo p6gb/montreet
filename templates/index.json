@@ -5,7 +5,6 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "title": "Einzigartige Mode für\ndein Outdoorherz.",
             "title_size": 70,
@@ -69,6 +68,7 @@
         },
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Das perfekte X&#8209;Mas Geschenk",
             "title_size": 68,
