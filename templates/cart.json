@@ -1,39 +1,19 @@
 {
   "sections": {
-    "1653240534a2d60c84": {
-      "type": "cart-additional-info",
-      "settings": {
-      }
-    },
     "main": {
       "type": "main-cart",
       "settings": {
       }
     },
-    "16524535875c095d01": {
-      "type": "apps",
-      "blocks": {
-        "7ac6f66e-d972-4e14-890c-f688a572777e": {
-          "type": "shopify:\/\/apps\/product-customizer\/blocks\/cart-page-customizer\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
-          "settings": {
-            "heading": "Product Customizer - Cart Page",
-            "pc_cart_advanced_custom_css": "",
-            "pc_cart_advanced_custom_js": ""
-          }
-        }
-      },
-      "block_order": [
-        "7ac6f66e-d972-4e14-890c-f688a572777e"
-      ],
+    "featured-collection": {
+      "type": "featured-collection",
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "title": "Popular picks"
       }
     }
   },
   "order": [
-    "1653240534a2d60c84",
     "main",
-    "16524535875c095d01"
+    "featured-collection"
   ]
 }
