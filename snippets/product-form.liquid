@@ -107,5 +107,14 @@
     <textarea data-current-variant-json class="hide" aria-hidden="true" aria-label="Variant JSON">
       {{ current_variant | json }}
     </textarea>
+    <script type="text/javascript">
+var _learnq = _learnq || [];
+  var classname = document.getElementsByClassName("btn btn--full add-to-cart add-to-cart--secondary");
+var addToCart = function() {
+_learnq.push(['track', 'Added to Cart', item]);
+}; for (var i = 0; i < classname.length; i++) {
+classname[i].addEventListener('click', addToCart, false);
+}
+</script>
   {% endif %}
 {% endform %}
