@@ -5,6 +5,7 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Happy\nGalentines's Weekend!",
             "title_size": 62,
@@ -20,7 +21,6 @@
         },
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "title": "Dein neuer Lieblingspulli.",
             "title_size": 80,
