@@ -7,10 +7,10 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "title": "PRE SALE",
+            "title": "PRE*SALE",
             "title_size": 62,
             "subheading": "Entdecke jetzt unsere neue nachhaltige Sportkombi",
-            "link": "shopify:\/\/collections",
+            "link": "",
             "link_text": "Produkte entdecken",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/MONTREET_Website_Banner_9feafbf1-0da9-4fc5-97e6-ce001312b2c4.png",
