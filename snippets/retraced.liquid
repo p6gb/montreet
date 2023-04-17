@@ -1,0 +1,19 @@
+<script name="retraced-tag">
+    window.retraced = {
+        initialSku: "",
+        shop: "",
+        locale: "{{ shop.locale }}" || (window.navigator ? window.navigator.language : ""),
+        variants: []
+    };
+  
+{% if product %}
+        window.retraced.variants = {{product.variants | json}};
+	window.retraced.initialSku = "{{ product.selected_or_first_available_variant.sku }}";
+{% endif %}
+        
+{% if shop %}
+	window.retraced.shop = "{{shop.permanent_domain}}";    
+{% endif %}
+
+</script>
+<script async type="text/javascript" src="https://rtcd.me/shop-components.js"></script>
