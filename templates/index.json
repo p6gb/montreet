@@ -5,6 +5,7 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "SOMMER*Kollektion",
             "title_size": 62,
@@ -20,16 +21,15 @@
         },
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "Dein neuer Lieblingspulli.",
+            "title": "Regenwetter?",
             "title_size": 80,
-            "subheading": "Das Must Have für jeden Streetwear-Fan",
-            "link": "shopify:\/\/products\/hoodie-artist-edition",
-            "link_text": "jetzt ausprobieren",
+            "subheading": "Wir haben die nachhaltige Regenjacke für dich!",
+            "link": "shopify:\/\/collections\/jackets",
+            "link_text": "jetzt gönnen",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/DJI_0696.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/DSC01147.jpg",
+            "image": "shopify:\/\/shop_images\/Freiseindesign_Friederike_Franze_MONTREET-3115_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/IMG_6052-2.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
