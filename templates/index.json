@@ -5,12 +5,11 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "title": "SOMMER*Kollektion",
             "title_size": 62,
-            "subheading": "Entdecke jetzt unsere neue Sportkombi",
-            "link": "shopify:\/\/collections\/nachhaltige-sportsets-1",
+            "subheading": "Entdecke jetzt unsere Sommeroutfits",
+            "link": "shopify:\/\/collections\/sommer-outfits",
             "link_text": "Produkte entdecken",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/P7251128.jpg",
@@ -21,6 +20,7 @@
         },
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Regenwetter?",
             "title_size": 80,
