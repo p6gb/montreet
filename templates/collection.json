@@ -61,13 +61,21 @@
             "title": "Kann ich die Montreet Sportjacken auch als Radjacke verwenden?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
+        },
+        "a9d67b0c-3c50-4156-87a9-590d543628a2": {
+          "type": "question",
+          "settings": {
+            "title": "Aus welchem Material werden die Jacken produziert?",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15645665558771__2ff0b905-a576-4215-913b-703cc9e51362-1674553455cc655078-0",
         "template--15645665558771__2ff0b905-a576-4215-913b-703cc9e51362-1674553455cc655078-1",
         "cb7ada09-f052-4716-a64a-54ee5fb9541b",
-        "25913077-53d7-4e57-b1a6-583b48d7cc0e"
+        "25913077-53d7-4e57-b1a6-583b48d7cc0e",
+        "a9d67b0c-3c50-4156-87a9-590d543628a2"
       ],
       "settings": {
         "title": "Häufige Fragen zu unseren Sportjacken"
