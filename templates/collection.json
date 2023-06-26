@@ -33,6 +33,7 @@
     },
     "2ff0b905-a576-4215-913b-703cc9e51362": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "template--15645665558771__2ff0b905-a576-4215-913b-703cc9e51362-1674553455cc655078-0": {
           "type": "question",
