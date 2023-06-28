@@ -33,6 +33,7 @@
     },
     "e7b21b60-3dc9-41ca-b72d-cc679ea9ba00": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-0": {
           "type": "question",
@@ -44,7 +45,7 @@
         "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-1": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Was passiert, wenn meine Wanderhose reißt?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         }
