@@ -30,9 +30,36 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
+    },
+    "e7b21b60-3dc9-41ca-b72d-cc679ea9ba00": {
+      "type": "faq",
+      "blocks": {
+        "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-0": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-0",
+        "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-1"
+      ],
+      "settings": {
+        "title": "Häufige Fragen zu unseren Sportleggings & Outdoorhosen"
+      }
     }
   },
   "order": [
-    "main-collection"
+    "main-collection",
+    "e7b21b60-3dc9-41ca-b72d-cc679ea9ba00"
   ]
 }
