@@ -55,12 +55,20 @@
             "title": "Ich suche eine Trekkinghose, bin ich hier richtig?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
+        },
+        "1a665785-1808-4f81-ba43-4bde1a695241": {
+          "type": "question",
+          "settings": {
+            "title": "Sind eure Sportleggings auch für den Winter geeignet?",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-0",
         "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-1",
-        "e876cdcb-4e05-436e-89fc-b71278c9099f"
+        "e876cdcb-4e05-436e-89fc-b71278c9099f",
+        "1a665785-1808-4f81-ba43-4bde1a695241"
       ],
       "settings": {
         "title": "Häufige Fragen zu unseren Sportleggings & Outdoorhosen"
