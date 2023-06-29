@@ -70,13 +70,6 @@
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         },
-        "92c7c501-ce9f-4fc6-9399-f9bc706d9680": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
         "efd2e4f7-54b1-4436-bb85-c26cd3698579": {
           "type": "question",
           "settings": {
@@ -91,7 +84,6 @@
         "e876cdcb-4e05-436e-89fc-b71278c9099f",
         "1a665785-1808-4f81-ba43-4bde1a695241",
         "a753c749-e1a0-4d22-8b7f-515d9124f9b9",
-        "92c7c501-ce9f-4fc6-9399-f9bc706d9680",
         "efd2e4f7-54b1-4436-bb85-c26cd3698579"
       ],
       "settings": {
