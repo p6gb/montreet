@@ -30,69 +30,9 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
-    },
-    "e7b21b60-3dc9-41ca-b72d-cc679ea9ba00": {
-      "type": "faq",
-      "disabled": true,
-      "blocks": {
-        "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-0": {
-          "type": "question",
-          "settings": {
-            "title": "Gibt es eure Sportleggings und Outdoorhosen auch in Übergröße?",
-            "text": "<p>Unsere Leggings und Hosen sind bis zu XXL erhältlich und da wir UNISEX Produkte herstellen, sind die Kleidungsstücke etwas größer geschnitten also normal. <\/p>"
-          }
-        },
-        "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-1": {
-          "type": "question",
-          "settings": {
-            "title": "Was passiert, wenn meine Wanderhose reißt?",
-            "text": "<p>Das ist natürlich kein Problem. Wir bieten für alle unsere Produkte einen Reparaturservice an! Schreib uns direkt bei office@montreet.net<\/p>"
-          }
-        },
-        "e876cdcb-4e05-436e-89fc-b71278c9099f": {
-          "type": "question",
-          "settings": {
-            "title": "Ich suche eine Trekkinghose, bin ich hier richtig?",
-            "text": "<p>Ja bist du :) Eine Trekkinghose, istbei uns eine Wanderhose. <\/p>"
-          }
-        },
-        "1a665785-1808-4f81-ba43-4bde1a695241": {
-          "type": "question",
-          "settings": {
-            "title": "Sind eure Sportleggings auch für den Winter geeignet?",
-            "text": "<p>Unsere Devise ist es sich zu jeder Jahreszeit im Zwiebelsystem zu kleiden. Somit sind unsere Sportleggings für jede Jahreszeit geeignet. Entweder direkt auf der Haut oder mit einer langen Unterhose drunter - je nachdem was für ein Kälteempfinden man hat. <\/p>"
-          }
-        },
-        "a753c749-e1a0-4d22-8b7f-515d9124f9b9": {
-          "type": "question",
-          "settings": {
-            "title": "Aus welchem Material werden die Wanderhosen und Sportleggings produziert?",
-            "text": "<p>Wir verwenden für die momentane Kollektion, Evo von Fulgar die Rizinusfaser, Econyl - recycelte Fischernetze und von MITI Spa, THINK GREEN - recyceltes Polyester. Genaueres erfährst du unter dem Reiter Material, bei dem jeweiligen Produkt.  <\/p>"
-          }
-        },
-        "efd2e4f7-54b1-4436-bb85-c26cd3698579": {
-          "type": "question",
-          "settings": {
-            "title": "Sind eure Outdoorhosen wasserabweisend?",
-            "text": "<p>Die Hosen sind nicht wasserabweisend. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-0",
-        "template--16028070248691__e7b21b60-3dc9-41ca-b72d-cc679ea9ba00-1687965194688f6caa-1",
-        "e876cdcb-4e05-436e-89fc-b71278c9099f",
-        "1a665785-1808-4f81-ba43-4bde1a695241",
-        "a753c749-e1a0-4d22-8b7f-515d9124f9b9",
-        "efd2e4f7-54b1-4436-bb85-c26cd3698579"
-      ],
-      "settings": {
-        "title": "Häufige Fragen zu unseren Sportleggings & Outdoorhosen"
-      }
     }
   },
   "order": [
-    "main-collection",
-    "e7b21b60-3dc9-41ca-b72d-cc679ea9ba00"
+    "main-collection"
   ]
 }

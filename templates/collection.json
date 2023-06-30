@@ -30,68 +30,9 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
-    },
-    "2ff0b905-a576-4215-913b-703cc9e51362": {
-      "type": "faq",
-      "blocks": {
-        "template--15645665558771__2ff0b905-a576-4215-913b-703cc9e51362-1674553455cc655078-0": {
-          "type": "question",
-          "settings": {
-            "title": "Wie hoch ist die Wassersäule der Montreet Sportjacken?",
-            "text": "<p>Unsere Sportjacken haben eine Wassersäule von über 20.000mm.<br\/><br\/>Das bedeutet also entsprechend, dass eine Wassersäule von 20.000 mm auf den Stoff einwirken könnte, bevor Wasser eindringen würde.<\/p><p>Je höher dieser Wert ist, desto höher ist die Wasserbeständigkeit des Gewebes. 5.000 mm ist eine geringe Wasserbeständigkeit, 10.000 mm ist ein durchschnittlicher Wert, und 20.000 mm bedeutet eine hohe Wasserbeständigkeit.<\/p>"
-          }
-        },
-        "template--15645665558771__2ff0b905-a576-4215-913b-703cc9e51362-1674553455cc655078-1": {
-          "type": "question",
-          "settings": {
-            "title": "Sind alle eure Sportjacken Unikate?",
-            "text": "<p>Nur unsere Sportjacken ARTIST EDITION sind unikate. Da beim Zuschnitt hier nicht auf das Muster geachtet wird und somit ein Unikat entsteht. <\/p>"
-          }
-        },
-        "cb7ada09-f052-4716-a64a-54ee5fb9541b": {
-          "type": "question",
-          "settings": {
-            "title": "Ich suche eine Kletterjacke, bin ich hier richtig?",
-            "text": "<p>Ja bist du! Bei uns wirst bei der THE CLIMBER*Jacke fündig - mit dieser speziellen Softshell-Jacke steht deinem nächsten Kletter-Abenteuer nichts mehr im Wege. <\/p>"
-          }
-        },
-        "25913077-53d7-4e57-b1a6-583b48d7cc0e": {
-          "type": "question",
-          "settings": {
-            "title": "Kann ich die Montreet Sportjacken auch als Radjacke verwenden?",
-            "text": "<p>Du kannst jede unserer Jacken Modelle als Radjacke verwenden. Doch ist unsere THE CYCLIST*Jacke spezielle für den Radsport designt worden. <\/p>"
-          }
-        },
-        "a9d67b0c-3c50-4156-87a9-590d543628a2": {
-          "type": "question",
-          "settings": {
-            "title": "Aus welchem Material werden die Jacken produziert?",
-            "text": "<p>Unsere Sportjacken werden sortenrein aus recycelten Polyester hergestellt, damit man diese wieder in den Kreislauf geben kann. <\/p>"
-          }
-        },
-        "d15c01da-a5cb-4e0c-a219-daab5f14c7cf": {
-          "type": "question",
-          "settings": {
-            "title": "Wo werden eure Sportjacken produziert?",
-            "text": "<p>Unsere Jacken werden alle bei WAT in Portugal produziert. Die Produktionsstätte liegt in der Nähe von Porto, in Santo Tirso. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15645665558771__2ff0b905-a576-4215-913b-703cc9e51362-1674553455cc655078-0",
-        "template--15645665558771__2ff0b905-a576-4215-913b-703cc9e51362-1674553455cc655078-1",
-        "cb7ada09-f052-4716-a64a-54ee5fb9541b",
-        "25913077-53d7-4e57-b1a6-583b48d7cc0e",
-        "a9d67b0c-3c50-4156-87a9-590d543628a2",
-        "d15c01da-a5cb-4e0c-a219-daab5f14c7cf"
-      ],
-      "settings": {
-        "title": "Häufige Fragen zu unseren Sportjacken"
-      }
     }
   },
   "order": [
-    "main-collection",
-    "2ff0b905-a576-4215-913b-703cc9e51362"
+    "main-collection"
   ]
 }
