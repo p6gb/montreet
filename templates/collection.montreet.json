@@ -74,7 +74,7 @@
           "type": "question",
           "settings": {
             "title": "Sind eure Outdoorhosen wasserabweisend?",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "text": "<p>Die Hosen sind nicht wasserabweisend. <\/p>"
           }
         }
       },
