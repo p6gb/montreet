@@ -169,6 +169,13 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
+        },
+        "3bda0a31-711c-44f9-a7bd-981649603116": {
+          "type": "question",
+          "settings": {
+            "title": "Kann man MONTREET*Produkte reparieren lassen?",
+            "text": "<p>Ja natürlich! <br\/>Falls deinem Produkt etwas zustößt oder es einfach nicht mehr die Funktion aufweist, wie es sollte, schicke uns einfach eine Mail, inkl Foto und Reparaturwunsch an: <\/p><p>office@montreet.net <\/p><p>Wir melden uns sofort bei dir. <br\/><br\/>Mehr Infos zu unserem Reparaturservice findest du <a href=\"\/pages\/reparaturservice\" title=\"Reparaturservice\">hier.<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -193,7 +200,8 @@
         "d1a91d15-005d-446c-8a06-75758650bc4f",
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb",
+        "3bda0a31-711c-44f9-a7bd-981649603116"
       ],
       "settings": {
         "title": ""
