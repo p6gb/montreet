@@ -45,6 +45,13 @@
             "text": "<p>MONTREET ist <strong>hauptsächlich  online<\/strong> vertreten – jedoch gibt es <strong>in Wien<\/strong> vier Geschäfte, in denen du Produkte von uns probieren kannst. Sehe <a href=\"\/pages\/visit-us\" target=\"_blank\" title=\"Visit us\">hier<\/a>, wo du diese beiden Geschäfte findest.<\/p><p>Zusätzlich sind wir regelmäßig mit <strong>Pop Up-Stores<\/strong> oder auch auf <strong>Messen <\/strong>in ganz Deutschland und Österreich  vertreten. <\/p><p>Melde dich zu unserem <a href=\"https:\/\/montreet.net\" target=\"_blank\" title=\"https:\/\/montreet.net\"><strong>Newsletter<\/strong><\/a> an und bleibe immer auf dem neuesten Stand, wo du uns im ‚richtigen‘ Leben antreffen kannst.<\/p>"
           }
         },
+        "6be0df0f-b56f-44db-9910-139dd8be7bb9": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich MONTREET*Produkte auch im Alltag tragen, ohne Sport zu machen?",
+            "text": "<p>Unsere Produkte sind so konzipiert, dass du sie zu jeder Saison und in jeder Lebenslage tagen kannst. <\/p><p><br\/>Das bedeutet, dass du dein MONTREET*Produkt zur Arbeit, zum Sport, zur Familienfeier oder zur nächsten großen Reise einpacken kannst. <\/p>"
+          }
+        },
         "faq-3": {
           "type": "rich-text",
           "settings": {
@@ -148,13 +155,6 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
-        },
-        "6be0df0f-b56f-44db-9910-139dd8be7bb9": {
-          "type": "question",
-          "settings": {
-            "title": "Kann ich MONTREET*Produkte auch im Alltag tragen, ohne Sport zu machen?",
-            "text": "<p>Unsere Produkte sind so konzipiert, dass du sie zu jeder Saison und in jeder Lebenslage tagen kannst. <\/p><p><br\/>Das bedeutet, dass du dein MONTREET*Produkt zur Arbeit, zum Sport, zur Familienfeier oder zur nächsten großen Reise einpacken kannst. <\/p>"
-          }
         }
       },
       "block_order": [
@@ -163,6 +163,7 @@
         "faq-2",
         "faq-4",
         "8da42759-c8ff-465b-9a72-4c38cfc1e364",
+        "6be0df0f-b56f-44db-9910-139dd8be7bb9",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
         "3cf4e143-60f8-4ada-b96d-89e90be161fb",
@@ -176,8 +177,7 @@
         "d1a91d15-005d-446c-8a06-75758650bc4f",
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "6be0df0f-b56f-44db-9910-139dd8be7bb9"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb"
       ],
       "settings": {
         "title": ""
