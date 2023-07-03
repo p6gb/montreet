@@ -38,6 +38,13 @@
             "text": "<p>Unsere Materialien werden von HerstellerInnen bezogen, die dazu beitragen, das globale Umweltproblem zu lösen und Sekundärrohstoffe in neue Produkte zu verwandeln. Wir verwenden ausschließlich recycelte Fasern und Materialien für unsere Kleidungsstücke und achten auf eine faire Produktion in Europa. Somit wird Abfall aus der Natur geholt und verwertet, anstatt neuen zu produzieren. Außerdem sind unsere Produkte kreislauffähig, also nach ihrer Lebensdauer wieder recycelbar. <\/p>"
           }
         },
+        "99d720d3-aa55-4ca8-b893-631818a56787": {
+          "type": "question",
+          "settings": {
+            "title": "Welches Sortiment hat MONTREET?",
+            "text": "<p>Mit unseren MONTREET*Produkten kannst du dich Sprichwörtlich von Kopf bis Fuß einkleiden. <br\/><br\/>In unserem <a href=\"\/collections\/all\" title=\"Alle Produkte\">Onlineshop<\/a> findest du von Sporthosen und Leggings, bis zu Funktionsshirt und Hoodies, sowie Sportjacken, alles was deine Outdoorherz begehrt. <\/p><p>Auch Accessoires, wie Taschen und Scrunchies, die dein Outfit komplett machen, findest du bei uns. <\/p>"
+          }
+        },
         "8da42759-c8ff-465b-9a72-4c38cfc1e364": {
           "type": "question",
           "settings": {
@@ -155,13 +162,6 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
-        },
-        "99d720d3-aa55-4ca8-b893-631818a56787": {
-          "type": "question",
-          "settings": {
-            "title": "Welches Sortiment hat MONTREET?",
-            "text": "<p>Mit unseren MONTREET*Produkten kannst du dich Sprichwörtlich von Kopf bis Fuß einkleiden. <br\/><br\/>In unserem <a href=\"\/collections\/all\" title=\"Alle Produkte\">Onlineshop<\/a> findest du von Sporthosen und Leggings, bis zu Funktionsshirt und Hoodies, sowie Sportjacken, alles was deine Outdoorherz begehrt. <\/p><p>Auch Accessoires, wie Taschen und Scrunchies, die dein Outfit komplett machen, findest du bei uns. <\/p>"
-          }
         }
       },
       "block_order": [
@@ -169,6 +169,7 @@
         "faq-1",
         "faq-2",
         "faq-4",
+        "99d720d3-aa55-4ca8-b893-631818a56787",
         "8da42759-c8ff-465b-9a72-4c38cfc1e364",
         "6be0df0f-b56f-44db-9910-139dd8be7bb9",
         "faq-3",
@@ -184,8 +185,7 @@
         "d1a91d15-005d-446c-8a06-75758650bc4f",
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "99d720d3-aa55-4ca8-b893-631818a56787"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb"
       ],
       "settings": {
         "title": ""
