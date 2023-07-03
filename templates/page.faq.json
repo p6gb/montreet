@@ -59,6 +59,13 @@
             "text": "<p>Unsere Produkte sind so konzipiert, dass du sie zu jeder Saison und in jeder Lebenslage tagen kannst. <\/p><p><br\/>Das bedeutet, dass du dein MONTREET*Produkt zur Arbeit, zum Sport, zur Familienfeier oder zur nächsten großen Reise einpacken kannst. <\/p>"
           }
         },
+        "eff51eb9-a1eb-461f-8b3d-226050cb48ec": {
+          "type": "question",
+          "settings": {
+            "title": "Kann man MONTREET*Produkte mieten?",
+            "text": "<p>Unser <a href=\"\/pages\/rental-services\" title=\"Mietservice\">Mietservice<\/a> ist Teil unseres Geschäftsmodells. <br\/><br\/>Schau direkt auf unsere Informationsseite vorbei und miete deine Jacke ;) <\/p>"
+          }
+        },
         "faq-3": {
           "type": "rich-text",
           "settings": {
@@ -172,6 +179,7 @@
         "99d720d3-aa55-4ca8-b893-631818a56787",
         "8da42759-c8ff-465b-9a72-4c38cfc1e364",
         "6be0df0f-b56f-44db-9910-139dd8be7bb9",
+        "eff51eb9-a1eb-461f-8b3d-226050cb48ec",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
         "3cf4e143-60f8-4ada-b96d-89e90be161fb",
