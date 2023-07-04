@@ -39,13 +39,22 @@
             "title": "Studio Nin Prantner",
             "text": "<p>Studio NIN PRANTNER <\/p><p><a href=\"https:\/\/nin.at\/\">https:\/\/nin.at\/<\/a><\/p><p><strong>Adresse: <\/strong><\/p><p>Breite G. 19, 1070 Wien, Österreich<\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Mo bis Sa: 11-18 Uhr<\/p>"
           }
+        },
+        "a131d1eb-c69c-436e-b29c-1623d49d9437": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_2023-07-04_15.02.37.jpg",
+            "title": "Gegenüber",
+            "text": "<p>Gegenüber<\/p><p><a href=\"https:\/\/gegenueber-shop.at\/\">https:\/\/gegenueber-shop.at\/<\/a><\/p><p><strong>Adresse: <\/strong><\/p><p>Margaretenstraße 100, 1050 Wien,<br\/>Österreich<\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Do: 13 -20 Uhr<\/p><p>Fr + SA: 12 -18<\/p>"
+          }
         }
       },
       "block_order": [
         "0a7db2e7-c6d9-4b83-a4f2-b08ac99962eb",
         "ca7cfaf9-8578-4ce6-916a-98c2eeafdbbe",
         "a2907167-56a7-49e6-9ef3-0fb03066cebd",
-        "73d5ca02-7589-420a-9b45-9859d5365ce4"
+        "73d5ca02-7589-420a-9b45-9859d5365ce4",
+        "a131d1eb-c69c-436e-b29c-1623d49d9437"
       ],
       "settings": {
       }
