@@ -31,12 +31,21 @@
             "title": "Haltern Unverpackt",
             "text": "<p>Der erste <a href=\"http:\/\/haltern-unverpackt.com\/\" target=\"_blank\" title=\"http:\/\/haltern-unverpackt.com\/\">Unverpackt Laden<\/a> in Haltern am See, hat nun auch MONTREET*Produkte. Dort könnt ihr biologische und\/ oder nachhaltig produzierte Waren des täglichen Bedarfs einkaufen plastikfrei, ohne lästige und umweltschädliche Verpackungen. <\/p><p><strong>Adresse:<\/strong><\/p><p>Gantepoth 7 in Haltern am See, Deutschland<\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Mo, Mi & Do: 10 – 18 Uhr<br\/>Di & Fr : 09 – 18 Uhr                          Sa: 10 - 14 Uhr<\/p><p><\/p>"
           }
+        },
+        "73d5ca02-7589-420a-9b45-9859d5365ce4": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ninprantner.png",
+            "title": "",
+            "text": "<p>Studio NIN PRANTNER <\/p><p><a href=\"https:\/\/nin.at\/\">https:\/\/nin.at\/<\/a><\/p><p><strong>Adresse: <\/strong><\/p><p>Breite G. 19, 1070 Wien, Österreich<\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Mo bis Sa: 11-18 Uhr<\/p>"
+          }
         }
       },
       "block_order": [
         "0a7db2e7-c6d9-4b83-a4f2-b08ac99962eb",
         "ca7cfaf9-8578-4ce6-916a-98c2eeafdbbe",
-        "a2907167-56a7-49e6-9ef3-0fb03066cebd"
+        "a2907167-56a7-49e6-9ef3-0fb03066cebd",
+        "73d5ca02-7589-420a-9b45-9859d5365ce4"
       ],
       "settings": {
       }
