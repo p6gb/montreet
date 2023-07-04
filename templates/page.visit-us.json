@@ -47,6 +47,14 @@
             "title": "Gegenüber",
             "text": "<p>Gegenüber<\/p><p><a href=\"https:\/\/gegenueber-shop.at\/\">https:\/\/gegenueber-shop.at\/<\/a><\/p><p><strong>Adresse: <\/strong><\/p><p>Margaretenstraße 100, 1050 Wien,<br\/>Österreich<\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Do: 13 -20 Uhr<\/p><p>Fr + SA: 12 -18<\/p>"
           }
+        },
+        "038dff9c-bee3-42e3-98e1-0b7bee539578": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/003_xiling_klein_c_mesic.jpg",
+            "title": "XILING Linz",
+            "text": "<p>XILING<\/p><p><a href=\"https:\/\/xiling.at\/\">https:\/\/xiling.at\/<\/a><\/p><p><strong>Adresse: <\/strong><\/p><p>Rainerstraße 15,<br\/>4020 Linz, Österreich<\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Mo – Fr: 10 – 13 | 14 – 18 Uhr<\/p><p>Sa: 10 – 16 Uhr<\/p>"
+          }
         }
       },
       "block_order": [
@@ -54,7 +62,8 @@
         "ca7cfaf9-8578-4ce6-916a-98c2eeafdbbe",
         "a2907167-56a7-49e6-9ef3-0fb03066cebd",
         "73d5ca02-7589-420a-9b45-9859d5365ce4",
-        "a131d1eb-c69c-436e-b29c-1623d49d9437"
+        "a131d1eb-c69c-436e-b29c-1623d49d9437",
+        "038dff9c-bee3-42e3-98e1-0b7bee539578"
       ],
       "settings": {
       }
