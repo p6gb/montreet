@@ -263,6 +263,13 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
+        },
+        "1de450df-733c-43b3-a660-b965592c0898": {
+          "type": "question",
+          "settings": {
+            "title": "Sind eure Sportleggings auch für den Winter geeignet?",
+            "text": "<p>Unsere Devise ist es sich zu jeder Jahreszeit im Zwiebelsystem zu kleiden. Somit sind unsere Sportleggings für jede Jahreszeit geeignet. Entweder direkt auf der Haut oder mit einer langen Unterhose drunter - je nachdem was für ein Kälteempfinden man selbst hat. <\/p>"
+          }
         }
       },
       "block_order": [
@@ -300,7 +307,8 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb",
+        "1de450df-733c-43b3-a660-b965592c0898"
       ],
       "settings": {
         "title": ""
