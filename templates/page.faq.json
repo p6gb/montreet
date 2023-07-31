@@ -166,12 +166,11 @@
             "text": "<p>Die Hosen sind nicht wasserabweisend. <\/p>"
           }
         },
-        "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
-          "type": "rich-text",
+        "2af75d12-dd9d-4360-ab3f-9d7f09d41242": {
+          "type": "question",
           "settings": {
-            "title": "Wissenswertes Allgemein",
-            "text": "",
-            "align_text": "left"
+            "title": "Wo produziert MONTREET die Sportleggings und Wanderhosen?",
+            "text": "<p>Wir lassen unsere Leggings bei Vera in Polen (vormals Kiew\/Ukraine) produzieren und die neueste Leggings Kollektion haben wir bei Bruno Campelo in Portugal produzieren lassen. <\/p><p>Genauere Informationen zu unseren Produktionsstätten findest du unter den jeweiligen Produkten oder <a href=\"\/pages\/produktion\" title=\"Produktion\">hier.<\/a> <\/p>"
           }
         },
         "faq-3": {
@@ -284,13 +283,6 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
-        },
-        "2af75d12-dd9d-4360-ab3f-9d7f09d41242": {
-          "type": "question",
-          "settings": {
-            "title": "Wo produziert MONTREET die Sportleggings und Wanderhosen?",
-            "text": "<p>Wir lassen unsere Leggings bei Vera in Polen (vormals Kiew\/Ukraine) produzieren und die neueste Leggings Kollektion haben wir bei Bruno Campelo in Portugal produzieren lassen. <\/p><p>Genauere Informationen zu unseren Produktionsstätten findest du unter den jeweiligen Produkten oder <a href=\"\/pages\/produktion\" title=\"Produktion\">hier.<\/a> <\/p>"
-          }
         }
       },
       "block_order": [
@@ -316,7 +308,7 @@
         "1de450df-733c-43b3-a660-b965592c0898",
         "38ff3bca-748a-4c9f-82c3-0259a8bab236",
         "13370cd5-ea25-4a0e-84f7-7c02bd11e16a",
-        "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
+        "2af75d12-dd9d-4360-ab3f-9d7f09d41242",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
         "3cf4e143-60f8-4ada-b96d-89e90be161fb",
@@ -331,8 +323,7 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "2af75d12-dd9d-4360-ab3f-9d7f09d41242"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb"
       ],
       "settings": {
         "title": ""
