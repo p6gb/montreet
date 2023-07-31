@@ -234,6 +234,14 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
+        },
+        "f184d919-8491-43e0-b42a-9a2a69886c56": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Häufige Fragen zu unseren Sportleggings & Outdoorhosen",
+            "text": "",
+            "align_text": "left"
+          }
         }
       },
       "block_order": [
@@ -267,7 +275,8 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb",
+        "f184d919-8491-43e0-b42a-9a2a69886c56"
       ],
       "settings": {
         "title": ""
