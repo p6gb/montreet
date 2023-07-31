@@ -95,6 +95,13 @@
             "text": "<p>Ja, bist du! Bei uns wirst bei der <a href=\"\/products\/the-climber-nachhaltige-sportjacke-fuer-kletterer\" title=\"Gewinner PETA Award: THE CLIMBER * Kletterjacke\">THE CLIMBER*Jacke<\/a> fündig - mit dieser speziellen Softshelljacke steht deinem nächsten Kletter-Abenteuer nichts mehr im Wege. <\/p>"
           }
         },
+        "9d2816f3-c512-4d74-9e58-dd10974389cf": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich die MONTREET*Sportjacken auch als Radjacke verwenden?",
+            "text": "<p>Du kannst jede unserer Jacken Modelle als Radjacke verwenden. Doch ist unsere <a href=\"\/products\/the-cyclist-nachhaltige-sportjacke-fuer-radfahrer\" title=\"THE CYCLIST * Radjacke Damen und Herren\">THE CYCLIST*Jacke <\/a>speziell für den Radsport designt worden. <\/p>"
+          }
+        },
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
           "type": "rich-text",
           "settings": {
@@ -228,6 +235,7 @@
         "f4b0d75c-ef69-44e7-8533-ce54e090b2d7",
         "d5f2e8a0-a004-4270-9cdd-656155e36054",
         "98fbcd2a-9969-4929-a6e9-bb21e5db6e46",
+        "9d2816f3-c512-4d74-9e58-dd10974389cf",
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
