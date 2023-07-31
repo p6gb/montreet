@@ -138,6 +138,13 @@
             "text": "<p>Das ist natürlich kein Problem. Wir bieten für alle unsere Produkte einen Reparaturservice an! <\/p><p>Schreib uns direkt über office@montreet.net oder nimm über dieses <a href=\"\/pages\/copy-of-kontakt-shirt\" title=\"Kontaktiere uns!\">Kontaktformular<\/a> mit uns Verbindung auf.  <\/p>"
           }
         },
+        "1af3456c-f027-40d4-9665-6ea44f756264": {
+          "type": "question",
+          "settings": {
+            "title": "Ich suche eine Trekkinghose, bin ich hier richtig?",
+            "text": "<p>Ja bist du :) Eine Trekkinghose, ist bei uns eine Wanderhose. <\/p><p>Diese findest du <a href=\"\/collections\/pants\" title=\"Sportleggings und Outdoorhosen\">hier.<\/a><\/p>"
+          }
+        },
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
           "type": "rich-text",
           "settings": {
@@ -256,13 +263,6 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
-        },
-        "1af3456c-f027-40d4-9665-6ea44f756264": {
-          "type": "question",
-          "settings": {
-            "title": "Ich suche eine Trekkinghose, bin ich hier richtig?",
-            "text": "<p>Ja bist du :) Eine Trekkinghose, ist bei uns eine Wanderhose. <\/p><p>Diese findest du <a href=\"\/collections\/pants\" title=\"Sportleggings und Outdoorhosen\">hier.<\/a><\/p>"
-          }
         }
       },
       "block_order": [
@@ -284,6 +284,7 @@
         "f184d919-8491-43e0-b42a-9a2a69886c56",
         "e0492d42-d39a-460c-8b2c-088caea674f8",
         "3d6227d0-6e09-49d8-9e55-53c979066eb6",
+        "1af3456c-f027-40d4-9665-6ea44f756264",
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
@@ -299,8 +300,7 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "1af3456c-f027-40d4-9665-6ea44f756264"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb"
       ],
       "settings": {
         "title": ""
