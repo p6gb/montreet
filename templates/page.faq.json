@@ -284,6 +284,13 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
+        },
+        "2af75d12-dd9d-4360-ab3f-9d7f09d41242": {
+          "type": "question",
+          "settings": {
+            "title": "Wo produziert MONTREET die Sportleggings und Wanderhosen?",
+            "text": "<p>Wir lassen unsere Leggings bei Vera in Polen (vormals Kiew\/Ukraine) produzieren und die neueste Leggings Kollektion haben wir bei Bruno Campelo in Portugal produzieren lassen. <\/p><p>Genauere Informationen zu unseren Produktionsstätten findest du unter den jeweiligen Produkten oder <a href=\"\/pages\/produktion\" title=\"Produktion\">hier.<\/a> <\/p>"
+          }
         }
       },
       "block_order": [
@@ -324,7 +331,8 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb",
+        "2af75d12-dd9d-4360-ab3f-9d7f09d41242"
       ],
       "settings": {
         "title": ""
