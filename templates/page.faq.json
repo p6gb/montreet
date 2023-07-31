@@ -74,6 +74,13 @@
             "align_text": "left"
           }
         },
+        "f4b0d75c-ef69-44e7-8533-ce54e090b2d7": {
+          "type": "question",
+          "settings": {
+            "title": "Wie hoch ist die Wassersäule der MONTREET*Sportjacken?",
+            "text": "<p>Unsere Sportjacken haben eine Wassersäule von über 20.000mm.<br\/><br\/>Das bedeutet also, dass eine Wassersäule von 20.000 mm entsprechend auf den Stoff einwirken könnte, bevor Wasser eindringen würde.<\/p><p>Je höher dieser Wert ist, desto höher ist die Wasserbeständigkeit des Gewebes. 5.000 mm ist eine geringe Wasserbeständigkeit, 10.000 mm ist ein durchschnittlicher Wert, und 20.000 mm bedeutet eine hohe Wasserbeständigkeit.<\/p>"
+          }
+        },
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
           "type": "rich-text",
           "settings": {
@@ -193,11 +200,11 @@
             "align_text": "left"
           }
         },
-        "f4b0d75c-ef69-44e7-8533-ce54e090b2d7": {
+        "d5f2e8a0-a004-4270-9cdd-656155e36054": {
           "type": "question",
           "settings": {
-            "title": "Wie hoch ist die Wassersäule der MONTREET*Sportjacken?",
-            "text": "<p>Unsere Sportjacken haben eine Wassersäule von über 20.000mm.<br\/><br\/>Das bedeutet also, dass eine Wassersäule von 20.000 mm entsprechend auf den Stoff einwirken könnte, bevor Wasser eindringen würde.<\/p><p>Je höher dieser Wert ist, desto höher ist die Wasserbeständigkeit des Gewebes. 5.000 mm ist eine geringe Wasserbeständigkeit, 10.000 mm ist ein durchschnittlicher Wert, und 20.000 mm bedeutet eine hohe Wasserbeständigkeit.<\/p>"
+            "title": "Sind alle eure nachhaltigen Sportjacken Unikate?",
+            "text": "<p>Nur unsere Sportjacken ARTIST EDITION sind Unikate. Da beim Zuschnitt hier nicht auf das Muster geachtet wird und somit ein Unikat entsteht. <\/p>"
           }
         }
       },
@@ -211,6 +218,7 @@
         "6be0df0f-b56f-44db-9910-139dd8be7bb9",
         "eff51eb9-a1eb-461f-8b3d-226050cb48ec",
         "c4b2b487-5246-4717-882b-077d83afeefa",
+        "f4b0d75c-ef69-44e7-8533-ce54e090b2d7",
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
@@ -227,7 +235,7 @@
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
         "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "f4b0d75c-ef69-44e7-8533-ce54e090b2d7"
+        "d5f2e8a0-a004-4270-9cdd-656155e36054"
       ],
       "settings": {
         "title": ""
