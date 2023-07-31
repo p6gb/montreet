@@ -127,7 +127,7 @@
         "e0492d42-d39a-460c-8b2c-088caea674f8": {
           "type": "question",
           "settings": {
-            "title": "Gibt es eure Sportleggings und Outdoorhosen auch in Übergröße?",
+            "title": "Gibt es eure Sportleggings und Outdoorhosen auch in Übergrößen?",
             "text": "<p>Unsere Leggings und Hosen sind bis zu XXL erhältlich und da wir UNISEX Produkte herstellen, sind die Kleidungsstücke etwas größer geschnitten als die durchschnittlichen Kleidungsstücke. <\/p>"
           }
         },
@@ -249,6 +249,13 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
+        },
+        "3d6227d0-6e09-49d8-9e55-53c979066eb6": {
+          "type": "question",
+          "settings": {
+            "title": "Was passiert, wenn meine Wanderhose reißt?",
+            "text": "<p>Das ist natürlich kein Problem. Wir bieten für alle unsere Produkte einen Reparaturservice an! <\/p><p>Schreib uns direkt über office@montreet.net oder nimm über dieses <a href=\"\/pages\/copy-of-kontakt-shirt\" title=\"Kontaktiere uns!\">Kontaktformular<\/a> mit uns Verbindung auf.  <\/p>"
+          }
         }
       },
       "block_order": [
@@ -284,7 +291,8 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb",
+        "3d6227d0-6e09-49d8-9e55-53c979066eb6"
       ],
       "settings": {
         "title": ""
