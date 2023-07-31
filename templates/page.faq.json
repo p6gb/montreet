@@ -152,6 +152,13 @@
             "text": "<p>Unsere Devise ist es sich zu jeder Jahreszeit im Zwiebelsystem zu kleiden. Somit sind unsere Sportleggings für jede Jahreszeit geeignet. Entweder direkt auf der Haut oder mit einer langen Unterhose drunter - je nachdem was für ein Kälteempfinden man selbst hat. <\/p>"
           }
         },
+        "38ff3bca-748a-4c9f-82c3-0259a8bab236": {
+          "type": "question",
+          "settings": {
+            "title": "Aus welchem Material werden die Wanderhosen und Sportleggings produziert?",
+            "text": "<p>Wir verwenden für die momentane Kollektion, Evo von Fulgar die Rizinusfaser, Econyl - recycelte Fischernetze und von MITI Spa, THINK GREEN - recyceltes Polyester. Genaueres erfährst du unter dem Reiter Material, bei dem jeweiligen Produkt oder auch <a href=\"\/pages\/material\" title=\"Material\">hier.<\/a><\/p>"
+          }
+        },
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
           "type": "rich-text",
           "settings": {
@@ -270,13 +277,6 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
-        },
-        "38ff3bca-748a-4c9f-82c3-0259a8bab236": {
-          "type": "question",
-          "settings": {
-            "title": "Aus welchem Material werden die Wanderhosen und Sportleggings produziert?",
-            "text": "<p>Wir verwenden für die momentane Kollektion, Evo von Fulgar die Rizinusfaser, Econyl - recycelte Fischernetze und von MITI Spa, THINK GREEN - recyceltes Polyester. Genaueres erfährst du unter dem Reiter Material, bei dem jeweiligen Produkt oder auch <a href=\"\/pages\/material\" title=\"Material\">hier.<\/a><\/p>"
-          }
         }
       },
       "block_order": [
@@ -300,6 +300,7 @@
         "3d6227d0-6e09-49d8-9e55-53c979066eb6",
         "1af3456c-f027-40d4-9665-6ea44f756264",
         "1de450df-733c-43b3-a660-b965592c0898",
+        "38ff3bca-748a-4c9f-82c3-0259a8bab236",
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
@@ -315,8 +316,7 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "38ff3bca-748a-4c9f-82c3-0259a8bab236"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb"
       ],
       "settings": {
         "title": ""
