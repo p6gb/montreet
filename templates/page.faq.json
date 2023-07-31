@@ -270,6 +270,13 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
+        },
+        "38ff3bca-748a-4c9f-82c3-0259a8bab236": {
+          "type": "question",
+          "settings": {
+            "title": "Aus welchem Material werden die Wanderhosen und Sportleggings produziert?",
+            "text": "<p>Wir verwenden für die momentane Kollektion, Evo von Fulgar die Rizinusfaser, Econyl - recycelte Fischernetze und von MITI Spa, THINK GREEN - recyceltes Polyester. Genaueres erfährst du unter dem Reiter Material, bei dem jeweiligen Produkt oder auch <a href=\"\/pages\/material\" title=\"Material\">hier.<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -308,7 +315,8 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb",
+        "38ff3bca-748a-4c9f-82c3-0259a8bab236"
       ],
       "settings": {
         "title": ""
