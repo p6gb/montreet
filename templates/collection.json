@@ -30,9 +30,36 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
+    },
+    "5fe7ef9c-0ad6-43c1-a2ba-af7110ee2345": {
+      "type": "faq",
+      "blocks": {
+        "template--15645665558771__5fe7ef9c-0ad6-43c1-a2ba-af7110ee2345-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Wo produziert MONTREET?",
+            "text": "<p>Alle unsere Produkte produzieren wir in Zusammenarbeit mit Textilmanufakturen in Portugal und der Ukraine (Vera musste durch den anhaltenden Krieg ihren Standort nach Polen verlegen.) Alle Teile werden ausschließlich in der Europäischen Union hergestellt. Dabei achten wir auf höchste Sozialstandards, fairen Handel, kurze Lieferwege, transparente Kommunikation und den schonenden Umgang mit den Ressourcen unseres Planeten.<\/p>"
+          }
+        },
+        "template--15645665558771__5fe7ef9c-0ad6-43c1-a2ba-af7110ee2345-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15645665558771__5fe7ef9c-0ad6-43c1-a2ba-af7110ee2345-question-1",
+        "template--15645665558771__5fe7ef9c-0ad6-43c1-a2ba-af7110ee2345-question-2"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
     }
   },
   "order": [
-    "main-collection"
+    "main-collection",
+    "5fe7ef9c-0ad6-43c1-a2ba-af7110ee2345"
   ]
 }
