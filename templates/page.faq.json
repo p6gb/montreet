@@ -109,6 +109,13 @@
             "text": "<p>Unsere Sportjacken werden sortenrein aus recycelten Polyester hergestellt, damit man diese wieder in den Kreislauf geben kann. <\/p><p>Mehr Informationen zu den verwendeten Materialien findest du unser jedem Produkt und auch <a href=\"\/pages\/material\" title=\"Material\">hier.<\/a> <\/p>"
           }
         },
+        "e2f2118b-689f-4cbc-93b5-81e17ebae042": {
+          "type": "question",
+          "settings": {
+            "title": "Wo werden eure Sportjacken produziert?",
+            "text": "<p>Unsere Jacken werden alle bei WAT in Portugal produziert. Die Produktionsstätte liegt in der Nähe von Porto, in Santo Tirso.<\/p><p>Noch mehr Informationen zu unseren Produktionsstätten findest du <a href=\"\/pages\/produktion\" title=\"Produktion\">hier. <\/a><\/p>"
+          }
+        },
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
           "type": "rich-text",
           "settings": {
@@ -227,13 +234,6 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
-        },
-        "e2f2118b-689f-4cbc-93b5-81e17ebae042": {
-          "type": "question",
-          "settings": {
-            "title": "Wo werden eure Sportjacken produziert?",
-            "text": "<p>Unsere Jacken werden alle bei WAT in Portugal produziert. Die Produktionsstätte liegt in der Nähe von Porto, in Santo Tirso.<\/p><p>Noch mehr Informationen zu unseren Produktionsstätten findest du <a href=\"\/pages\/produktion\" title=\"Produktion\">hier. <\/a><\/p>"
-          }
         }
       },
       "block_order": [
@@ -251,6 +251,7 @@
         "98fbcd2a-9969-4929-a6e9-bb21e5db6e46",
         "9d2816f3-c512-4d74-9e58-dd10974389cf",
         "3ab0fc36-d140-447b-a592-eda96e7b0ee7",
+        "e2f2118b-689f-4cbc-93b5-81e17ebae042",
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
@@ -266,8 +267,7 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "e2f2118b-689f-4cbc-93b5-81e17ebae042"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb"
       ],
       "settings": {
         "title": ""
