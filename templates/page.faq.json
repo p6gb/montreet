@@ -159,6 +159,13 @@
             "text": "<p>Wir verwenden für die momentane Kollektion, Evo von Fulgar die Rizinusfaser, Econyl - recycelte Fischernetze und von MITI Spa, THINK GREEN - recyceltes Polyester. Genaueres erfährst du unter dem Reiter Material, bei dem jeweiligen Produkt oder auch <a href=\"\/pages\/material\" title=\"Material\">hier.<\/a><\/p>"
           }
         },
+        "13370cd5-ea25-4a0e-84f7-7c02bd11e16a": {
+          "type": "question",
+          "settings": {
+            "title": "Sind eure Outdoorhosen wasserabweisend?",
+            "text": "<p>Die Hosen sind nicht wasserabweisend. <\/p>"
+          }
+        },
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
           "type": "rich-text",
           "settings": {
@@ -301,6 +308,7 @@
         "1af3456c-f027-40d4-9665-6ea44f756264",
         "1de450df-733c-43b3-a660-b965592c0898",
         "38ff3bca-748a-4c9f-82c3-0259a8bab236",
+        "13370cd5-ea25-4a0e-84f7-7c02bd11e16a",
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
