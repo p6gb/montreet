@@ -66,6 +66,14 @@
             "text": "<p>Unser <a href=\"\/pages\/rental-services\" title=\"Mietservice\">Mietservice<\/a> ist Teil unseres Geschäftsmodells. <br\/><br\/>Schau direkt auf unsere Informationsseite vorbei und miete deine nachhaltige Sportjacke ;) <\/p>"
           }
         },
+        "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Wissenswertes Allgemein",
+            "text": "",
+            "align_text": "left"
+          }
+        },
         "faq-3": {
           "type": "rich-text",
           "settings": {
@@ -177,10 +185,10 @@
             "align_text": "left"
           }
         },
-        "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
+        "c4b2b487-5246-4717-882b-077d83afeefa": {
           "type": "rich-text",
           "settings": {
-            "title": "Wissenswertes Allgemein",
+            "title": "Häufige Fragen zu unseren Sportjacken",
             "text": "",
             "align_text": "left"
           }
@@ -195,6 +203,7 @@
         "8da42759-c8ff-465b-9a72-4c38cfc1e364",
         "6be0df0f-b56f-44db-9910-139dd8be7bb9",
         "eff51eb9-a1eb-461f-8b3d-226050cb48ec",
+        "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
         "3cf4e143-60f8-4ada-b96d-89e90be161fb",
@@ -210,7 +219,7 @@
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
         "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "4d37ad9d-6276-4898-9e86-f40f9f290b1e"
+        "c4b2b487-5246-4717-882b-077d83afeefa"
       ],
       "settings": {
         "title": ""
