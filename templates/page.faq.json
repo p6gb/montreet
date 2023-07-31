@@ -102,6 +102,13 @@
             "text": "<p>Du kannst jede unserer Jacken Modelle als Radjacke verwenden. Doch ist unsere <a href=\"\/products\/the-cyclist-nachhaltige-sportjacke-fuer-radfahrer\" title=\"THE CYCLIST * Radjacke Damen und Herren\">THE CYCLIST*Jacke <\/a>speziell für den Radsport designt worden. <\/p>"
           }
         },
+        "3ab0fc36-d140-447b-a592-eda96e7b0ee7": {
+          "type": "question",
+          "settings": {
+            "title": "Aus welchem Material werden die fairen Sportjacken produziert?",
+            "text": "<p>Unsere Sportjacken werden sortenrein aus recycelten Polyester hergestellt, damit man diese wieder in den Kreislauf geben kann. <\/p><p>Mehr Informationen zu den verwendeten Materialien findest du unser jedem Produkt und auch <a href=\"\/pages\/material\" title=\"Material\">hier.<\/a> <\/p>"
+          }
+        },
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e": {
           "type": "rich-text",
           "settings": {
@@ -220,13 +227,6 @@
             "text": "<p>Dann melde dich einfach bei uns und wir helfen dir gerne weiter. Schreib' uns einfach eine Mail unter office@montreet.net oder nutze das Kontaktformular <a href=\"https:\/\/montreet.net\/pages\/kontakt\" title=\"Kontaktformular MONTREET\">hier<\/a> und wir helfen dir weiter! :) <\/p>",
             "align_text": "left"
           }
-        },
-        "3ab0fc36-d140-447b-a592-eda96e7b0ee7": {
-          "type": "question",
-          "settings": {
-            "title": "Aus welchem Material werden die fairen Sportjacken produziert?",
-            "text": "<p>Unsere Sportjacken werden sortenrein aus recycelten Polyester hergestellt, damit man diese wieder in den Kreislauf geben kann. <\/p><p>Mehr Informationen zu den verwendeten Materialien findest du unser jedem Produkt und auch <a href=\"\/pages\/material\" title=\"Material\">hier.<\/a> <\/p>"
-          }
         }
       },
       "block_order": [
@@ -243,6 +243,7 @@
         "d5f2e8a0-a004-4270-9cdd-656155e36054",
         "98fbcd2a-9969-4929-a6e9-bb21e5db6e46",
         "9d2816f3-c512-4d74-9e58-dd10974389cf",
+        "3ab0fc36-d140-447b-a592-eda96e7b0ee7",
         "4d37ad9d-6276-4898-9e86-f40f9f290b1e",
         "faq-3",
         "a54fab78-0b67-495e-85ec-17f8ab9902c9",
@@ -258,8 +259,7 @@
         "6a57cffe-249c-49e3-b3f9-fb05a3b75a37",
         "7a02e84a-3985-40c4-878e-a3ab83255808",
         "3bda0a31-711c-44f9-a7bd-981649603116",
-        "54424673-e3ca-43dc-80ff-eea4e0716edb",
-        "3ab0fc36-d140-447b-a592-eda96e7b0ee7"
+        "54424673-e3ca-43dc-80ff-eea4e0716edb"
       ],
       "settings": {
         "title": ""
