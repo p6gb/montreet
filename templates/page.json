@@ -201,8 +201,22 @@
             "enlarge_text": true,
             "text": "<p>Unser B2B Sustainability Workshop<br\/>bietet dir und deinen Team einige Vorteile:<\/p><p><strong>1.<\/strong> Verstärkt die Teambuildingfähigkeiten deines Teams<\/p><p><strong>2.<\/strong> Erlernen neuer Fähigkeiten wie \"Visible Mending\" usw. <\/p><p><strong>3.<\/strong> Fördert deine Kreativität <\/p><p><strong>4.<\/strong> Schafft Awareness rund um das Thema Nachhaltigkeit in der Modebranche<\/p><p><strong>5.<\/strong> Lebensdauer von alten oder nicht gebrauchten Kleidungsstücken wird verlängert<\/p><p><strong>6.<\/strong> uvm. <\/p>"
           }
-        },
-        "c238c673-f1d1-43f5-8783-61f397da009e": {
+        }
+      },
+      "block_order": [
+        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-heading-1",
+        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "8997cce6-18c2-41d8-9de5-03020d2941d0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15645666050291__8997cce6-18c2-41d8-9de5-03020d2941d0-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
@@ -211,9 +225,7 @@
         }
       },
       "block_order": [
-        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-heading-1",
-        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-text-1",
-        "c238c673-f1d1-43f5-8783-61f397da009e"
+        "template--15645666050291__8997cce6-18c2-41d8-9de5-03020d2941d0-text-1"
       ],
       "settings": {
         "align_text": "center",
@@ -280,26 +292,6 @@
         "show_phone": false,
         "narrow_column": true
       }
-    },
-    "8997cce6-18c2-41d8-9de5-03020d2941d0": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15645666050291__8997cce6-18c2-41d8-9de5-03020d2941d0-text-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Was dich bei unserem<br\/>Workshop STEP by STEP erwartet, findest du auf den nächsten Doppelseiten eine strukturelle Veranschaulichung des gesamten Workshop-Prozesses:<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15645666050291__8997cce6-18c2-41d8-9de5-03020d2941d0-text-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -311,9 +303,9 @@
     "ced5786a-1729-4485-acbc-0e3e1c64f240",
     "1712fb16-8c44-4105-b099-dd777141c348",
     "55915040-d319-4ed6-bbb7-0a3b6535bfa3",
+    "8997cce6-18c2-41d8-9de5-03020d2941d0",
     "bc82b2d8-b2ed-461a-8d51-fc54ac7b2a48",
     "166792047165515ab8",
-    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace",
-    "8997cce6-18c2-41d8-9de5-03020d2941d0"
+    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace"
   ]
 }
