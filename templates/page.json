@@ -201,11 +201,19 @@
             "enlarge_text": true,
             "text": "<p>Unser B2B Sustainability Workshop<br\/>bietet dir und deinen Team einige Vorteile:<\/p><p><strong>1.<\/strong> Verstärkt die Teambuildingfähigkeiten deines Teams<\/p><p><strong>2.<\/strong> Erlernen neuer Fähigkeiten wie \"Visible Mending\" usw. <\/p><p><strong>3.<\/strong> Fördert deine Kreativität <\/p><p><strong>4.<\/strong> Schafft Awareness rund um das Thema Nachhaltigkeit in der Modebranche<\/p><p><strong>5.<\/strong> Lebensdauer von alten oder nicht gebrauchten Kleidungsstücken wird verlängert<\/p><p><strong>6.<\/strong> uvm. <\/p>"
           }
+        },
+        "c238c673-f1d1-43f5-8783-61f397da009e": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Was dich bei unserem<br\/>Workshop STEP by STEP erwartet, findest du auf den nächsten Doppelseiten eine strukturelle Veranschaulichung des gesamten Workshop-Prozesses:<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-heading-1",
-        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-text-1"
+        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-text-1",
+        "c238c673-f1d1-43f5-8783-61f397da009e"
       ],
       "settings": {
         "align_text": "center",
