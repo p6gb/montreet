@@ -213,6 +213,27 @@
         "divider": false
       }
     },
+    "bc82b2d8-b2ed-461a-8d51-fc54ac7b2a48": {
+      "type": "advanced-content",
+      "blocks": {
+        "acdcffca-6f5d-4007-a4d3-de40bbfe70d3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1._Das_MERCH_x_MONTREET.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "acdcffca-6f5d-4007-a4d3-de40bbfe70d3"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "166792047165515ab8": {
       "type": "apps",
       "blocks": {
@@ -252,6 +273,7 @@
     "ced5786a-1729-4485-acbc-0e3e1c64f240",
     "1712fb16-8c44-4105-b099-dd777141c348",
     "55915040-d319-4ed6-bbb7-0a3b6535bfa3",
+    "bc82b2d8-b2ed-461a-8d51-fc54ac7b2a48",
     "166792047165515ab8",
     "e4ea1213-70c5-4f94-865c-ce6daa8d0ace"
   ]
