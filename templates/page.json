@@ -8,12 +8,6 @@
     "c99d013e-8fb9-4be5-a0a4-ede0aec51c38": {
       "type": "rich-text",
       "blocks": {
-        "template--15645666050291__c99d013e-8fb9-4be5-a0a4-ede0aec51c38-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Interesse an einem Sustainability Workshop?"
-          }
-        },
         "template--15645666050291__c99d013e-8fb9-4be5-a0a4-ede0aec51c38-text-1": {
           "type": "text",
           "settings": {
@@ -23,7 +17,6 @@
         }
       },
       "block_order": [
-        "template--15645666050291__c99d013e-8fb9-4be5-a0a4-ede0aec51c38-heading-1",
         "template--15645666050291__c99d013e-8fb9-4be5-a0a4-ede0aec51c38-text-1"
       ],
       "settings": {
