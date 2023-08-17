@@ -157,13 +157,20 @@
             "enlarge_text": true,
             "text": "<p>Unsere Mission ist es, Textilmüll zu reduzieren und gleichzeitig Unternehmen zu helfen, ihre Markenbotschaft auf nachhaltige Weise zu kommunizieren.<\/p>"
           }
+        },
+        "c77e7a10-b309-48a8-9055-2ab36d08ac69": {
+          "type": "heading",
+          "settings": {
+            "title": "Was wird gemacht?"
+          }
         }
       },
       "block_order": [
         "template--15645666050291__1712fb16-8c44-4105-b099-dd777141c348-heading-1",
         "template--15645666050291__1712fb16-8c44-4105-b099-dd777141c348-text-1",
         "5feba481-0270-4f33-8297-0c23000e863b",
-        "02a7045c-0083-4bb5-9bf0-8205d2202b0f"
+        "02a7045c-0083-4bb5-9bf0-8205d2202b0f",
+        "c77e7a10-b309-48a8-9055-2ab36d08ac69"
       ],
       "settings": {
         "align_text": "center",
