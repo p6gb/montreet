@@ -163,6 +163,13 @@
           "settings": {
             "title": "Was wird gemacht?"
           }
+        },
+        "67b755c2-52cd-4fec-ab66-bfbcda6d223f": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Wie bereits erwähnt gibt es<br\/>unzählige Möglichkeiten aus alten Textilien neue Produkte zu schaffen. <\/p><p>Hier haben wir für euch einige Vorschläge:<\/p><p><strong>Batikfärbung, Siebdruck, Ice-Dying oder Accessoires wie Scrunchies, BeltBags, usw.<\/strong><\/p>"
+          }
         }
       },
       "block_order": [
@@ -170,7 +177,8 @@
         "template--15645666050291__1712fb16-8c44-4105-b099-dd777141c348-text-1",
         "5feba481-0270-4f33-8297-0c23000e863b",
         "02a7045c-0083-4bb5-9bf0-8205d2202b0f",
-        "c77e7a10-b309-48a8-9055-2ab36d08ac69"
+        "c77e7a10-b309-48a8-9055-2ab36d08ac69",
+        "67b755c2-52cd-4fec-ab66-bfbcda6d223f"
       ],
       "settings": {
         "align_text": "center",
