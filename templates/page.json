@@ -32,6 +32,33 @@
         "divider": false
       }
     },
+    "2910f09d-7e48-4445-8ca1-ed7823e9f999": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15645666050291__2910f09d-7e48-4445-8ca1-ed7823e9f999-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Kreislauf in der Mode"
+          }
+        },
+        "template--15645666050291__2910f09d-7e48-4445-8ca1-ed7823e9f999-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15645666050291__2910f09d-7e48-4445-8ca1-ed7823e9f999-heading-1",
+        "template--15645666050291__2910f09d-7e48-4445-8ca1-ed7823e9f999-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "166792047165515ab8": {
       "type": "apps",
       "blocks": {
@@ -65,6 +92,7 @@
   "order": [
     "main",
     "c99d013e-8fb9-4be5-a0a4-ede0aec51c38",
+    "2910f09d-7e48-4445-8ca1-ed7823e9f999",
     "166792047165515ab8",
     "e4ea1213-70c5-4f94-865c-ce6daa8d0ace"
   ]
