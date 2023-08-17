@@ -101,6 +101,26 @@
         "show_phone": false,
         "narrow_column": true
       }
+    },
+    "b25da20c-9eb9-459b-a4cc-071350ebed8c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15645666050291__b25da20c-9eb9-459b-a4cc-071350ebed8c-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Gerade im Fast Fashion Bereich ist dies in der Regel nicht der Fall. Die hergestellte Kleidung wir Gerade im Fast Fashion Bereich ist dies in der Regel nicht der Fall. Die hergestellte Kleidung wird nach dem Tragen entsorgt. Wir wollen dem mit unserem B2B Workshop entgegenwirken. <\/p><p>Mehr zur Kreislauffähigkeit in der Modeindustrie findest du                <a href=\"https:\/\/montreet.net\/blogs\/news\/kreislaufwirtschaft-erfahre-mehr-zur-circular-economy?_pos=1&_psq=kreislauf&_ss=e&_v=1.0\" title=\"Blogeintrag Kreislauffähigkeit in der Mode\">hier<\/a> in einem unserer Blogartikel. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15645666050291__b25da20c-9eb9-459b-a4cc-071350ebed8c-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -109,6 +129,7 @@
     "2910f09d-7e48-4445-8ca1-ed7823e9f999",
     "358eb87f-cc5f-4920-adf1-bb38af747634",
     "166792047165515ab8",
-    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace"
+    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace",
+    "b25da20c-9eb9-459b-a4cc-071350ebed8c"
   ]
 }
