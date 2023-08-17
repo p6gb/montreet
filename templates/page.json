@@ -264,6 +264,26 @@
         "space_around": true
       }
     },
+    "3e1dabb8-3d4b-458d-9307-0d05f4f5e1e6": {
+      "type": "rich-text",
+      "blocks": {
+        "29b6b8e3-3469-440a-b5e5-f6fdb6b6c22a": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Schicke uns jetzt eine<br\/>unverbindliche Anfrage, um mehr über unseren Service zu erfahren. Natürlich<br\/>kannst du auch ein individuelles Training oder Workshop nach<br\/>Wünschen mit uns buchen! Wir freuen uns auf deine Anfrage. <\/p><p><strong>Kontaktiere uns <\/strong><a href=\"https:\/\/montreet.net\/pages\/kontakt\"><strong>hier<\/strong><\/a><strong>.<\/strong> <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "29b6b8e3-3469-440a-b5e5-f6fdb6b6c22a"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "166792047165515ab8": {
       "type": "apps",
       "blocks": {
@@ -305,6 +325,7 @@
     "55915040-d319-4ed6-bbb7-0a3b6535bfa3",
     "8997cce6-18c2-41d8-9de5-03020d2941d0",
     "bc82b2d8-b2ed-461a-8d51-fc54ac7b2a48",
+    "3e1dabb8-3d4b-458d-9307-0d05f4f5e1e6",
     "166792047165515ab8",
     "e4ea1213-70c5-4f94-865c-ce6daa8d0ace"
   ]
