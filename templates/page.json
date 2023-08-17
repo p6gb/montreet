@@ -5,18 +5,35 @@
       "settings": {
       }
     },
-    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace": {
-      "type": "contact-form",
+    "c99d013e-8fb9-4be5-a0a4-ede0aec51c38": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15645666050291__c99d013e-8fb9-4be5-a0a4-ede0aec51c38-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Interesse an einem Sustainability Workshop?"
+          }
+        },
+        "template--15645666050291__c99d013e-8fb9-4be5-a0a4-ede0aec51c38-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Du möchtest Workshops und Seminare mit uns veranstalten?      Wir bieten dir einen professionellen Einblick in die nachhaltige Modebranche, erarbeiten mit dir Nachhaltigkeitsstrategien, theoretische Inhalte der Kreislaufwirtschaft und viel mehr.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15645666050291__c99d013e-8fb9-4be5-a0a4-ede0aec51c38-heading-1",
+        "template--15645666050291__c99d013e-8fb9-4be5-a0a4-ede0aec51c38-text-1"
+      ],
       "settings": {
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "166792047165515ab8": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "1a238f2a-edb6-4eb4-95b9-d638590218f2": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
@@ -29,15 +46,26 @@
       "block_order": [
         "1a238f2a-edb6-4eb4-95b9-d638590218f2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
+      }
+    },
+    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
       }
     }
   },
   "order": [
     "main",
-    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace",
-    "166792047165515ab8"
+    "c99d013e-8fb9-4be5-a0a4-ede0aec51c38",
+    "166792047165515ab8",
+    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace"
   ]
 }
