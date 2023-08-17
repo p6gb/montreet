@@ -214,6 +214,33 @@
         "show_phone": false,
         "narrow_column": true
       }
+    },
+    "55915040-d319-4ed6-bbb7-0a3b6535bfa3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Vorteile eines B2B Workshops"
+          }
+        },
+        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-heading-1",
+        "template--15645666050291__55915040-d319-4ed6-bbb7-0a3b6535bfa3-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -225,6 +252,7 @@
     "ced5786a-1729-4485-acbc-0e3e1c64f240",
     "1712fb16-8c44-4105-b099-dd777141c348",
     "166792047165515ab8",
-    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace"
+    "e4ea1213-70c5-4f94-865c-ce6daa8d0ace",
+    "55915040-d319-4ed6-bbb7-0a3b6535bfa3"
   ]
 }
