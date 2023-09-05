@@ -6,14 +6,14 @@
         "1643557152dd165b0b-0": {
           "type": "image",
           "settings": {
-            "title": "SOMMER*Kollektion",
+            "title": "Neue Kollektion",
             "title_size": 62,
-            "subheading": "Entdecke jetzt unsere Sommeroutfits",
-            "link": "shopify:\/\/collections\/sommer-outfits",
+            "subheading": "Entdecke jetzt unser Sportset",
+            "link": "shopify:\/\/collections\/nachhaltige-sportsets-1",
             "link_text": "Produkte entdecken",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/P7251128.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/DSC_0242.jpg",
+            "image": "shopify:\/\/shop_images\/MONTREET_Website_Banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/MONTREET_Vorlage_Insta_Story_cd14eb3c-c37d-457b-9d5f-637c8028fe40.jpg",
             "overlay_opacity": 18,
             "focal_point": "center center"
           }
