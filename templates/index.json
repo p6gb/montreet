@@ -5,7 +5,6 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "title": "Spätsommer Outfits",
             "title_size": 62,
@@ -21,6 +20,7 @@
         },
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_size": 80,
@@ -283,7 +283,7 @@
       "type": "apps",
       "blocks": {
         "828ea1f9-dcfe-4000-8c41-8952c786ed27": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1800
           }
