@@ -55,6 +55,14 @@
             "title": "XILING Linz",
             "text": "<p>Der Linzer Shop \"<a href=\"https:\/\/xiling.at\/\" title=\"https:\/\/xiling.at\/\">XILING<\/a>\" bietet ökologische und faire Mode für Damen und Herren an. Von Unterwäsche bis hin zur Sportkleidung findest du garantiert tolle und einzigartige Mode. <\/p><p><strong>Adresse: <\/strong><\/p><p>Rainerstraße 15,<br\/>4020 Linz, Österreich<\/p><p><strong>Öffnungszeiten:<\/strong><\/p><p>Mo – Fr: 10 – 13 | 14 – 18 Uhr<br\/>Sa: 10 – 16 Uhr<\/p>"
           }
+        },
+        "b66ead88-f491-481b-9fe2-c92e14ab78b8": {
+          "type": "text-and-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5090.jpg",
+            "title": "ARGUS Shop Wien",
+            "text": "<p>In diesem Shop bekommtst du jetzt auch unsere CYCLIST*Jacke in Blau, Grau und Runner! <\/p><p><\/p><p>Adresse:<br\/>1040 Wien, Frankenberggasse 11<\/p><p>Öffnungszeiten:<\/p><p>MO-FR: 14 - 19 Uhr<br\/><\/p>"
+          }
         }
       },
       "block_order": [
@@ -63,7 +71,8 @@
         "a2907167-56a7-49e6-9ef3-0fb03066cebd",
         "73d5ca02-7589-420a-9b45-9859d5365ce4",
         "a131d1eb-c69c-436e-b29c-1623d49d9437",
-        "038dff9c-bee3-42e3-98e1-0b7bee539578"
+        "038dff9c-bee3-42e3-98e1-0b7bee539578",
+        "b66ead88-f491-481b-9fe2-c92e14ab78b8"
       ],
       "settings": {
       }
