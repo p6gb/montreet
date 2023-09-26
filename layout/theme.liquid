@@ -76,7 +76,7 @@
     };
   </script>
 
-  {{ content_for_header }}
+  {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
 
   <script src="{{ 'vendor-scripts-v13.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 
