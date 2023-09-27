@@ -403,6 +403,48 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "11104565113590962351": {
+        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/article-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14971748854670876780": {
+        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/product-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1360768219604461044": {
+        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/store-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11089864892113081655": {
+        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/website-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15154131639906026026": {
+        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/broken-link-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1369284949797581044": {
+        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/collection-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9005256451184024879": {
+        "type": "shopify:\/\/apps\/uppromote-affiliate-referral\/blocks\/customer-referral\/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "disabled": true,
+        "settings": {
+        }
       }
     }
   },
