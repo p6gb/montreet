@@ -32,7 +32,7 @@
             {% unless message == null %}
                 {% assign icon = tag | append: ".png" %}
                 <div class="product__icon-row">
-                    <!-- <img alt="{{ tag|downcase }} icon" src="{{ "ARTISTEDITION.png" | asset_url }}" class="product__icon"> -->
+                    <!-- <img loading="lazy" alt="{{ tag|downcase }} icon" src="{{ "ARTISTEDITION.png" | asset_url }}" class="product__icon"> -->
                     <img alt="{{tag|downcase }} icon" src="{{ icon | asset_url }}" class="product__icon">
                     <p class="product__icon-message">
                         {{ message }}
