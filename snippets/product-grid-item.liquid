@@ -72,7 +72,7 @@
         {%- if fixed_aspect_ratio -%}
           <div
             class="grid__image-ratio grid__image-ratio--{{ settings.product_grid_image_size }}">
-            <img class="lazyload{% unless settings.product_grid_image_fill %} grid__image-contain{% endunless %}"
+            <img loading="lazy" class="lazyload{% unless settings.product_grid_image_fill %} grid__image-contain{% endunless %}"
                 data-src="{{ img_url }}"
                 data-widths="[360, 540, 720, 900, 1080]"
                 data-aspectratio="{{ preview_image.aspect_ratio }}"
@@ -84,14 +84,14 @@
             style="height: 0; padding-bottom: {{ 100 | divided_by: preview_image.aspect_ratio }}%;"
             >
             {%- assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img class="grid-product__image lazyload"
+            <img loading="lazy" class="grid-product__image lazyload"
                 data-src="{{ img_url }}"
                 data-widths="[180, 360, 540, 720, 900, 1080]"
                 data-aspectratio="{{ preview_image.aspect_ratio }}"
                 data-sizes="auto"
                 alt="{{ preview_image.alt | escape }}">
             <noscript>
-              <img class="grid-product__image lazyloaded"
+              <img loading="lazy" class="grid-product__image lazyloaded"
                 src="{{ preview_image | img_url: '400x' }}"
                 alt="{{ preview_image.alt | escape }}">
             </noscript>
@@ -104,7 +104,7 @@
           {%- endfor -%}
           <div class="grid-product__secondary-image small--hide">
             {%- assign img_url = second_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img class="lazyload"
+            <img loading="lazy" class="lazyload"
                 data-src="{{ img_url }}"
                 data-widths="[360, 540, 720, 1000]"
                 data-aspectratio="{{ second_image.aspect_ratio }}"

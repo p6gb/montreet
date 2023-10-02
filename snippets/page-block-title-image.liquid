@@ -15,7 +15,7 @@
 
         {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-        <img
+        <img loading="lazy"
           class="image-fit background-media-text__image background-media-text__image--{{ id }} lazyload"
           src=""
           data-src="{{ img_url }}"
@@ -24,7 +24,7 @@
           data-parent-fit="cover"
           alt="{{ image.alt | escape }}">
         <noscript>
-          <img
+          <img loading="lazy"
             class="image-fit background-media-text__image background-media-text__image--{{ id }} lazyloaded"
             src="{{ image | img_url: '1800x' }}"
             alt="{{ image.alt }}">

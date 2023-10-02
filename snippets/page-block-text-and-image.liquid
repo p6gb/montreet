@@ -7,7 +7,7 @@
             {% if block.settings.button_label != blank and block.settings.button_link != blank %}<a href="{{ block.settings.button_link }}" aria-label="{{ block.settings.button_label | escape }}">{% endif %}
             <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
               {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-              <img class="feature-row__image lazyload"
+              <img loading="lazy" class="feature-row__image lazyload"
                   data-src="{{ img_url }}"
                   data-widths="[180, 360, 540, 720, 900, 1080]"
                   data-aspectratio="{{ block.settings.image.aspect_ratio }}"

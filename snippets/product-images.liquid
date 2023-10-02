@@ -97,7 +97,7 @@
                     {%- endif -%}
 
                     {%- assign img_url = media.preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                    <img class="appear-delay-{{ forloop.index | times: 3 }} lazyload"
+                    <img loading="lazy" class="appear-delay-{{ forloop.index | times: 3 }} lazyload"
                         data-src="{{ img_url }}"
                         data-widths="[100, 360, 540]"
                         data-aspectratio="{{ media.preview_image.aspect_ratio }}"
@@ -105,7 +105,7 @@
                         alt="{{ media.alt | escape | split: '#' | first }}">
 
                     <noscript>
-                      <img class="lazyloaded"
+                      <img loading="lazy" class="lazyloaded"
                         src="{{ media | img_url: '400x' }}"
                         alt="{{ media.alt | escape }}">
                     </noscript>
