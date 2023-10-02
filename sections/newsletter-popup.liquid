@@ -20,7 +20,7 @@
           {%- if section.settings.popup_image -%}
             <div class="image-wrap small--hide" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.popup_image.aspect_ratio }}%;">
               {%- assign img_url = section.settings.popup_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-              <img class="lazyload lazypreload" role="presentation"
+              <img loading="lazy" class="lazyload lazypreload" role="presentation"
                   data-src="{{ img_url }}"
                   data-widths="[540, 720, 900, 1080]"
                   data-aspectratio="{{ section.settings.popup_image.aspect_ratio }}"
