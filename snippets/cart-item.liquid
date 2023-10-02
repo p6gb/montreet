@@ -2,14 +2,14 @@
   <div class="cart__item--image" data-aos>
     <a href="{{ product.url }}" class="image-wrap" style="display: block; height: 0; padding-bottom: {{ 100 | divided_by: product.image.aspect_ratio }}%;">
       {%- assign img_url = product | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-      <img class="lazyload"
+      <img loading="lazy" class="lazyload"
           data-src="{{ img_url }}"
           data-widths="[180, 360, 540]"
           data-aspectratio="{{ product.aspect_ratio }}"
           data-sizes="auto"
           alt="{{ product.product.title | escape }}">
       <noscript>
-        <img class="lazyloaded"
+        <img loading="lazy" class="lazyloaded"
           src="{{ product | img_url: '400x' }}"
           alt="{{ product.product.title | escape }}">
       </noscript>
