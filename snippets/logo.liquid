@@ -4,7 +4,7 @@
   {% endif %}
   {% if image != blank %}
     {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-    <img class="logo-bar__image lazyload"
+    <img loading="lazy" class="logo-bar__image lazyload"
         data-src="{{ img_url }}"
         data-widths="[180, 360, 540, 720]"
         data-aspectratio="{{ image.aspect_ratio }}"

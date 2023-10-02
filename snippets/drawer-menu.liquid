@@ -149,7 +149,7 @@
                           <div style="margin: 0 auto; max-width: {{ promo_image_1.width }}px">
                             <div class="image-wrap aos-animate megamenu__promo-image" style="height: 0; padding-bottom: {{ 100 | divided_by: promo_image_1.aspect_ratio }}%;">
                               {%- assign img_url = promo_image_1 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                              <img class="lazyload"
+                              <img loading="lazy" class="lazyload"
                                   data-src="{{ img_url }}"
                                   data-widths="[540, 750, 900]"
                                   data-aspectratio="{{ promo_image_1.aspect_ratio }}"
@@ -177,7 +177,7 @@
                           <div style="margin: 0 auto; max-width: {{ promo_image_2.width }}px">
                             <div class="image-wrap aos-animate megamenu__promo-image" style="height: 0; padding-bottom: {{ 100 | divided_by: promo_image_2.aspect_ratio }}%;">
                               {%- assign img_url = promo_image_2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                              <img class="lazyload"
+                              <img loading="lazy" class="lazyload"
                                   data-src="{{ img_url }}"
                                   data-widths="[540, 750, 900]"
                                   data-aspectratio="{{ promo_image_2.aspect_ratio }}"

@@ -3,14 +3,14 @@
     {%- if article.image -%}
       <div class="article__image image-wrap">
         {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-        <img class="image-fit lazyload"
+        <img loading="lazy" class="image-fit lazyload"
             data-src="{{ img_url }}"
             data-widths="[720, 900, 1080]"
             data-aspectratio="{{ article.image.aspect_ratio }}"
             data-sizes="auto"
             alt="{{ article.image.alt | escape }}">
         <noscript>
-          <img class="image-fit lazyloaded" src="{{ article.image | img_url: '600x' }}" alt="{{ article.title | escape }}">
+          <img loading="lazy" class="image-fit lazyloaded" src="{{ article.image | img_url: '600x' }}" alt="{{ article.title | escape }}">
         </noscript>
       </div>
     {%- endif -%}

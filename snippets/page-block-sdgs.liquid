@@ -5,7 +5,7 @@
         <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
           {% comment %} @todo hier wäre es besser die max_width variable zu nutzen aber kp wie das mit dem filter geht.. {% endcomment %}
           {%- assign img_url = block.settings.image | img_url: '500x'  -%}
-          <img class="feature-row__image sdg__image lazyload"
+          <img loading="lazy" class="feature-row__image sdg__image lazyload"
               data-src="{{ img_url }}"
               data-widths="[180, 360, 540, 720, 900, 1080]"
               data-aspectratio="{{ block.settings.image.aspect_ratio }}"

@@ -89,7 +89,7 @@
           assign zoom_img_url = media.preview_image | img_url: product_zoom_size
         -%}
 
-        <img class="{% if product_zoom_enable %}photoswipe__image{% endif %} lazyload"
+        <img loading="lazy" class="{% if product_zoom_enable %}photoswipe__image{% endif %} lazyload"
           data-photoswipe-src="{{ zoom_img_url }}"
           data-photoswipe-width="{{ media_width }}"
           data-photoswipe-height="{{ media_height }}"
@@ -101,7 +101,7 @@
           alt="{{ media.alt | escape | split: '#' | first }}">
 
         <noscript>
-          <img class="lazyloaded"
+          <img loading="lazy" class="lazyloaded"
             src="{{ media | img_url: '1400x' }}"
             alt="{{ media.alt | escape }}">
         </noscript>
