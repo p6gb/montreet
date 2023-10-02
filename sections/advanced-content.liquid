@@ -43,14 +43,14 @@
               {%- if block.settings.image != blank -%}
                 <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
                   {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                  <img class="lazyload"
+                  <img loading="lazy" class="lazyload"
                       data-src="{{ img_url }}"
                       data-widths="[360, 540, 720, 900, 1080, 1600]"
                       data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                       data-sizes="auto"
                       alt="{{ block.settings.image.alt }}">
                   <noscript>
-                    <img class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.image.alt }}">
+                    <img loading="lazy" class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.image.alt }}">
                   </noscript>
                 </div>
                 {%- else -%}

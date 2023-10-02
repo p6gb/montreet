@@ -36,14 +36,14 @@
   {% if section.settings.blog_show_image and article.image %}
     <div class="image-wrap aos-animate article__featured-image" style="height: 0; padding-bottom: {{ 100 | divided_by: article.image.aspect_ratio }}%;">
       {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-      <img class="lazyload"
+      <img loading="lazy" class="lazyload"
           data-src="{{ img_url }}"
           data-widths="[360, 540, 750, 900, 1080, 1600]"
           data-aspectratio="{{ article.image.aspect_ratio }}"
           data-sizes="auto"
           alt="{{ article.image.alt }}">
       <noscript>
-        <img class="lazyloaded" src="{{ article.image | img_url: '1000x' }}" alt="{{ block.settings.image.alt }}">
+        <img loading="lazy" class="lazyloaded" src="{{ article.image | img_url: '1000x' }}" alt="{{ block.settings.image.alt }}">
       </noscript>
     </div>
   {% endif %}

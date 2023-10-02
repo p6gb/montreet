@@ -23,7 +23,7 @@
 
       {%- if section.settings.image != blank -%}
         {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-        <img
+        <img loading="lazy"
           class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyload"
           src=""
           data-src="{{ img_url }}"
@@ -33,7 +33,7 @@
           alt="{{ section.settings.image.alt | escape }}"
           style="object-position: {{ section.settings.focal_point }}">
         <noscript>
-          <img
+          <img loading="lazy"
             class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyloaded"
             src="{{ section.settings.image | img_url: '1800x' }}"
             alt="{{ section.settings.image.alt }}">

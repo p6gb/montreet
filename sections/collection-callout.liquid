@@ -58,7 +58,7 @@
               <div class="callout-image-centered">
             {%- endif -%}
 
-              <img
+              <img loading="lazy"
                 class="callout-image lazyload"
                 data-srcset="
                   {{ product | img_url: callout_image_size_small }} {{ callout_image_size_small | remove: 'x' | append: 'w' }},

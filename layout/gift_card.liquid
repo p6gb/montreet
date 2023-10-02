@@ -48,7 +48,7 @@
       <footer class="giftcard__footer">
         {% if gift_card.pass_url %}
           <a class="add-to-apple-wallet" href="{{ gift_card.pass_url }}">
-            <img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="120" height="40" alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}">
+            <img loading="lazy" src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="120" height="40" alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}">
           </a>
         {% endif %}
       </footer>
