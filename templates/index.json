@@ -5,6 +5,7 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Spätsommer Outfits",
             "title_size": 62,
@@ -36,12 +37,11 @@
         },
         "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "title": "Unsere Herbstlieblinge",
             "title_size": 80,
             "subheading": "Entdecke jetzt unsere Must-Haves für den Herbst",
-            "link": "shopify:\/\/collections\/sommer-outfits",
+            "link": "shopify:\/\/collections\/jackets",
             "link_text": "Jetzt shoppen",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/Freiseindesign_Friederike_Franze_MONTREET-2885-min.jpg",
