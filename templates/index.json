@@ -37,6 +37,7 @@
         },
         "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Unsere Herbstlieblinge",
             "title_size": 80,
@@ -68,15 +69,14 @@
         },
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "Das perfekte X&#8209;Mas Geschenk",
+            "title": "Geschenkideen\nfür Weihnachten",
             "title_size": 68,
             "subheading": "Nachhaltig schenken mit MONTREET",
             "link": "shopify:\/\/collections\/geschenke",
             "link_text": "Jetzt shoppen",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/MONTREET_Blogposts_NL_Banner_1.png",
+            "image": "shopify:\/\/shop_images\/Merry_Xmas.jpg",
             "image_mobile": "shopify:\/\/shop_images\/MONTREET_Vorlage_Insta_Story_3.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
