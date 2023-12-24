@@ -96,7 +96,7 @@
           "sticky_collection": false,
           "type_navigation_size": 15,
           "type_navigation_style": false,
-          "show_announcement": true,
+          "show_announcement": false,
           "announcement_text": "Bis zum 24.12.2023 mit dem Code CHRISTMASVIBES 20%, ab einem Bestellwert von 50€, auf Alles sichern!",
           "announcement_link": "shopify:\/\/collections\/all",
           "announcement_closable": true
