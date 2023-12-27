@@ -37,11 +37,10 @@
         },
         "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "Unsere Herbstlieblinge",
+            "title": "Unsere Lieblinge für den Winter",
             "title_size": 80,
-            "subheading": "Entdecke jetzt unsere Must-Haves für den Herbst",
+            "subheading": "Entdecke jetzt unsere Must-Haves für die kalte Jahreszeit",
             "link": "shopify:\/\/collections\/jackets",
             "link_text": "Jetzt shoppen",
             "text_align": "vertical-bottom horizontal-left",
@@ -69,6 +68,7 @@
         },
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Geschenkideen\nfür Weihnachten",
             "title_size": 68,
