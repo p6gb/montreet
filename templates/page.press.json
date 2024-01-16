@@ -8,6 +8,16 @@
     "press": {
       "type": "page-press-template",
       "blocks": {
+        "press_article_zGnjhw": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.diepresse.com\/14429851\/europas-verwaschene-lieferketten-warum-neue-gesetze-nicht-alles-besser-machen",
+            "date": "29 August 2023",
+            "title": "Europas verwaschene Lieferketten: Warum neue Gesetze nicht alles besser machen",
+            "title_image": "shopify:\/\/shop_images\/Europas_verwaschene_Lieferketten-_Warum_neue_Gesetze_nicht_alles_besser_machen_Presse_2023.jpg",
+            "focal_point": "top"
+          }
+        },
         "press_article_PQjX7j": {
           "type": "press-article",
           "settings": {
@@ -230,6 +240,7 @@
         }
       },
       "block_order": [
+        "press_article_zGnjhw",
         "press_article_PQjX7j",
         "press_article_mmxgPW",
         "df0b9fb1-e720-4829-b0fd-73a1e2ebfd6e",
