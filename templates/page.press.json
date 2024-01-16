@@ -8,6 +8,16 @@
     "press": {
       "type": "page-press-template",
       "blocks": {
+        "press_article_mmxgPW": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/issuu.com\/cdaverlag\/docs\/nachhaltig_leben_5_23_m5dlw",
+            "date": "31 JULI 2023",
+            "title": "Nachhaltig Leben 5\/23 \/\/ Interview mit Nadine",
+            "title_image": "shopify:\/\/shop_images\/faires-sportset-leggings-bh-732725.jpg",
+            "focal_point": "top"
+          }
+        },
         "df0b9fb1-e720-4829-b0fd-73a1e2ebfd6e": {
           "type": "press-article",
           "settings": {
@@ -210,6 +220,7 @@
         }
       },
       "block_order": [
+        "press_article_mmxgPW",
         "df0b9fb1-e720-4829-b0fd-73a1e2ebfd6e",
         "724cef97-e5a9-4fcd-af49-686ed265ef7a",
         "0442bcdd-3383-484e-823a-77385d2bdfd5",
