@@ -38,13 +38,13 @@
         "87dc32e2-8577-4d8d-990f-80df6c9f52db": {
           "type": "image",
           "settings": {
-            "title": "Unsere Lieblinge für den Winter",
+            "title": "",
             "title_size": 80,
-            "subheading": "Entdecke jetzt unsere Must-Haves für die kalte Jahreszeit",
-            "link": "shopify:\/\/collections\/jackets",
-            "link_text": "Jetzt shoppen",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Innovation_4.jpg",
+            "subheading": "MONTREET wird 5 Jahre und wir geben einen aus- sichere dir jetzt 25% auf das gesamte sortiment",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "MONTREET25",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/5_Jahre_MONTREET.png",
             "image_mobile": "shopify:\/\/shop_images\/IMG_8397.jpg",
             "overlay_opacity": 16,
             "focal_point": "top center"
