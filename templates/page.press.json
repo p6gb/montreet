@@ -8,6 +8,16 @@
     "press": {
       "type": "page-press-template",
       "blocks": {
+        "press_article_PQjX7j": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/www.drahtesel.or.at\/online-lesen\/",
+            "date": "4 \/ 2023",
+            "title": "Drahtesel Magazin \/\/ ARGUS SHOP",
+            "title_image": "shopify:\/\/shop_images\/the-cyclist-radjacke-damen-und-herren-647452.jpg",
+            "focal_point": "top"
+          }
+        },
         "press_article_mmxgPW": {
           "type": "press-article",
           "settings": {
@@ -220,6 +230,7 @@
         }
       },
       "block_order": [
+        "press_article_PQjX7j",
         "press_article_mmxgPW",
         "df0b9fb1-e720-4829-b0fd-73a1e2ebfd6e",
         "724cef97-e5a9-4fcd-af49-686ed265ef7a",
