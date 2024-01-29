@@ -23,14 +23,14 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "title": "",
+            "title": "Ehrliche Outdoormode für jedes Abenteuer",
             "title_size": 80,
             "subheading": "",
             "link": "shopify:\/\/collections\/alle-produkte",
-            "link_text": "jetzt gönnen",
+            "link_text": "Hier gönnen",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/MONTREET_Website_Banner_1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Birthday_Week_1.jpg",
+            "image": "shopify:\/\/shop_images\/Innovation_4.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/IMG_8397.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
