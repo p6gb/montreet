@@ -21,6 +21,7 @@
         },
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Ehrliche Outdoormode für jedes Abenteuer",
             "title_size": 80,
@@ -68,16 +69,15 @@
         },
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "Geschenkideen\nfür Weihnachten",
+            "title": "Geschenkideen\nfür Ostern",
             "title_size": 68,
             "subheading": "Nachhaltig schenken mit MONTREET",
             "link": "shopify:\/\/collections\/geschenke",
             "link_text": "Jetzt shoppen",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Merry_Xmas_1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Nadine_Insta.jpg",
+            "image": "shopify:\/\/shop_images\/5_Jahre_MONTREET_e1f807ba-e047-42d7-8d97-5292b1f2c441.png",
+            "image_mobile": "shopify:\/\/shop_images\/5_Jahre_MONTREET_e1f807ba-e047-42d7-8d97-5292b1f2c441.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
