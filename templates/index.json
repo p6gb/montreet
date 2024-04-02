@@ -70,14 +70,14 @@
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
           "settings": {
-            "title": "Geschenkideen\nfür Ostern",
+            "title": "Happy April!\nFeier den Frühling mit MONTREET",
             "title_size": 68,
-            "subheading": "Nachhaltig schenken mit MONTREET",
-            "link": "shopify:\/\/collections\/geschenke",
-            "link_text": "Jetzt shoppen",
+            "subheading": "Sichere dir 20 % Rabatt bis 14.04.2024",
+            "link": "shopify:\/\/collections",
+            "link_text": "Code: APRIL20",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/5_Jahre_MONTREET_e1f807ba-e047-42d7-8d97-5292b1f2c441.png",
-            "image_mobile": "shopify:\/\/shop_images\/MONTREET_Vorlage_Reels_1.png",
+            "image": "shopify:\/\/shop_images\/5_Jahre_MONTREET_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/MONTREET_Vorlage_Insta_Story_1.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
