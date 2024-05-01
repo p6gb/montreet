@@ -5,12 +5,11 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "Spätsommer Outfits",
+            "title": "Alles Neu im MAI",
             "title_size": 62,
-            "subheading": "Die besten Outfitkombis, um den Sommer ausklingen zu lassen",
-            "link": "shopify:\/\/collections\/sommer-outfits",
+            "subheading": "Die besten Outfitkombis, für den Sommer",
+            "link": "shopify:\/\/collections\/nachhaltige-sportsets-1",
             "link_text": "Produkte entdecken",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/MONTREET_Website_Banner_e1a96163-c74c-4540-8a9a-45e895f55730.png",
@@ -69,6 +68,7 @@
         },
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Happy April!",
             "title_size": 68,
