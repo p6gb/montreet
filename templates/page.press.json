@@ -8,6 +8,16 @@
     "press": {
       "type": "page-press-template",
       "blocks": {
+        "press_article_FJAtiz": {
+          "type": "press-article",
+          "settings": {
+            "url": "https:\/\/issuu.com\/cdaverlag\/docs\/nachhaltig_leben_2_24_lio5x",
+            "date": "19 APRIL 2024",
+            "title": "RADFAHREN BLEIBT TRENDSPORT",
+            "title_image": "shopify:\/\/shop_images\/Lisa.Kreuzer.19.5.20.-20-3.jpg",
+            "focal_point": "top"
+          }
+        },
         "press_article_zGnjhw": {
           "type": "press-article",
           "settings": {
@@ -237,19 +247,10 @@
             "title_image": "shopify:\/\/shop_images\/20190516_174344.jpg",
             "focal_point": "center"
           }
-        },
-        "press_article_FJAtiz": {
-          "type": "press-article",
-          "settings": {
-            "url": "https:\/\/issuu.com\/cdaverlag\/docs\/nachhaltig_leben_2_24_lio5x",
-            "date": "19 APRIL 2024",
-            "title": "RADFAHREN BLEIBT TRENDSPORT",
-            "title_image": "shopify:\/\/shop_images\/Lisa.Kreuzer.19.5.20.-20-3.jpg",
-            "focal_point": "top"
-          }
         }
       },
       "block_order": [
+        "press_article_FJAtiz",
         "press_article_zGnjhw",
         "press_article_PQjX7j",
         "press_article_mmxgPW",
@@ -272,8 +273,7 @@
         "ed2b8689-ec18-4146-9a5e-544a2db0a4ac",
         "81a5a6af-c62f-4e5d-9682-a0d59883d699",
         "a5c5aa24-c439-4533-b55f-35a652ebc065",
-        "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932",
-        "press_article_FJAtiz"
+        "4c4d39ea-fb2e-4d82-a7f8-44f2469ff932"
       ],
       "settings": {
         "title": "Presse",
