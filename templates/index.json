@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1643557152da74e53e": {
@@ -6,7 +15,7 @@
         "1643557152dd165b0b-0": {
           "type": "image",
           "settings": {
-            "title": "Alles Neu im MAI",
+            "title": "Hallo Sommer!!!",
             "title_size": 62,
             "subheading": "Die besten Outfitkombis, für den Sommer",
             "link": "shopify:\/\/collections\/nachhaltige-sportsets-1",
