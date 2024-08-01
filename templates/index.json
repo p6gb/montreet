@@ -15,14 +15,14 @@
         "1643557152dd165b0b-0": {
           "type": "image",
           "settings": {
-            "title": "Hallo Sonne!!!",
+            "title": "-25 % Summer Sale",
             "title_size": 62,
-            "subheading": "Die besten Outfitkombis, für den Sommer",
+            "subheading": "Nur bis Ende August | Sale auf ausgewählte Teile",
             "link": "shopify:\/\/collections\/nachhaltige-sportsets-1",
-            "link_text": "Produkte entdecken",
+            "link_text": "Jetzt gönnen!",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Mai_Banner_MONTREET.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/MONTREET_Vorlage_Insta_Story_cd14eb3c-c37d-457b-9d5f-637c8028fe40.jpg",
+            "image": "shopify:\/\/shop_images\/Mai_Banner_MONTREET_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/funktionsshirts-joalina-453251.jpg",
             "overlay_opacity": 18,
             "focal_point": "center center"
           }
