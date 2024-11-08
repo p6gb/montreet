@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1643557152da74e53e": {
@@ -79,7 +79,7 @@
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
           "settings": {
-            "title": "Hey September!",
+            "title": "Hey November!",
             "title_size": 68,
             "subheading": "Entdecke unsere Herbstllieblinge",
             "link": "shopify://collections/sommer-outfits",
