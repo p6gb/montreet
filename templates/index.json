@@ -66,9 +66,9 @@
           "settings": {
             "title": "Black Friday? Nicht mit uns!",
             "title_size": 62,
-            "subheading": "Spende automatisch 3 % deiner Bestellung an Weltweiwandern wirkt",
-            "link": "shopify://collections/alle-produkte",
-            "link_text": "Jetzt spenden",
+            "subheading": "",
+            "link": "shopify://pages/unsere-werte",
+            "link_text": "Unser Versprechen",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify://shop_images/211122_MONTREET_StrongerTogetherWeek_2000x600_397234a3-35be-40fa-b210-0717882fb3ff.jpg",
             "image_mobile": "shopify://shop_images/211122_MONTREET_StrongerTogetherWeek_InstagramStories_1080x1920_clean.jpg",
