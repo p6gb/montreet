@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_text": "#0c0d49",
@@ -49,17 +58,17 @@
     "quick_shop_text": "Quick view",
     "enable_swatches": true,
     "cart_type": "page",
-    "social_facebook_link": "https:\/\/www.facebook.com\/montreetouterwear",
-    "social_pinterest_link": "https:\/\/www.pinterest.at\/montreetsportswear\/_saved\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/montreet_\/",
-    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/montreet",
+    "social_facebook_link": "https://www.facebook.com/montreetouterwear",
+    "social_pinterest_link": "https://www.pinterest.at/montreetsportswear/_saved/",
+    "social_instagram_link": "https://www.instagram.com/montreet_/",
+    "social_linkedin_link": "https://www.linkedin.com/company/montreet",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "favicon": "shopify:\/\/shop_images\/logo_blue_0d1dfc04-cb47-4dba-8b84-e5ed7a3c5dbb.png",
+    "favicon": "shopify://shop_images/logo_blue_0d1dfc04-cb47-4dba-8b84-e5ed7a3c5dbb.png",
     "show_breadcrumbs": false,
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo_black_3c5e6814-6ce7-4d7f-bda7-e0c52c393e68.png",
+    "checkout_logo_image": "shopify://shop_images/logo_black_3c5e6814-6ce7-4d7f-bda7-e0c52c393e68.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -86,8 +95,8 @@
         "type": "header",
         "settings": {
           "main_menu_link_list": "main-menu",
-          "logo": "shopify:\/\/shop_images\/montreet_blue_aaf392cb-c535-48fd-94c1-7f19354b1992.png",
-          "logo-inverted": "shopify:\/\/shop_images\/montreet_logo_white.png",
+          "logo": "shopify://shop_images/montreet_blue_aaf392cb-c535-48fd-94c1-7f19354b1992.png",
+          "logo-inverted": "shopify://shop_images/montreet_logo_white.png",
           "desktop_logo_width": 200,
           "mobile_logo_width": 140,
           "main_menu_alignment": "left-center",
@@ -97,8 +106,8 @@
           "type_navigation_size": 15,
           "type_navigation_style": false,
           "show_announcement": true,
-          "announcement_text": "Versandkostenfrei ab einem Bestellwert von 60€",
-          "announcement_link": "shopify:\/\/collections\/all",
+          "announcement_text": "Feier mit Uns STRONGER TOGETHER WEEK",
+          "announcement_link": "shopify://collections/all",
           "announcement_closable": true
         }
       },
@@ -108,7 +117,7 @@
           "943c2608-f67a-4d7f-82c6-3033be1d9781": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/logo_black_3c5e6814-6ce7-4d7f-bda7-e0c52c393e68.png",
+              "logo": "shopify://shop_images/logo_black_3c5e6814-6ce7-4d7f-bda7-e0c52c393e68.png",
               "desktop_logo_height": 94,
               "container_width": 25
             }
@@ -135,7 +144,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "Unterstütze mit deinem Kauf die Umwelt.",
-              "text": "<p>Weil uns nachhaltiges Wirtschaften nicht genug ist, spenden wir 3% unserer gesamten Einnahmen an Umweltbildungsworkshops von GREEN HEROES.<\/p>",
+              "text": "<p>Weil uns nachhaltiges Wirtschaften nicht genug ist, spenden wir 3% unserer gesamten Einnahmen an Umweltbildungsworkshops von GREEN HEROES.</p>",
               "container_width": 25
             }
           },
@@ -144,7 +153,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "Newsletter",
-              "richtext": "<p>Gib deine E-Mail Adresse ein und wir halten dich mit unserem Newsletter auf dem Laufenden.<\/p>",
+              "richtext": "<p>Gib deine E-Mail Adresse ein und wir halten dich mit unserem Newsletter auf dem Laufenden.</p>",
               "container_width": 25
             }
           }
@@ -195,36 +204,36 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/455926697_441754.jpg",
+              "image": "shopify://shop_images/455926697_441754.jpg",
               "image_width": 650,
               "title": "FAQs",
-              "text": "<p>Du hast offene Fragen zu MONTREET, unseren Produkten oder deiner Bestellung? In unseren FAQs beantworten wir die meistgestellten Fragen.<\/p>",
+              "text": "<p>Du hast offene Fragen zu MONTREET, unseren Produkten oder deiner Bestellung? In unseren FAQs beantworten wir die meistgestellten Fragen.</p>",
               "button_label": "Zu den FAQs",
-              "button_link": "shopify:\/\/pages\/faqs"
+              "button_link": "shopify://pages/faqs"
             }
           },
           "footer-promotions-1": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/DSC_0291_2.jpg",
+              "image": "shopify://shop_images/DSC_0291_2.jpg",
               "image_width": 650,
               "title": "Visit Us",
-              "text": "<p>Du willst unsere Produkte in einem Geschäft in deiner Stadt kaufen? Kein Problem, besuche unsere Jacken und Leggings in diesen Geschäften. <\/p>",
+              "text": "<p>Du willst unsere Produkte in einem Geschäft in deiner Stadt kaufen? Kein Problem, besuche unsere Jacken und Leggings in diesen Geschäften. </p>",
               "button_label": "Besuche uns",
-              "button_link": "shopify:\/\/pages\/visit-us"
+              "button_link": "shopify://pages/visit-us"
             }
           },
           "footer-promotions-2": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/A7R03162_HD_003_a1c2b259-2a65-40ae-80cb-3624493722aa.jpg",
+              "image": "shopify://shop_images/A7R03162_HD_003_a1c2b259-2a65-40ae-80cb-3624493722aa.jpg",
               "image_width": 650,
               "title": "Unser Blog",
-              "text": "<p>Du willst noch mehr zu unseren Produkten, Materialien oder Werten wissen? Lies dazu in unserem Blog nach. <\/p>",
+              "text": "<p>Du willst noch mehr zu unseren Produkten, Materialien oder Werten wissen? Lies dazu in unserem Blog nach. </p>",
               "button_label": "Blogbeiträge lesen",
-              "button_link": "shopify:\/\/blogs\/news"
+              "button_link": "shopify://blogs/news"
             }
           }
         },
@@ -246,7 +255,7 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "10% RABATT",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.&lt;\\\/p&gt;<\/p>",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.&lt;\\/p&gt;</p>",
           "close_text": "No thanks",
           "enable_newsletter": true,
           "button_label": "Optional button",
@@ -273,7 +282,7 @@
               "subheading": "Für deine Liebsten",
               "link_text": "Jetzt ansehen",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-20_at_15.48.08.png",
+              "image": "shopify://shop_images/Screenshot_2021-01-20_at_15.48.08.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -286,7 +295,7 @@
               "subheading": "Zu unseren neuen Produkten",
               "link_text": "Shop",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-20_at_15.48.00.png",
+              "image": "shopify://shop_images/Screenshot_2021-01-20_at_15.48.00.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -299,7 +308,7 @@
               "subheading": "Zu unseren Winterprodukten",
               "link_text": "Shop",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/Screenshot_2021-01-20_at_15.47.51.png",
+              "image": "shopify://shop_images/Screenshot_2021-01-20_at_15.47.51.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -327,7 +336,7 @@
           "title": "Unsere ARTIST Kollektionen",
           "text": "Erfahre mehr über unsere Artist Kollektionen in Zusammenarbeit  mit KünstlerInnen aus Österreich!",
           "cta_text1": "Zur Artist-Kollektion",
-          "cta_link1": "shopify:\/\/collections\/featured",
+          "cta_link1": "shopify://collections/featured",
           "cta_text2": "",
           "layout": "right",
           "divider": false
@@ -352,13 +361,13 @@
       "1611155835d88d6982": {
         "type": "text-and-image",
         "settings": {
-          "image": "shopify:\/\/shop_images\/200610_Montreet_Boulderbar_schwarzeHose_008-scaled.jpg",
+          "image": "shopify://shop_images/200610_Montreet_Boulderbar_schwarzeHose_008-scaled.jpg",
           "image_width": 500,
           "subtitle": "",
           "title": "Kurze Hose",
-          "text": "<p>Unsere nachhaltige Sporthose ist als Allrounder einsetzbar und hält all deinen Abenteuern, Klimmzügen, Megamärschen und Schanzenläufen stand. Hört sich schon ziemlich gut an oder? Aber das Beste kommt bekanntlich zum Schluss: Die Faser, die wir für die nachhaltige Sporthose verwenden, wird aus alten Fischernetzen gewonnen und ist ein reines Recyclingprodukt.<\\\/p><p>Entworfen und designt wurde die Sporthose in Kooperation mit der <a href=\"https:\\\/\\\/boulderbar.net\\\/\" target=\"_blank\">Boulderbar Vienna<\\\/a>, produziert wurde sie in der Ukraine, die Fischernetzstoffe bekommen wir aus Italien.<\\\/p>",
+          "text": "<p>Unsere nachhaltige Sporthose ist als Allrounder einsetzbar und hält all deinen Abenteuern, Klimmzügen, Megamärschen und Schanzenläufen stand. Hört sich schon ziemlich gut an oder? Aber das Beste kommt bekanntlich zum Schluss: Die Faser, die wir für die nachhaltige Sporthose verwenden, wird aus alten Fischernetzen gewonnen und ist ein reines Recyclingprodukt.<\\/p><p>Entworfen und designt wurde die Sporthose in Kooperation mit der <a href=\"https:\\/\\/boulderbar.net\\/\" target=\"_blank\">Boulderbar Vienna<\\/a>, produziert wurde sie in der Ukraine, die Fischernetzstoffe bekommen wir aus Italien.<\\/p>",
           "button_label": "Mehr dazu",
-          "button_link": "shopify:\/\/products\/sporthose-herren-kurz",
+          "button_link": "shopify://products/sporthose-herren-kurz",
           "layout": "right",
           "divider": false
         }
@@ -379,9 +388,9 @@
         "settings": {
           "subtitle": "Don't Change who you are",
           "title": "Just Start wearing Green",
-          "text": "<p>Montreet Montreet Montreet<\\\/p>",
+          "text": "<p>Montreet Montreet Montreet<\\/p>",
           "button_label": "",
-          "video_url": "https:\\\/\\\/vimeo.com\\\/462927940",
+          "video_url": "https:\\/\\/vimeo.com\\/462927940",
           "color_border": "#0c0d49",
           "layout": "left",
           "height": 550
@@ -409,52 +418,44 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11104565113590962351": {
-        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/article-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "type": "shopify://apps/tinyimg-seo-speed/blocks/article-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14971748854670876780": {
-        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/product-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "type": "shopify://apps/tinyimg-seo-speed/blocks/product-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1360768219604461044": {
-        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/store-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "type": "shopify://apps/tinyimg-seo-speed/blocks/store-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11089864892113081655": {
-        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/website-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "type": "shopify://apps/tinyimg-seo-speed/blocks/website-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15154131639906026026": {
-        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/broken-link-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "type": "shopify://apps/tinyimg-seo-speed/blocks/broken-link-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1369284949797581044": {
-        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/collection-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "type": "shopify://apps/tinyimg-seo-speed/blocks/collection-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "9005256451184024879": {
-        "type": "shopify:\/\/apps\/uppromote-affiliate-referral\/blocks\/customer-referral\/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "type": "shopify://apps/uppromote-affiliate-referral/blocks/customer-referral/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -637,8 +638,7 @@
         },
         "1566999869051": {
           "type": "featured-collection-switcher",
-          "settings": {
-          }
+          "settings": {}
         },
         "1499789718857": {
           "type": "featured-collections",
@@ -706,8 +706,8 @@
             "title_size": 80,
             "subheading": "",
             "link_text": "Watch",
-            "link": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
-            "video_url": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
+            "link": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
             "section_height": "650px"
           }
         },
@@ -716,7 +716,7 @@
           "settings": {
             "subtitle": "Impressive",
             "title": "Large image and text",
-            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
             "button_label": "",
             "button_link": "",
             "image": "",
@@ -925,8 +925,7 @@
         },
         "1566999869051": {
           "type": "featured-collection-switcher",
-          "settings": {
-          }
+          "settings": {}
         },
         "1499789718857": {
           "type": "featured-collections",
@@ -994,8 +993,8 @@
             "title_size": 80,
             "subheading": "",
             "link_text": "Watch",
-            "link": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
-            "video_url": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
+            "link": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
             "section_height": "650px"
           }
         },
@@ -1004,7 +1003,7 @@
           "settings": {
             "subtitle": "Impressive",
             "title": "Large image and text",
-            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\\\/p>",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\\/p>",
             "button_label": "",
             "button_link": "",
             "image": "",
@@ -1215,8 +1214,7 @@
         },
         "1566999869051": {
           "type": "featured-collection-switcher",
-          "settings": {
-          }
+          "settings": {}
         },
         "1499789718857": {
           "type": "featured-collections",
@@ -1284,8 +1282,8 @@
             "title_size": 80,
             "subheading": "",
             "link_text": "Watch",
-            "link": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
-            "video_url": "https:\\\/\\\/www.youtube.com\\\/watch?v=_9VUPq3SxOc",
+            "link": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\\/\\/www.youtube.com\\/watch?v=_9VUPq3SxOc",
             "section_height": "650px"
           }
         },
@@ -1294,7 +1292,7 @@
           "settings": {
             "subtitle": "Impressive",
             "title": "Large image and text",
-            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\\\/p>",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\\/p>",
             "button_label": "",
             "button_link": "",
             "image": "",
