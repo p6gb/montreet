@@ -77,6 +77,7 @@
         },
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Hey November!",
             "title_size": 68,
