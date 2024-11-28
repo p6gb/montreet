@@ -82,11 +82,11 @@
             "title": "Nachhaltige Weihnachten",
             "title_size": 68,
             "subheading": "Entdecke unsere Herbstllieblinge",
-            "link": "shopify://collections/sommer-outfits",
+            "link": "shopify://collections/geschenke",
             "link_text": "Jetzt ansehen",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/5_Jahre_MONTREET_1.png",
-            "image_mobile": "shopify://shop_images/MONTREET_Vorlage_Insta_Story_1.jpg",
+            "image": "shopify://shop_images/IMG_7223.jpg",
+            "image_mobile": "shopify://shop_images/IMG_7738.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
