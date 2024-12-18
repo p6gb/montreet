@@ -32,13 +32,13 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "title": "Ehrliche Outdoormode für jedes Abenteuer",
+            "title": "Happy 2025!",
             "title_size": 80,
-            "subheading": "",
+            "subheading": "Ehrliche Outdoormode für jedes Abenteuer",
             "link": "shopify://collections/alle-produkte",
             "link_text": "Hier gönnen",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/Innovation_4.jpg",
+            "image": "shopify://shop_images/IMG_3544.jpg",
             "image_mobile": "shopify://shop_images/IMG_8397.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
