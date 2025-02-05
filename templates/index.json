@@ -30,6 +30,7 @@
         },
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Happy 2025!",
             "title_size": 80,
@@ -77,13 +78,12 @@
         },
         "fd5e3aee-d763-462e-b2ad-aedb24ee6893": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "Galentine's Day! Der Tag der Freundschaft",
+            "title": "Galentine's Day!\nDer Tag der Freundschaft",
             "title_size": 68,
-            "subheading": "2 Sport-BHs um 78,- kaufen",
+            "subheading": "Kaufe 2 Sport-BHs um 78,- statt 98,-",
             "link": "shopify://products/sportbh-lenis",
-            "link_text": "Jetzt ansehen",
+            "link_text": "Code: FEB25",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify://shop_images/Mai_Banner_MONTREET.png",
             "image_mobile": "shopify://shop_images/faires-sportset-leggings-bh-767006.jpg",
