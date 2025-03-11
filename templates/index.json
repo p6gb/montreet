@@ -14,13 +14,12 @@
       "blocks": {
         "1643557152dd165b0b-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "title": "-25 % Summer Sale",
+            "title": "Nachhaltigkeit\naufblühen lassen",
             "title_size": 62,
-            "subheading": "Nur bis Ende August | Sale auf ausgewählte Teile",
-            "link": "shopify://collections/summer-sale-2024",
-            "link_text": "Jetzt gönnen!",
+            "subheading": "Mit unseren frühlingshaften Bestsellern",
+            "link": "shopify://collections",
+            "link_text": "Jetzt entdecken",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify://shop_images/Mai_Banner_MONTREET_2.jpg",
             "image_mobile": "shopify://shop_images/funktionsshirts-joalina-453251.jpg",
@@ -30,6 +29,7 @@
         },
         "1d29ac7f-91ff-45bd-911c-777b57f964eb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Happy 2025!",
             "title_size": 80,
