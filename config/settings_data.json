@@ -107,7 +107,7 @@
           "type_navigation_style": false,
           "show_announcement": true,
           "announcement_text": "🗓️ Immer auf dem Laufenden bleiben mit unserem Eventkalender 🗓️",
-          "announcement_link": "shopify://blogs/news/save-the-date-unsere-montreet-events-fur-2023",
+          "announcement_link": "shopify://blogs/news",
           "announcement_closable": true
         }
       },
